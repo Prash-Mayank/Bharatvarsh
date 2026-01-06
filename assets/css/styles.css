@@ -1,0 +1,586 @@
+/* ================================
+   Bharatvarsh - GLOBAL STYLES (FIXED)
+   ================================ */
+
+/* CSS Variables for theming */
+:root {
+  /* Colors */
+  --primary: #0A1930;
+  --saffron: #FF8C00;
+  --green: #138808;
+  --offwhite: #F5F2EA;
+  --charcoal: #0F0F0F;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+  
+  /* Transitions */
+  --transition-base: all 0.3s ease;
+  --transition-fast: all 0.15s ease;
+  
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* Dark mode overrides */
+.dark {
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.3);
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Skip to main content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--saffron);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Navigation Links */
+.nav-link {
+  position: relative;
+  padding: 0.25rem 0;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #374151;
+  transition: var(--transition-fast);
+}
+
+@media (min-width: 1280px) {
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+}
+
+.dark .nav-link {
+  color: #e5e7eb;
+}
+
+.nav-link:hover {
+  color: var(--saffron);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--saffron);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ===================================
+   FIXED: Remove saffron border from icon buttons
+   =================================== */
+#searchToggle:focus,
+#themeToggle:focus,
+#mobileMenuToggle:focus {
+  outline: 2px solid var(--saffron);
+  outline-offset: 2px;
+}
+
+/* Remove any border that might appear on hover/focus for these buttons */
+#searchToggle,
+#themeToggle,
+#mobileMenuToggle {
+  border: none;
+  background: transparent;
+}
+
+#searchToggle:focus-visible,
+#themeToggle:focus-visible,
+#mobileMenuToggle:focus-visible {
+  outline: 2px solid var(--saffron);
+  outline-offset: 2px;
+}
+
+/* Ensure no unwanted borders appear */
+button {
+  border: none;
+  background: none;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--saffron);
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: var(--transition-base);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+  background-color: #e67e00;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  transition: var(--transition-base);
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Card Styles */
+.card-hover {
+  transition: var(--transition-base);
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Mega Menu Styles */
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: var(--shadow-xl);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: var(--transition-base);
+  z-index: 50;
+}
+
+.dark .mega-menu {
+  background-color: #1f2937;
+}
+
+.group:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Timeline Styles */
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--saffron), var(--green));
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  background-color: var(--saffron);
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.dark .timeline-item::after {
+  border-color: var(--charcoal);
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  aspect-ratio: 4/3;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-base);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  opacity: 0;
+  transition: var(--transition-base);
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* Loading Animation */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 140, 0, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--saffron);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Scroll Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Map Hotspots */
+.map-hotspot {
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.map-hotspot:hover {
+  fill: var(--saffron);
+  filter: drop-shadow(0 4px 6px rgba(255, 140, 0, 0.3));
+}
+
+/* Search Overlay Animations */
+#searchOverlay {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile Menu Animation */
+#mobileMenu {
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Mobile dropdown animations */
+.mobile-dropdown-content {
+  transition: all 0.3s ease;
+}
+
+.mobile-dropdown-toggle svg:last-child {
+  transition: transform 0.2s ease;
+}
+
+/* Utility Classes */
+.text-balance {
+  text-wrap: balance;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--saffron), var(--green));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass-effect {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Focus Styles for Accessibility */
+a:focus,
+button:focus,
+input:focus {
+  outline: 2px solid var(--saffron);
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  nav, footer, .no-print {
+    display: none;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* ===================================
+   FIXED: Custom Scrollbar (Desktop & Mobile)
+   =================================== */
+
+/* Default scrollbar for all elements */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ===================================
+   FIXED: Enhanced scrollbar for dropdown menus (Desktop)
+   =================================== */
+.dropdown-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdown-scrollbar::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border-radius: 4px;
+}
+
+.dropdown-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dropdown-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark .dropdown-scrollbar::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.dark .dropdown-scrollbar::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+.dark .dropdown-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ===================================
+   FIXED: Mobile-specific scrollbar improvements
+   =================================== */
+@media (max-width: 1023px) {
+  /* Mobile dropdown scrollbar - thinner and more visible */
+  .mobile-dropdown-content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .mobile-dropdown-content::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 3px;
+  }
+
+  .mobile-dropdown-content::-webkit-scrollbar-thumb {
+    background: #9ca3af;
+    border-radius: 3px;
+  }
+
+  .mobile-dropdown-content::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }
+
+  .dark .mobile-dropdown-content::-webkit-scrollbar-track {
+    background: #374151;
+  }
+
+  .dark .mobile-dropdown-content::-webkit-scrollbar-thumb {
+    background: #6b7280;
+  }
+
+  .dark .mobile-dropdown-content::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+
+  /* Make dropdown content scrollable with better touch support */
+  .dropdown-scrollbar,
+  .mobile-dropdown-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #9ca3af #e5e7eb; /* Firefox */
+  }
+
+  .dark .dropdown-scrollbar,
+  .dark .mobile-dropdown-content {
+    scrollbar-color: #6b7280 #374151; /* Firefox dark mode */
+  }
+}
+
+/* ===================================
+   Additional mobile menu improvements
+   =================================== */
+@media (max-width: 1023px) {
+  /* Ensure mobile menu container has proper overflow */
+  #mobileMenu {
+    overflow-y: auto;
+    max-height: calc(100vh - 64px); /* Account for navbar height */
+  }
+
+  /* Mobile dropdown improvements */
+  .mobile-dropdown-content {
+    max-height: 250px; /* Increased from 240px for better usability */
+    overflow-y: auto;
+  }
+
+  /* Better spacing for mobile menu items */
+  .mobile-dropdown-content a {
+    padding: 0.625rem 0.75rem;
+  }
+}
+
+/* Selection Color */
+::selection {
+  background-color: var(--saffron);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: var(--saffron);
+  color: white;
+}

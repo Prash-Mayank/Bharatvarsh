@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Haryana - Land of Rotis, agricultural powerhouse, sports excellence, and rich cultural heritage">
+    <title>Haryana - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            color: #374151;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #FF8C00;
+        }
+
+        .dark .nav-link {
+            color: #D1D5DB;
+        }
+
+        .dark .nav-link:hover {
+            color: #FF8C00;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Kurukshetra battlefield and Haryana landscape"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-yellow-600/70 via-orange-600/60 to-red-600/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Haryana
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">हरियाणा</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Land of Rotis and agricultural abundance, cradle of sports champions, and home to the
+                            Kurukshetra battlefield. Where ancient heritage meets modern prosperity in India's Green
+                            Revolution heartland.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Chandigarh</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>2.8 Crore People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Haryana Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">1 Nov 1966</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">44,212</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">22</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Haryana
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Haryana, carved out of Punjab in 1966, is India's agricultural powerhouse and the birthplace of
+                        the Green Revolution. Known as the "Land of Rotis," this state feeds much of northern India with
+                        its wheat and rice production. The sacred land of Kurukshetra, where the epic Mahabharata battle
+                        was fought and the Bhagavad Gita was delivered, holds immense spiritual significance.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        From producing Olympic champions to leading India's dairy revolution through Operation Flood,
+                        Haryana exemplifies the spirit of hard work and excellence. The state surrounds the national
+                        capital Delhi on three sides and has emerged as a major industrial and IT hub, while maintaining
+                        its strong agricultural roots and rich cultural traditions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historical Journey -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Historical Journey
+                </h2>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div>
+                        <h3 class="font-heading text-2xl font-bold mb-4 text-saffron">Ancient & Vedic Era</h3>
+                        <p class="text-lg mb-4 leading-relaxed">
+                            Haryana's history stretches back to the Vedic period, with the Kurukshetra region being the
+                            sacred ground where the epic Mahabharata battle was fought. This land witnessed the
+                            discourse
+                            of the Bhagavad Gita between Lord Krishna and Arjuna, making it one of Hinduism's most
+                            sacred
+                            sites.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            The region was part of the Indus Valley Civilization and later became the heartland of the
+                            Vedic civilization. Haryana has been home to ancient kingdoms and was a center of learning
+                            and culture during the Vedic age.
+                        </p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                        <div class="h-48 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop&q=80"
+                                alt="Kurukshetra ancient battlefield" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h4 class="font-heading text-xl font-bold mb-4 text-primary dark:text-saffron">Timeline
+                            Highlights</h4>
+                        <div class="space-y-3">
+                            <div class="flex items-start space-x-3">
+                                <span class="text-saffron font-bold">1500 BCE:</span>
+                                <span>Vedic period, composition of Vedas</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-saffron font-bold">900 BCE:</span>
+                                <span>Mahabharata period, Kurukshetra war</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-saffron font-bold">600 BCE:</span>
+                                <span>Rise of Mahajanapadas</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-saffron font-bold">321 BCE:</span>
+                                <span>Mauryan Empire rule begins</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="bg-gradient-to-br from-saffron to-red-600 text-white p-8 rounded-xl">
+                        <div class="h-48 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1609920658906-8223bd289001?w=600&h=400&fit=crop&q=80"
+                                alt="Ancient Haryana fort and architecture"
+                                class="w-full h-full object-cover opacity-90" onerror="this.style.display='none'">
+                        </div>
+                        <h4 class="font-heading text-2xl font-bold mb-4">Medieval Period</h4>
+                        <div class="space-y-4">
+                            <div>
+                                <h5 class="font-semibold mb-2">Delhi Sultanate & Mughal Era</h5>
+                                <p class="text-sm opacity-90">Haryana became part of the Delhi Sultanate in the 13th
+                                    century and later flourished under Mughal rule, serving as a gateway to Delhi.</p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold mb-2">Maratha Influence</h5>
+                                <p class="text-sm opacity-90">The region experienced Maratha rule and witnessed several
+                                    significant battles that shaped North Indian history.</p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold mb-2">Sikh Empire</h5>
+                                <p class="text-sm opacity-90">Under Maharaja Ranjit Singh, the area became part of the
+                                    powerful Sikh Empire before British colonization.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="h-48 mb-6 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&h=400&fit=crop&q=80"
+                                alt="British colonial architecture in Haryana" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900 dark:to-indigo-900 flex items-center justify-center\'><i class=\'fas fa-landmark text-6xl text-blue-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-heading text-2xl font-bold mb-4 text-green">Modern Era</h3>
+                        <p class="text-lg mb-4 leading-relaxed">
+                            Haryana emerged as a separate state on November 1, 1966, carved out of Punjab to address
+                            linguistic and regional aspirations. The state was created to give Punjabi-speaking people
+                            their own state while ensuring Hindi-speaking regions had representation.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            Post-independence, Haryana became the epicenter of India's Green Revolution, transforming
+                            the nation from a food-deficit to a food-surplus country. The state continues to lead in
+                            agriculture, sports, and industrial development, maintaining its position as one of India's
+                            most prosperous states.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Gurgaon -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center">
+                            <i class="fas fa-building text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Gurgaon (Gurugram)</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Millennium City, IT and financial hub, modern skyscrapers, and corporate headquarters.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 15+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Faridabad -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                            <i class="fas fa-cloud text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Faridabad</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Industrial city, manufacturing hub, automotive sector, and major commercial center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 14+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panipat -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                            <i class="fas fa-graduation-cap text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Panipat</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Historic city of three famous battles, textile hub, and handloom weaving center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 4+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wrestling & Sports Excellence -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Wrestling & Sports Excellence
+                </h2>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div>
+                        <div class="h-64 mb-6 rounded-xl overflow-hidden shadow-lg">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&q=80"
+                                alt="Traditional wrestling akhada in Haryana" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-64 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-dumbbell text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-heading text-2xl font-bold mb-4 text-blue-600">The Land of Wrestlers</h3>
+                        <p class="text-lg mb-4 leading-relaxed">
+                            Haryana is synonymous with wrestling (Kushti) - the traditional sport that has produced more
+                            Olympic champions than any other state in India. The akharas (wrestling arenas) of Haryana
+                            are legendary training grounds where champions are born and legends are made.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            From Sushil Kumar to Sakshi Malik, Haryana's wrestlers have brought home Olympic medals,
+                            inspiring generations. The state's wrestling culture is deeply rooted in its rural
+                            traditions and has become a symbol of Haryana's sporting excellence worldwide.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-600 to-pink-600 text-white p-8 rounded-xl mb-12">
+                    <h4 class="font-heading text-xl font-bold mb-6 text-center">Olympic Glory</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold mb-2">15+</div>
+                            <div class="text-sm">Olympic Medals</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold mb-2">27</div>
+                            <div class="text-sm">World Champions</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold mb-2">100+</div>
+                            <div class="text-sm">Asian Games Medals</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold mb-2">Global</div>
+                            <div class="text-sm">Recognition</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80"
+                                alt="Wrestling akhada training ground" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-orange-100 to-red-100 dark:from-orange-900 dark:to-red-900 flex items-center justify-center\'><i class=\'fas fa-ring text-6xl text-orange-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h4 class="font-heading text-lg font-bold mb-3 text-saffron">Akhara Tradition</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>• Ancient wrestling pits (Akhadas)</li>
+                            <li>• Guru-shishya parampara system</li>
+                            <li>• Rigorous training from childhood</li>
+                            <li>• Clay courts and traditional techniques</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&h=300&fit=crop&q=80"
+                                alt="Olympic medal winners from Haryana" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-green-100 to-teal-100 dark:from-green-900 dark:to-teal-900 flex items-center justify-center\'><i class=\'fas fa-medal text-6xl text-green-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h4 class="font-heading text-lg font-bold mb-3 text-green">Olympic Champions</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>• Sushil Kumar - 2 Olympic medals</li>
+                            <li>• Sakshi Malik - Bronze medal 2016</li>
+                            <li>• Yogeshwar Dutt - Bronze medal 2012</li>
+                            <li>• Geeta Phogat - Multiple medals</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=400&h=300&fit=crop&q=80"
+                                alt="Other sports excellence in Haryana" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900 dark:to-indigo-900 flex items-center justify-center\'><i class=\'fas fa-trophy text-6xl text-blue-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h4 class="font-heading text-lg font-bold mb-3 text-blue-600">Other Sports</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>• Boxing - Asian Games gold</li>
+                            <li>• Cricket - Kapil Dev legacy</li>
+                            <li>• Athletics - National champions</li>
+                            <li>• Hockey - Strong tradition</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Haryanvi Literature & Arts -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Haryanvi Literature & Arts
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <div class="h-48 mb-6 rounded-xl overflow-hidden shadow-lg">
+                            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&h=400&fit=crop&q=80"
+                                alt="Haryanvi literature and folk manuscripts" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-teal-900 dark:to-cyan-900 flex items-center justify-center\'><i class=\'fas fa-book text-6xl text-teal-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-heading text-2xl font-bold mb-4 text-primary dark:text-saffron">Literary
+                            Heritage</h3>
+                        <p class="text-lg mb-6 leading-relaxed">
+                            Haryanvi literature boasts a rich oral tradition and has made significant contributions to
+                            Hindi literature. From the folk tales of Puran Bhagat to modern literary giants, Haryana's
+                            literary tradition reflects the valor, romance, and rural wisdom of its people.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                                <h4 class="font-semibold mb-2">Folk Literature</h4>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">
+                                    Rich tradition of folk tales, ballads, and proverbs that reflect the warrior spirit
+                                    and agricultural lifestyle of Haryana.
+                                </p>
+                            </div>
+                            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                                <h4 class="font-semibold mb-2">Modern Literature</h4>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">
+                                    Contemporary writers like Rao Balram Singh, Ram Singh Tomar, and Dalip Kaur Tiwana
+                                    have enriched Hindi literature with Haryanvi themes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="h-48 mb-6 rounded-xl overflow-hidden shadow-lg">
+                            <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=600&h=400&fit=crop&q=80"
+                                alt="Haryanvi folk dance and performing arts" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-pink-100 to-rose-100 dark:from-pink-900 dark:to-rose-900 flex items-center justify-center\'><i class=\'fas fa-music text-6xl text-pink-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-heading text-2xl font-bold mb-4 text-green">Performing Arts</h3>
+                        <div class="space-y-4">
+                            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                                <h4 class="font-semibold mb-2">Saang & Gidda</h4>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">
+                                    Traditional folk dances performed during weddings and festivals, accompanied by
+                                    rhythmic music and colorful costumes.
+                                </p>
+                            </div>
+                            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                                <h4 class="font-semibold mb-2">Haryanvi Music</h4>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">
+                                    Folk songs celebrating bravery, love, and harvest, performed with traditional
+                                    instruments like Been and Sarangi.
+                                </p>
+                            </div>
+                            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                                <h4 class="font-semibold mb-2">Nautanki & Swang</h4>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">
+                                    Traditional theater forms that combine music, dance, and storytelling, popular
+                                    during festivals and fairs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourism Highlights -->
+        <section class="py-16 bg-gradient-to-br from-orange-600 to-red-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12">
+                    Tourism Highlights
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop&q=80"
+                                alt="Kurukshetra sacred battlefield"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Kurukshetra</h3>
+                            <p class="text-sm opacity-90 mb-2">Sacred battlefield of Mahabharata, Brahma Sarovar,
+                                Jyotisar
+                                (birthplace of Bhagavad Gita)</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Spiritual Heritage</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&h=400&fit=crop&q=80"
+                                alt="Sultanpur National Park bird sanctuary"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-dove text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Sultanpur National Park</h3>
+                            <p class="text-sm opacity-90 mb-2">Bird sanctuary with over 250 species, migratory birds,
+                                and
+                                wildlife photography</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Bird Watching</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1609920658906-8223bd289001?w=600&h=400&fit=crop&q=80"
+                                alt="Badkhal Lake boating destination"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-water text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Badkhal Lake</h3>
+                            <p class="text-sm opacity-90 mb-2">Artificial lake surrounded by Aravalli hills, boating,
+                                and
+                                weekend getaway</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Lake Tourism</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop&q=80"
+                                alt="Pinjore Gardens Mughal architecture"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-leaf text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Pinjore Gardens</h3>
+                            <p class="text-sm opacity-90 mb-2">Mughal-style terraced gardens, fountains, and historical
+                                architecture</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Heritage Gardens</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600&h=400&fit=crop&q=80"
+                                alt="Surajkund International Crafts Mela"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-palette text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Surajkund</h3>
+                            <p class="text-sm opacity-90 mb-2">Ancient reservoir, International Crafts Mela venue, and
+                                archaeological site</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Cultural Festival</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop&q=80"
+                                alt="Morni Hills adventure destination"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-mountain text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Morni Hills</h3>
+                            <p class="text-sm opacity-90 mb-2">Hill station, twin lakes, adventure sports, and highest
+                                point in Haryana</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Adventure Tourism</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-green-600 to-yellow-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Baisakhi (harvest festival), Teej, Karva Chauth, Holi, and Gita Jayanti at
+                                    Kurukshetra.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Folk Culture</h3>
+                                <p class="text-sm opacity-90">
+                                    Gidda and Bhangra dances, folk songs, Ragini music, and traditional wrestling
+                                    (Kushti).
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Sports Excellence</h3>
+                                <p class="text-sm opacity-90">
+                                    Olympic champions in wrestling, boxing, and athletics. Home to numerous sports
+                                    academies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Haryanvi Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Bajra Roti with Sarson ka Saag</span>
+                                    <p class="text-sm opacity-90">Millet bread with mustard greens and butter</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Kadhi Pakora</span>
+                                    <p class="text-sm opacity-90">Yogurt curry with gram flour fritters</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Churma</span>
+                                    <p class="text-sm opacity-90">Sweet crushed wheat dessert with ghee and jaggery</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Lassi</span>
+                                    <p class="text-sm opacity-90">Traditional buttermilk drink, sweet or salty</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Besan Masala Roti</span>
+                                    <p class="text-sm opacity-90">Spiced gram flour flatbread with vegetables</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Heritage -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Cultural Heritage
+                </h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400&h=300&fit=crop&q=80"
+                                alt="Kurukshetra battlefield sacred site" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Kurukshetra</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">
+                            Sacred battlefield of Mahabharata, Brahma Sarovar, Jyotisar (birthplace of Bhagavad Gita),
+                            and ancient pilgrimage site.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=400&h=300&fit=crop&q=80"
+                                alt="Haryanvi folk dance and music tradition" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-pink-100 to-rose-100 dark:from-pink-900 dark:to-rose-900 flex items-center justify-center\'><i class=\'fas fa-music text-6xl text-pink-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Folk Traditions</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">
+                            Saang, Gidda, and Phag dances, folk music with Been and Sarangi, traditional wrestling,
+                            and colorful folk costumes.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&h=300&fit=crop&q=80"
+                                alt="Baisakhi festival celebrations in Haryana" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-orange-100 to-red-100 dark:from-orange-900 dark:to-red-900 flex items-center justify-center\'><i class=\'fas fa-om text-6xl text-orange-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Baisakhi Festival</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">
+                            Harvest festival celebrating the agricultural abundance, with traditional dances, music,
+                            and community celebrations across villages.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80"
+                                alt="Traditional Haryanvi wrestling akhada" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-amber-100 to-yellow-100 dark:from-amber-900 dark:to-yellow-900 flex items-center justify-center\'><i class=\'fas fa-dumbbell text-6xl text-amber-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Kushti Tradition</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">
+                            Ancient wrestling tradition that has produced Olympic champions, with traditional akharas
+                            and guru-shishya system of training.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&q=80"
+                                alt="Haryanvi literature and manuscripts" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-teal-900 dark:to-cyan-900 flex items-center justify-center\'><i class=\'fas fa-book text-6xl text-teal-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Haryanvi Language</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">
+                            Rich dialect of Hindi with unique vocabulary, proverbs, and folk literature reflecting the
+                            region's cultural identity.
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=400&h=300&fit=crop&q=80"
+                                alt="Haryana's agricultural landscape" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-green-100 to-emerald-100 dark:from-green-900 dark:to-emerald-900 flex items-center justify-center\'><i class=\'fas fa-seedling text-6xl text-green-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Agricultural Heritage</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">
+                            Green Revolution pioneer, wheat and rice cultivation traditions, dairy farming, and
+                            sustainable farming practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy & Industries -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economy & Industries
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹9 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">3rd highest per capita income in India</p>
+                    </div>
+
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-green mb-2">76%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Above national average</p>
+                    </div>
+
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-saffron mb-2">15%</div>
+                        <h3 class="font-semibold text-lg mb-2">India's Wheat</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Major contributor to food security</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                        <h3 class="font-semibold text-lg mb-4 flex items-center">
+                            <i class="fas fa-industry mr-2 text-blue-600"></i>
+                            Key Industries
+                        </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Information Technology & ITES - Gurgaon (Cyber City) hub</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Automobile Manufacturing - Hero MotoCorp, Honda plants</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Textiles & Apparel - Panipat handloom and powerloom industry</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Dairy & Food Processing - Amul, Mother Dairy operations</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Electronics & Electrical - Major manufacturing clusters</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                        <h3 class="font-semibold text-lg mb-4 flex items-center">
+                            <i class="fas fa-seedling mr-2 text-green"></i>
+                            Agricultural Products
+                        </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Wheat, Rice, Sugarcane - Major cash crops</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Bajra, Jowar, Barley - Coarse cereals</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Cotton, Mustard, Sunflower - Oilseed crops</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Milk Production - India's top dairy state</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Vegetables & Fruits - Potato, tomato, citrus fruits</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Sushil Kumar</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1983</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Olympic wrestler, two-time Olympic medalist
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Kapil Dev</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1959</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Cricket legend, 1983 World Cup winning
+                            captain</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Hawa Singh</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1937-2000</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Boxing legend, Asian Games gold medalist</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Sakshi Malik</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1992</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Olympic wrestler, bronze medalist Rio 2016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

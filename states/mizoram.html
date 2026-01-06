@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Mizoram - Land of Blue Mountains, bamboo culture, high literacy, and peaceful society">
+    <title>Mizoram - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/NorthEast India.jpg" alt="Mizoram landscapes and mountains"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-blue-600/70 via-indigo-600/60 to-purple-600/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Mizoram
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">মিজোরাম</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Land of the Blue Mountains, known for its high literacy rate, bamboo culture, and peaceful
+                            Christian society. A state of rolling hills, vibrant festivals, and strong community bonds
+                            in Northeast India.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Aizawl</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>12 Lakh People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Mizoram Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">20 Feb 1987</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Statehood Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">21,081</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">11</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Mizo</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Mizoram
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Mizoram, meaning "Land of the Mizos," is a state of remarkable social harmony and high literacy
+                        in Northeast India. Known for its rolling hills covered in bamboo forests, the state has
+                        achieved one of the highest literacy rates in India and is renowned for its peaceful,
+                        alcohol-free society.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        The state's predominantly Christian population maintains strong community bonds through
+                        traditional institutions like 'Tlawmngaihna' (selfless service) and 'Zawlbuk' (youth
+                        dormitories). Mizoram's bamboo-based economy, vibrant festivals, and commitment to education
+                        make it a unique success story in India's Northeast.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Aizawl -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Aizawl</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                State capital, cultural center, and largest city perched on ridges.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 4+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lunglei -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-green-600 to-teal-600 flex items-center justify-center">
+                            <i class="fas fa-mountain w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Lunglei</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Second largest city, commercial hub, and gateway to southern Mizoram.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 57,000+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Champhai -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                            <i class="fas fa-seedling w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Champhai</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Border town with Myanmar, rice bowl of Mizoram, and trade center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 49,000+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Phawngpui Blue Mountain</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Highest peak in Mizoram, national park with rare orchids and wildlife.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Saiha</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Vantawng Falls</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Highest waterfall in Mizoram, spectacular 750 feet drop surrounded by bamboo.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Serchhip</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Reiek Tlang</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Scenic hilltop with panoramic views, trekking destination near Aizawl.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Aizawl</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Palak Lake</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Largest natural lake in Mizoram, boating and fishing destination.
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Saiha</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Murlen National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Biodiversity hotspot with rare species, trekking and wildlife viewing.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Champhai</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Tamdil Lake</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Natural lake surrounded by hills, water sports and boating facility.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Aizawl</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Chapchar Kut (spring festival), Mim Kut (harvest festival), Pawl Kut (straw
+                                    festival).
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Traditional Values</h3>
+                                <p class="text-sm opacity-90">
+                                    Tlawmngaihna (selfless service), strong community bonds, and peaceful coexistence.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Arts & Crafts</h3>
+                                <p class="text-sm opacity-90">
+                                    Bamboo and cane work, traditional Mizo textiles, and folk music traditions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Mizo Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Bai</span>
+                                    <p class="text-sm opacity-90">Traditional stew with vegetables and meat</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Sawhchiar</span>
+                                    <p class="text-sm opacity-90">Rice cooked with meat and vegetables</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Vawksa Rep</span>
+                                    <p class="text-sm opacity-90">Smoked pork with bamboo shoots</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Zu</span>
+                                    <p class="text-sm opacity-90">Traditional rice wine (now largely replaced by tea)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Koat Pitha</span>
+                                    <p class="text-sm opacity-90">Banana fritter, popular snack</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹28,000 Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Growing economy in Northeast</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">91.3%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Second highest in India</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">84%</div>
+                        <h3 class="font-semibold text-lg mb-2">Forest Cover</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Rich bamboo forests</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Bamboo & Handicrafts</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Handloom & Textiles</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Agriculture & Horticulture</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Tourism & Hospitality</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Rice, Maize, Tapioca</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Orange, Banana, Passion Fruit</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Ginger, Turmeric, Chilli</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Bamboo (various species)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Laldenga</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1927-1990</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">First Chief Minister of Mizoram</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Pu Lalthanhawla</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1942</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Longest serving Chief Minister</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Jeje Lalpekhlua</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1987</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Indian national football team player</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">C. Lalrosanga</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1927-2020</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Renowned Mizo poet and writer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Uttar Pradesh - Heartland of India, Taj Mahal, ancient cities, spiritual capital, and cultural heritage">
+    <title>Uttar Pradesh - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Uttar Pradesh landscapes and heritage"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-blue-600/70 via-indigo-600/60 to-purple-600/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Uttar Pradesh
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">उत्तर प्रदेश</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Heartland of India, home to the Taj Mahal, ancient spiritual cities, and the cradle of
+                            Indian civilization.
+                            The most populous state with unparalleled cultural heritage.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Lucknow</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>23.8 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Uttar Pradesh Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">26 Jan 1950</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">2.40 Lakh</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">75</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Uttar Pradesh
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Uttar Pradesh, meaning "Northern Province," is India's most populous state and the heartland of
+                        Indian
+                        civilization. Home to the iconic Taj Mahal, this state has been the center of power for numerous
+                        empires
+                        and the birthplace of major religions including Hinduism and Buddhism.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        The state encompasses the sacred cities of Varanasi, Mathura, and Ayodhya, making it the
+                        spiritual capital
+                        of India. From the Mughal architecture of Agra to the colonial charm of Lucknow, UP represents
+                        the
+                        confluence of diverse cultures and traditions.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        With the fertile Gangetic plains, UP is also India's agricultural powerhouse, contributing
+                        significantly
+                        to food grain production. The state has produced numerous Prime Ministers and continues to play
+                        a
+                        crucial role in Indian politics and governance.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Lucknow -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-purple-600 to-indigo-800 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Lucknow</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                City of Nawabs, known for its refined culture, Awadhi cuisine, and architectural
+                                heritage.
+                                Capital city with rich Mughal and British colonial history.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 35+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agra -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-pink-600 to-rose-700 flex items-center justify-center">
+                            <i class="fas fa-university w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Agra</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Home to the magnificent Taj Mahal, one of the Seven Wonders of the World.
+                                Former Mughal capital with UNESCO World Heritage Sites.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 18+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Varanasi -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-orange-500 to-yellow-600 flex items-center justify-center">
+                            <i class="fas fa-sun w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Varanasi</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                One of the world's oldest continuously inhabited cities. Spiritual capital of India
+                                with sacred ghats along the Ganges River.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 14+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kanpur -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-700 flex items-center justify-center">
+                            <i class="fas fa-certificate w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Kanpur</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Industrial hub known as the "Manchester of the East." Major center for
+                                textiles, leather, and manufacturing industries.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 32+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Allahabad (Prayagraj) -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-green-600 to-emerald-700 flex items-center justify-center">
+                            <i class="fas fa-smile w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Prayagraj</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Sacred confluence of three rivers (Triveni Sangam). Host to the Kumbh Mela,
+                                the world's largest religious gathering.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 13+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Meerut -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-red-600 to-pink-700 flex items-center justify-center">
+                            <i class="fas fa-coins w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Meerut</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Historic city where the 1857 Indian Rebellion began. Major center for
+                                sports goods manufacturing and agricultural trade.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 17+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-pink-600">
+                        <h3 class="font-semibold text-lg mb-2">Taj Mahal</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            UNESCO World Heritage Site, symbol of eternal love built by Shah Jahan.
+                        </p>
+                        <span class="text-xs text-pink-600 font-semibold">Agra</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-orange-600">
+                        <h3 class="font-semibold text-lg mb-2">Kashi Vishwanath Temple</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            One of the twelve Jyotirlingas, most sacred Hindu temple dedicated to Lord Shiva.
+                        </p>
+                        <span class="text-xs text-orange-600 font-semibold">Varanasi</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Fatehpur Sikri</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            UNESCO World Heritage Site, former Mughal capital with stunning architecture.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Agra</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green-600">
+                        <h3 class="font-semibold text-lg mb-2">Sarnath</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Where Buddha delivered his first sermon, important Buddhist pilgrimage site.
+                        </p>
+                        <span class="text-xs text-green-600 font-semibold">Varanasi</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Ayodhya</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Birthplace of Lord Rama, sacred city with the magnificent Ram Mandir.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Ayodhya</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-yellow-600">
+                        <h3 class="font-semibold text-lg mb-2">Mathura-Vrindavan</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Birthplace and childhood home of Lord Krishna, major pilgrimage destination.
+                        </p>
+                        <span class="text-xs text-yellow-600 font-semibold">Mathura</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-indigo-600">
+                        <h3 class="font-semibold text-lg mb-2">Bara Imambara</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Architectural marvel with the famous Bhool Bhulaiya (labyrinth) in Lucknow.
+                        </p>
+                        <span class="text-xs text-indigo-600 font-semibold">Lucknow</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Triveni Sangam</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Sacred confluence of Ganga, Yamuna, and mythical Saraswati rivers.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Prayagraj</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Dudhwa National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Tiger reserve and national park known for swamp deer and diverse wildlife.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Lakhimpur Kheri</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-indigo-600 to-purple-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Kumbh Mela (world's largest religious gathering), Diwali, Holi, Dussehra,
+                                    and Janmashtami celebrated with great fervor.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Arts & Crafts</h3>
+                                <p class="text-sm opacity-90">
+                                    Chikankari embroidery, Banarasi silk sarees, marble inlay work,
+                                    and traditional pottery from Khurja.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Music & Dance</h3>
+                                <p class="text-sm opacity-90">
+                                    Hindustani classical music, Kathak dance, folk songs like Kajri and Chaiti,
+                                    and traditional Ramlila performances.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Languages</h3>
+                                <p class="text-sm opacity-90">
+                                    Hindi (official), Urdu, Awadhi, Bhojpuri, Braj Bhasha, and Bundeli
+                                    reflecting the state's linguistic diversity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Uttar Pradesh Cuisine</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Awadhi Cuisine</h3>
+                                <p class="text-sm opacity-90 mb-2">
+                                    Royal cuisine from Lucknow known for its rich flavors and cooking techniques.
+                                </p>
+                                <div class="text-xs opacity-75">
+                                    Biryani, Kebabs, Korma, Nihari, Sheermal
+                                </div>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Street Food</h3>
+                                <p class="text-sm opacity-90 mb-2">
+                                    Famous street foods that have gained popularity across India.
+                                </p>
+                                <div class="text-xs opacity-75">
+                                    Chaat, Kachori, Samosa, Jalebi, Lassi
+                                </div>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Sweets</h3>
+                                <p class="text-sm opacity-90 mb-2">
+                                    Traditional sweets that are integral to celebrations and festivals.
+                                </p>
+                                <div class="text-xs opacity-75">
+                                    Petha (Agra), Malaiyo, Balushahi, Imarti, Kheer
+                                </div>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Regional Specialties</h3>
+                                <p class="text-sm opacity-90 mb-2">
+                                    Dishes specific to different regions within the state.
+                                </p>
+                                <div class="text-xs opacity-75">
+                                    Baati Chokha, Litti, Tehri, Arhar Dal, Bedmi Puri
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy & Notable Personalities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Economy -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6 text-primary dark:text-saffron">Economic Profile
+                        </h2>
+                        <div class="space-y-6">
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-green-600">Agriculture</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Leading producer of wheat, rice, sugarcane, and potatoes. Contributes significantly
+                                    to India's food grain production.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Major crops: Wheat, Rice, Sugarcane, Potatoes, Pulses
+                                </div>
+                            </div>
+
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-blue-600">Industries</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Major industrial centers in textiles, leather, sugar, and engineering.
+                                    Growing IT and service sectors.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Key sectors: Textiles, Leather, Sugar, Engineering, IT
+                                </div>
+                            </div>
+
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-purple-600">Tourism</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Major tourist destination with UNESCO World Heritage Sites and
+                                    spiritual centers attracting millions of visitors annually.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Key attractions: Taj Mahal, Varanasi, Ayodhya, Mathura-Vrindavan
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notable Personalities -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6 text-primary dark:text-saffron">Notable
+                            Personalities</h2>
+                        <div class="space-y-6">
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-orange-600">Political Leaders</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Home to numerous Prime Ministers and political leaders who shaped modern India.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Jawaharlal Nehru, Indira Gandhi, Rajiv Gandhi, Atal Bihari Vajpayee, Narendra Modi
+                                </div>
+                            </div>
+
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-red-600">Freedom Fighters</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Birthplace of many freedom fighters who led India's independence movement.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Chandrashekhar Azad, Ram Prasad Bismil, Ashfaqullah Khan, Begum Hazrat Mahal
+                                </div>
+                            </div>
+
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-indigo-600">Arts & Literature</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Renowned poets, writers, and artists who enriched Indian culture and literature.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Tulsidas, Premchand, Harivansh Rai Bachchan, Mahadevi Verma, Ustad Bismillah Khan
+                                </div>
+                            </div>
+
+                            <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                                <h3 class="text-xl font-semibold mb-3 text-teal-600">Modern Icons</h3>
+                                <p class="text-gray-600 dark:text-gray-300 mb-3">
+                                    Contemporary personalities who have achieved national and international recognition.
+                                </p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400">
+                                    Amitabh Bachchan, Shah Rukh Khan, Yash Chopra, A.P.J. Abdul Kalam
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

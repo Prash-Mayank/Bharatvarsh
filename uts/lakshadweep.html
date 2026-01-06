@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Lakshadweep - Coral Island Paradise, pristine lagoons, marine conservation, coconut-based economy, and unique island culture">
+    <title>Lakshadweep - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/South_India.webp" alt="Lakshadweep islands and coral reefs"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-cyan-500/70 via-teal-500/60 to-blue-500/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">Union
+                                Territory</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Lakshadweep
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">لکشدیپ / लक्षद्वीप</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Coral Island Paradise - India's smallest Union Territory with pristine coral atolls,
+                            turquoise lagoons, and unique marine ecosystem. A tropical haven in the Arabian Sea.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Kavaratti</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>64,473 People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Lakshadweep Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">1 Nov 1956</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">UT Formation</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">32</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">1</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">District</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">36</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Islands</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Lakshadweep
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Lakshadweep, meaning "hundred thousand islands" in Sanskrit, is India's smallest Union Territory
+                        comprising 36 coral islands scattered across the Arabian Sea. Only 10 islands are inhabited,
+                        making it a unique archipelago with pristine coral reefs, crystal-clear lagoons, and an
+                        untouched marine ecosystem.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        Located 200-440 km off the Kerala coast, these coral atolls are renowned for their coconut
+                        palm-fringed beaches, vibrant marine life, and sustainable island culture. The territory serves
+                        as a model for marine conservation while offering exclusive eco-tourism experiences in one of
+                        the world's most pristine coral reef ecosystems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Islands -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Islands
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-32 bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
+                            <i class="fas fa-building w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-heading text-lg font-bold mb-2">Kavaratti</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                                Capital island, administrative center, beautiful lagoon, water sports hub.
+                            </p>
+                            <div class="text-xs text-gray-500">Population: 11,210</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-32 bg-gradient-to-br from-teal-500 to-green-500 flex items-center justify-center">
+                            <i class="fas fa-globe w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-heading text-lg font-bold mb-2">Agatti</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                                Airport island, gateway to Lakshadweep, coral reef, scuba diving center.
+                            </p>
+                            <div class="text-xs text-gray-500">Population: 8,006</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-32 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                            <i class="fas fa-arrow-up w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-heading text-lg font-bold mb-2">Bangaram</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                                Uninhabited coral atoll, pristine beaches, luxury resort destination, marine sanctuary.
+                            </p>
+                            <div class="text-xs text-gray-500">Uninhabited Resort Island</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-32 bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                            <i class="fas fa-sun w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-heading text-lg font-bold mb-2">Minicoy</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                                Southernmost island, lighthouse, Maldivian culture, tuna fishing center.
+                            </p>
+                            <div class="text-xs text-gray-500">Population: 10,423</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-32 bg-gradient-to-br from-indigo-500 to-blue-500 flex items-center justify-center">
+                            <i class="fas fa-bolt w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-heading text-lg font-bold mb-2">Kalpeni</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                                Three islets connected by coral reef, water sports, traditional boat building.
+                            </p>
+                            <div class="text-xs text-gray-500">Population: 4,319</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-32 bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center">
+                            <i class="fas fa-lightbulb w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-heading text-lg font-bold mb-2">Kadmat</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                                Long narrow island, beach resort, water sports, marine aquarium, coral garden.
+                            </p>
+                            <div class="text-xs text-gray-500">Population: 5,319</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Marine Ecosystem & Culture -->
+        <section class="py-16 bg-gradient-to-br from-cyan-600 to-teal-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Marine Ecosystem -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Marine Ecosystem</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Coral Reefs</h3>
+                                <p class="text-sm opacity-90">
+                                    Pristine coral atolls, diverse marine species, protected marine sanctuary.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Marine Life</h3>
+                                <p class="text-sm opacity-90">
+                                    Tropical fish, sea turtles, dolphins, rays, and rich underwater biodiversity.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Conservation</h3>
+                                <p class="text-sm opacity-90">
+                                    Marine protected areas, sustainable tourism, coral restoration programs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Island Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Island Culture</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Coconut Economy</span>
+                                    <p class="text-sm opacity-90">Coconut cultivation, coir production, traditional
+                                        livelihoods</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Traditional Fishing</span>
+                                    <p class="text-sm opacity-90">Tuna fishing, traditional boats, sustainable practices
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Local Cuisine</span>
+                                    <p class="text-sm opacity-90">Fresh seafood, coconut-based dishes, traditional
+                                        recipes</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Folk Arts</span>
+                                    <p class="text-sm opacity-90">Traditional dances, music, handicrafts, and festivals
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Island Lifestyle</span>
+                                    <p class="text-sm opacity-90">Sustainable living, community harmony, eco-friendly
+                                        practices</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-blue-600 to-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Island Culture</h3>
+                                <p class="text-sm opacity-90">
+                                    Unique blend of Malayalam, Arabic, and maritime traditions with coconut-based
+                                    lifestyle.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Islamic Heritage</h3>
+                                <p class="text-sm opacity-90">
+                                    Strong Islamic influence with beautiful mosques, traditional prayers, and festivals.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Maritime Traditions</h3>
+                                <p class="text-sm opacity-90">
+                                    Traditional fishing, boat building, and navigation skills passed through
+                                    generations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Lakshadweep Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Coconut-Based Dishes</span>
+                                    <p class="text-sm opacity-90">Coconut rice, coconut curry, and fresh coconut water
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Fresh Seafood</span>
+                                    <p class="text-sm opacity-90">Tuna curry, fish fry, lobster, and various marine
+                                        delicacies</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Traditional Preparations</span>
+                                    <p class="text-sm opacity-90">Mas huni, garudhiya, and traditional Maldivian-style
+                                        dishes</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Tropical Fruits</span>
+                                    <p class="text-sm opacity-90">Fresh bananas, papayas, and seasonal tropical fruits
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Beverages</span>
+                                    <p class="text-sm opacity-90">Fresh coconut water, fruit juices, and traditional
+                                        drinks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹1,600 Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">UT GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Coconut and tourism based</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">91.8%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Above national average</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">#1</div>
+                        <h3 class="font-semibold text-lg mb-2">Coral Conservation</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Marine sanctuary</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Coconut Cultivation</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Fisheries & Tuna Canning</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Eco-Tourism</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Coir Production</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Unique Features</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Smallest UT by area and population</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>100% renewable energy potential</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Coral atoll ecosystem</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Restricted tourism for conservation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">P.P. Mohammed</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1952</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Administrator, development leader</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Hakim Tanur</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1963</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">MP from Lakshadweep, political leader</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Ayesha Sulthana</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1987</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Filmmaker, social activist</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Mohammed Faizal</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1970</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former MP, island development advocate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

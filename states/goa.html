@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Goa - Pearl of the Orient, pristine beaches, Portuguese heritage, vibrant nightlife, and coastal paradise">
+    <title>Goa - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/Maharashtra.jpg" alt="Goa beaches and coastline"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-blue-600/70 via-cyan-600/60 to-teal-600/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Goa
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">गोवा</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Pearl of the Orient, pristine beaches, Portuguese colonial heritage, vibrant nightlife, and tropical paradise. India's smallest state with the biggest heart.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Panaji</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>15 Lakh People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Goa Map"
+                                class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Quick Info Cards -->
+    <section class="py-12 bg-white dark:bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-saffron mb-2">30 May 1987</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Statehood Day</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green mb-2">3,702</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">2</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600 mb-2">Konkani</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                About Goa
+            </h2>
+            <div class="prose dark:prose-invert max-w-none">
+                <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                    Goa, India's smallest state by area, is a tropical paradise on the western coast known for its pristine beaches, Portuguese colonial architecture, and vibrant culture. Once a Portuguese colony for over 450 years, Goa retains a unique blend of Indian and European influences that sets it apart from the rest of India.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                    From the bustling beaches of North Goa to the serene coastline of South Goa, the state offers something for every traveler. With its laid-back lifestyle, delicious seafood, historic churches, and world-famous carnival, Goa has become synonymous with relaxation and celebration.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historical Journey -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Historical Journey
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                    <div class="text-center mb-4">
+                        <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full mb-4">
+                            <i class="fas fa-history text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold mb-2">Ancient Era</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Goa was part of the Mauryan and Satavahana empires. Later ruled by the Chalukyas and Rashtrakutas, the region flourished as a center of Buddhism and trade with the Middle East and Southeast Asia.
+                    </p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                    <div class="text-center mb-4">
+                        <div class="inline-flex items-center justify-center w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full mb-4">
+                            <i class="fas fa-flag text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold mb-2">Portuguese Era</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Portuguese colonization began in 1510 with Afonso de Albuquerque's conquest. Goa served as the capital of Portuguese India for over 450 years, influencing architecture, cuisine, and culture profoundly.
+                    </p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                    <div class="text-center mb-4">
+                        <div class="inline-flex items-center justify-center w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full mb-4">
+                            <i class="fas fa-indian-rupee-sign text-green-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold mb-2">Independence Era</h3>
+                    </div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Goa was liberated from Portuguese rule in 1961 by the Indian Army in Operation Vijay. It became a Union Territory in 1961 and achieved statehood on May 30, 1987, becoming India's 25th state.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Major Cities -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Major Cities
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Panaji -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
+                        <i class="fas fa-building text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-bold mb-2">Panaji</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            State capital, Portuguese colonial architecture, and administrative center on Mandovi River.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            Population: 1+ Lakh
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Margao -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center">
+                        <i class="fas fa-cloud text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-bold mb-2">Margao</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Commercial capital of South Goa, cultural hub, and major railway junction.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            Population: 1+ Lakh
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vasco da Gama -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-bold mb-2">Vasco da Gama</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Port city, industrial center, home to Goa International Airport, and naval base.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            Population: 1+ Lakh
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Goa Literature & Arts -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold text-primary dark:text-saffron">
+                    Goa Literature & Arts
+                </h2>
+                <p class="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+                    A rich literary tradition blending Konkani, Portuguese, and English influences with vibrant performing arts.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Literary Heritage -->
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-6 text-blue-600">Literary Heritage</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+                            <h4 class="font-semibold text-lg mb-2">Konkani Literature</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Goa is home to the first Konkani novel "Kristanv ani Mahr" and has produced notable poets like B.B. Borkar and Manohar Rai Sardessai.
+                            </p>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+                            <h4 class="font-semibold text-lg mb-2">Portuguese Influence</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                The Portuguese era brought European literary traditions, with many works translated and original compositions in Portuguese.
+                            </p>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+                            <h4 class="font-semibold text-lg mb-2">Modern Writers</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Contemporary Goan writers like Damodar Mauzo and V.M. Vaz continue to enrich the literary landscape with works in multiple languages.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performing Arts -->
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-6 text-green-600">Performing Arts</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+                            <h4 class="font-semibold text-lg mb-2">Folk Dance & Music</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Traditional forms like Dulpod, Fugdi, and Mando music reflect the state's rich cultural heritage and community celebrations.
+                            </p>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+                            <h4 class="font-semibold text-lg mb-2">Theatre Tradition</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Goan tiatr (theatre) combines Portuguese influences with local themes, creating a unique performing art form.
+                            </p>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+                            <h4 class="font-semibold text-lg mb-2">Contemporary Arts</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Modern art galleries, cultural centers, and festivals showcase contemporary Goan artists and their creative expressions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goa Cinema & Entertainment -->
+    <section class="py-16 bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-4">
+                    Goa Cinema & Entertainment
+                </h2>
+                <p class="text-lg opacity-90 max-w-3xl mx-auto">
+                    From Bollywood shoots to vibrant nightlife, Goa has been a hub for entertainment and creative industries.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white/10 backdrop-blur rounded-xl p-6">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-film text-yellow-300 text-4xl mb-3"></i>
+                        <h3 class="font-semibold text-xl mb-2">Film Industry</h3>
+                    </div>
+                    <p class="text-sm opacity-90 leading-relaxed">
+                        Goa serves as a popular shooting destination for Bollywood films due to its diverse locations, beaches, and colonial architecture. Many blockbuster movies have been filmed here.
+                    </p>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur rounded-xl p-6">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-music text-green-300 text-4xl mb-3"></i>
+                        <h3 class="font-semibold text-xl mb-2">Music Festivals</h3>
+                    </div>
+                    <p class="text-sm opacity-90 leading-relaxed">
+                        Home to major music festivals like Sunburn, Goa hosts thousands of tourists for electronic music events, DJ performances, and international music concerts throughout the year.
+                    </p>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur rounded-xl p-6">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-theater-masks text-pink-300 text-4xl mb-3"></i>
+                        <h3 class="font-semibold text-xl mb-2">Cultural Events</h3>
+                    </div>
+                    <p class="text-sm opacity-90 leading-relaxed">
+                        Goa Carnival, Shigmo festival, and various cultural performances showcase the state's rich entertainment heritage combining Portuguese and Indian traditions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultural Heritage -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Cultural Heritage
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                    <h3 class="font-semibold text-lg mb-3">UNESCO World Heritage Sites</h3>
+                    <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                        <li>• Basilica of Bom Jesus (Old Goa)</li>
+                        <li>• Churches and Convents of Goa</li>
+                        <li>• Historic Fontainhas district</li>
+                        <li>• Portuguese colonial architecture</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green-600">
+                    <h3 class="font-semibold text-lg mb-3">Festivals & Traditions</h3>
+                    <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                        <li>• Goa Carnival (pre-Lent celebration)</li>
+                        <li>• Shigmo (spring festival)</li>
+                        <li>• Feast of St. Francis Xavier</li>
+                        <li>• Christmas celebrations</li>
+                        <li>• Zatra pilgrimages</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                    <h3 class="font-semibold text-lg mb-3">Architectural Marvels</h3>
+                    <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                        <li>• Indo-Portuguese mansions</li>
+                        <li>• Fort Aguada and other forts</li>
+                        <li>• Colonial churches and cathedrals</li>
+                        <li>• Colorful Latin quarters</li>
+                        <li>• Portuguese-era bungalows</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                    <h3 class="font-semibold text-lg mb-3">Religious Harmony</h3>
+                    <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                        <li>• Hindu temples and Portuguese churches</li>
+                        <li>• Synagogues and mosques</li>
+                        <li>• Religious festivals coexisting</li>
+                        <li>• Cultural syncretism</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                    <h3 class="font-semibold text-lg mb-3">Folk Arts & Crafts</h3>
+                    <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                        <li>• Handicrafts and weaving</li>
+                        <li>• Coconut shell craft</li>
+                        <li>• Bamboo products</li>
+                        <li>• Brassware and metalwork</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                    <h3 class="font-semibold text-lg mb-3">Maritime Heritage</h3>
+                    <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                        <li>• Ancient maritime trade routes</li>
+                        <li>• Portuguese naval history</li>
+                        <li>• Fishing traditions</li>
+                        <li>• Shipbuilding heritage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tourism Highlights -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Tourism Highlights
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
+                        <i class="fas fa-umbrella-beach text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold mb-2">Baga Beach</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Vibrant beach destination with water sports, nightlife, and international shacks. Popular among tourists for its lively atmosphere.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-blue-600">North Goa</span>
+                            <span class="text-sm text-gray-500">Party Beach</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                        <i class="fas fa-church text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold mb-2">Basilica of Bom Jesus</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            UNESCO World Heritage Site housing the sacred relics of St. Francis Xavier. A masterpiece of Baroque architecture.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-green-600">Old Goa</span>
+                            <span class="text-sm text-gray-500">Heritage Site</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
+                        <i class="fas fa-water text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold mb-2">Dudhsagar Falls</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Spectacular four-tiered waterfall, one of India's tallest. A natural wonder best experienced during monsoon season.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-purple-600">Western Ghats</span>
+                            <span class="text-sm text-gray-500">Natural Wonder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                        <i class="fas fa-store text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold mb-2">Anjuna Flea Market</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Famous Wednesday flea market with handicrafts, clothes, and hippie culture. A cultural experience like no other.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-amber-600">North Goa</span>
+                            <span class="text-sm text-gray-500">Cultural Market</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-red-600 to-pink-600 flex items-center justify-center">
+                        <i class="fas fa-fort-awesome text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold mb-2">Fort Aguada</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            17th-century Portuguese fort with lighthouse offering panoramic views of the Arabian Sea. Rich in maritime history.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-red-600">North Goa</span>
+                            <span class="text-sm text-gray-500">Historic Fort</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-teal-600 to-green-600 flex items-center justify-center">
+                        <i class="fas fa-sun text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold mb-2">Palolem Beach</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Serene crescent-shaped beach perfect for relaxation. Known for dolphin sightings and peaceful beachside cafes.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-teal-600">South Goa</span>
+                            <span class="text-sm text-gray-500">Peaceful Paradise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Economy & Industries -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Economy & Industries
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">₹87,000 Cr</div>
+                    <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Highest per capita income in India</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                    <div class="text-4xl font-bold text-green mb-2">88%</div>
+                    <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">High educational standards</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                    <div class="text-4xl font-bold text-saffron mb-2">8M+</div>
+                    <h3 class="font-semibold text-lg mb-2">Annual Tourists</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Major tourism destination</p>
+                </div>
+            </div>
+
+            <div class="mt-12 grid md:grid-cols-2 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                    <h3 class="font-semibold text-lg mb-4 flex items-center">
+                        <i class="fas fa-industry text-blue-600 mr-2"></i>
+                        Key Industries
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
+                            <span><strong>Tourism & Hospitality:</strong> Beach resorts, hotels, and entertainment</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
+                            <span><strong>Mining & Minerals:</strong> Iron ore and mineral extraction</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
+                            <span><strong>Pharmaceuticals:</strong> Drug manufacturing and research</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
+                            <span><strong>Information Technology:</strong> Software and IT services</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
+                            <span><strong>Manufacturing:</strong> Food processing and consumer goods</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                    <h3 class="font-semibold text-lg mb-4 flex items-center">
+                        <i class="fas fa-seedling text-green-600 mr-2"></i>
+                        Agricultural & Marine Products
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-green-600 rounded-full"></span>
+                            <span><strong>Cashew nuts:</strong> Largest producer in India</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-green-600 rounded-full"></span>
+                            <span><strong>Coconut & Rice:</strong> Staple crops and exports</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-green-600 rounded-full"></span>
+                            <span><strong>Fishing Industry:</strong> Seafood exports and marine products</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-green-600 rounded-full"></span>
+                            <span><strong>Spices & Fruits:</strong> Mango, pineapple, and traditional spices</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <span class="w-3 h-3 bg-green-600 rounded-full"></span>
+                            <span><strong>Feni Production:</strong> Traditional spirit and beverage industry</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notable Personalities -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Notable Personalities
+            </h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Manohar_Parrikar.jpg/220px-Manohar_Parrikar.jpg"
+                            alt="Manohar Parrikar" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center\'><i class=\'fas fa-user text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Manohar Parrikar</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">1955-2019</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Defence Minister and CM of Goa</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lata_Mangeshkar_2011.jpg/220px-Lata_Mangeshkar_2011.jpg"
+                            alt="Lata Mangeshkar" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center\'><i class=\'fas fa-music text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Lata Mangeshkar</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">1929-2022</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Nightingale of India, legendary playback singer</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wendell_Rodricks.jpg/220px-Wendell_Rodricks.jpg"
+                            alt="Wendell Rodricks" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center\'><i class=\'fas fa-shirt text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Wendell Rodricks</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">1960-2020</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Renowned fashion designer and activist</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Remo_Fernandes.jpg/220px-Remo_Fernandes.jpg"
+                            alt="Remo Fernandes" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center\'><i class=\'fas fa-microphone text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Remo Fernandes</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">Born 1953</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Pop singer and musician</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-red-600 to-pink-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pramod_Pandey.jpg/220px-Pramod_Pandey.jpg"
+                            alt="Pramod Pandey" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-red-600 to-pink-600 flex items-center justify-center\'><i class=\'fas fa-camera text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Pramod Pandey</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">Born 1959</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Wildlife photographer and conservationist</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-teal-600 to-green-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ravindra_Kelekar.jpg/220px-Ravindra_Kelekar.jpg"
+                            alt="Ravindra Kelekar" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-teal-600 to-green-600 flex items-center justify-center\'><i class=\'fas fa-book text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Ravindra Kelekar</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">1925-2010</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Konkani writer and freedom fighter</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dayananda_Bharati.jpg/220px-Dayananda_Bharati.jpg"
+                            alt="Dayananda Saraswati" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center\'><i class=\'fas fa-praying-hands text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Dayananda Saraswati</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">1824-1883</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Social reformer and founder of Arya Samaj</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-cyan-600 to-blue-600 flex items-center justify-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Santosh_Hegde.jpg/220px-Santosh_Hegde.jpg"
+                            alt="Santosh Hegde" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-cyan-600 to-blue-600 flex items-center justify-center\'><i class=\'fas fa-gavel text-white text-4xl\'></i></div>'">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-semibold text-lg mb-1">Santosh Hegde</h3>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">Born 1940</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Lokayukta and Supreme Court judge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cuisine & Culture -->
+    <section class="py-16 bg-gradient-to-br from-blue-600 to-cyan-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Cuisine -->
+                <div>
+                    <h2 class="font-heading text-3xl font-bold mb-6">Goan Cuisine</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Seafood Delicacies</h3>
+                            <p class="text-sm opacity-90">
+                                Fresh fish curry with coconut milk, prawn balchao, and kingfish preparations. Goa's coastal location ensures the freshest catch.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Portuguese-Inspired Dishes</h3>
+                            <p class="text-sm opacity-90">
+                                Vindaloo, chorizo, and xacuti - spicy curries that blend Portuguese and Indian flavors with local spices and coconut.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Sweet Traditions</h3>
+                            <p class="text-sm opacity-90">
+                                Bebinca (layered cake), dodol, and pinapple toffee. Rich desserts made with coconut milk, sugar, and local ingredients.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Local Beverages</h3>
+                            <p class="text-sm opacity-90">
+                                Feni (cashew/palm spirit), toddy, and coconut water. Traditional drinks that complement the spicy cuisine perfectly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Culture -->
+                <div>
+                    <h2 class="font-heading text-3xl font-bold mb-6">Cultural Traditions</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Religious Festivals</h3>
+                            <p class="text-sm opacity-90">
+                                Goa Carnival, Shigmo, Feast of St. Francis Xavier, and Christmas. Vibrant celebrations blending Christian and Hindu traditions.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Music & Dance Forms</h3>
+                            <p class="text-sm opacity-90">
+                                Fado, mando, dulpod, and dekhni. Traditional music and dance forms that reflect the state's cultural diversity.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Architectural Heritage</h3>
+                            <p class="text-sm opacity-90">
+                                Portuguese colonial churches, Indo-Portuguese mansions, and colorful Latin quarters showcasing 450 years of history.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Community Life</h3>
+                            <p class="text-sm opacity-90">
+                                Strong community bonds, village panchayats, and traditional festivals that bring people together in celebration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Achievements & Innovation -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+                class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Modern Achievements & Innovation
+            </h2>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <div class="h-64 mb-6 rounded-xl overflow-hidden shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop&q=80"
+                            alt="Goa modern development and innovation" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-64 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 flex items-center justify-center\'><i class=\'fas fa-city text-6xl text-blue-600 opacity-30\'></i></div>'">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-blue-600">Progress & Prosperity</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Goa has transformed from a Portuguese colony into India's most prosperous state, achieving the highest per capita income and literacy rate. The state's strategic location and natural beauty have driven tourism-led economic growth.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        With world-class infrastructure, excellent healthcare, and educational institutions, Goa leads in sustainable development while preserving its unique cultural heritage and environmental beauty.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop&q=80"
+                            alt="Education and research institutions in Goa" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-green-100 to-emerald-100 dark:from-green-900 dark:to-emerald-900 flex items-center justify-center\'><i class=\'fas fa-graduation-cap text-6xl text-green-600 opacity-30\'></i></div>'">
+                    </div>
+                    <h4 class="font-heading text-lg font-bold mb-3 text-green">Educational Excellence</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• IIT Goa - Premier engineering institution</li>
+                        <li>• NIT Goa - Technical education</li>
+                        <li>• Goa University - Research excellence</li>
+                        <li>• 88% literacy rate (highest in India)</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop&q=80"
+                            alt="Healthcare facilities and development in Goa" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-blue-100 to-cyan-100 dark:from-blue-900 dark:to-cyan-900 flex items-center justify-center\'><i class=\'fas fa-heartbeat text-6xl text-blue-600 opacity-30\'></i></div>'">
+                    </div>
+                    <h4 class="font-heading text-lg font-bold mb-3 text-blue-600">Healthcare Leadership</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Advanced medical facilities</li>
+                        <li>• High life expectancy rates</li>
+                        <li>• COVID-19 management success</li>
+                        <li>• Public health initiatives</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop&q=80"
+                            alt="Sustainable tourism and environmental conservation" class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-green-100 to-teal-100 dark:from-green-900 dark:to-teal-900 flex items-center justify-center\'><i class=\'fas fa-leaf text-6xl text-green-600 opacity-30\'></i></div>'">
+                    </div>
+                    <h4 class="font-heading text-lg font-bold mb-3 text-teal-600">Sustainable Tourism</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Eco-friendly tourism practices</li>
+                        <li>• Protected wildlife areas</li>
+                        <li>• Responsible development</li>
+                        <li>• Environmental conservation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg">
+                <h4 class="font-heading text-2xl font-bold mb-6 text-center text-primary dark:text-saffron">
+                    Key Innovation Sectors
+                </h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center p-4 border-2 border-gray-200 dark:border-gray-700 rounded-lg">
+                        <i class="fas fa-laptop-code text-4xl text-blue-600 mb-3"></i>
+                        <h5 class="font-semibold mb-2">Information Technology</h5>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Software development, IT services, and digital transformation</p>
+                    </div>
+                    <div class="text-center p-4 border-2 border-gray-200 dark:border-gray-700 rounded-lg">
+                        <i class="fas fa-pills text-4xl text-red-600 mb-3"></i>
+                        <h5 class="font-semibold mb-2">Pharmaceuticals</h5>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Drug manufacturing and biotechnology research</p>
+                    </div>
+                    <div class="text-center p-4 border-2 border-gray-200 dark:border-gray-700 rounded-lg">
+                        <i class="fas fa-umbrella-beach text-4xl text-green-600 mb-3"></i>
+                        <h5 class="font-semibold mb-2">Tourism Technology</h5>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Smart tourism solutions and digital hospitality</p>
+                    </div>
+                    <div class="text-center p-4 border-2 border-gray-200 dark:border-gray-700 rounded-lg">
+                        <i class="fas fa-leaf text-4xl text-purple-600 mb-3"></i>
+                        <h5 class="font-semibold mb-2">Sustainable Agriculture</h5>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Organic farming and agricultural innovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-saffron to-red-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6">
+                Discover Goa's Magical Charm
+            </h2>
+            <p class="text-lg mb-8 opacity-90">
+                From sun-kissed beaches to colonial heritage, from vibrant festivals to serene backwaters,
+                explore India's smallest state with the biggest heart.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="../discover/tourism.html"
+                    class="inline-block bg-white text-saffron px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                    Plan Your Visit
+                </a>
+                <a href="../categories/arts_entertainment.html"
+                    class="inline-block bg-transparent border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-saffron transition">
+                    Explore Culture
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Economic Heritage Module Completed",
+    "excerpt": "Explore India's complete economic heritage from ancient banking systems to modern digital finance revolution and policy frameworks.",
+    "date": "2024-12-16",
+    "link": "categories/banking_finance.html",
+    "category": "Economic Heritage",
+    "image": "assets/img/banking.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Banking & Finance Heritage",
+    "excerpt": "From Vedic period banking to UPI revolution - discover India's 3000-year journey in financial innovation and digital leadership.",
+    "date": "2024-12-16",
+    "link": "categories/banking_finance.html",
+    "category": "Economic Heritage",
+    "image": "assets/img/digital-payments.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Economic Policies Through Ages",
+    "excerpt": "Journey from Kautilya's Arthashastra to Vision 2047 - explore India's economic policy evolution and development strategies.",
+    "date": "2024-12-16",
+    "link": "categories/economic_policies.html",
+    "category": "Economic Heritage",
+    "image": "assets/img/economic-policy.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Exploring Ancient Indian Mathematics",
+    "excerpt": "Discover how ancient Indian mathematicians contributed to the development of zero, decimal system, and advanced algebraic concepts.",
+    "date": "2024-12-10",
+    "link": "discover/inventions.html",
+    "category": "Discover",
+    "image": "assets/img/mathematics.jpg"
+  },
+  {
+    "id": 5,
+    "title": "New State Profile: Kerala",
+    "excerpt": "Dive deep into the cultural richness, natural beauty, and unique traditions of God's Own Country.",
+    "date": "2024-12-08",
+    "link": "states/kerala.html",
+    "category": "States",
+    "image": "assets/img/states/kerala.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Indian Festivals Calendar 2024",
+    "excerpt": "A comprehensive guide to India's diverse festivals, their significance, and regional celebrations throughout the year.",
+    "date": "2024-12-05",
+    "link": "discover/festivals.html",
+    "category": "Discover",
+    "image": "assets/img/festivals/diwali.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Rich Heritage of Indian Architecture",
+    "excerpt": "From ancient temples to modern marvels, explore the evolution of architectural styles across India.",
+    "date": "2024-12-01",
+    "link": "discover/architecture.html",
+    "category": "Discover",
+    "image": "assets/img/architecture/taj-mahal.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Understanding the Indian Constitution",
+    "excerpt": "Learn about the world's longest written constitution, its key features, and fundamental rights.",
+    "date": "2024-11-28",
+    "link": "discover/constitution.html",
+    "category": "Discover",
+    "image": "assets/img/constitution.jpg"
+  }
+]

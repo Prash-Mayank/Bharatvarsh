@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Rajasthan - Land of Kings, majestic forts, vibrant culture, Thar Desert, and royal heritage">
+    <title>Rajasthan - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Rajasthan forts and deserts"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-amber-500/70 via-orange-600/60 to-red-700/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Rajasthan
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">राजस्थान</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Land of Kings - where magnificent forts touch the sky, golden deserts stretch endlessly, and
+                            royal heritage lives on. India's largest state by area, a tapestry of vibrant colors, valor,
+                            and
+                            timeless traditions.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Jaipur</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>8 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Rajasthan Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">1 Nov 1956</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">3.42 Lakh</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">50</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Rajasthan
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Rajasthan, the "Land of Kings," is India's largest state by area, covering the vast Thar Desert.
+                        This land of maharajas is dotted with magnificent forts, opulent palaces, and havelis that speak
+                        of
+                        a glorious past. From the pink city of Jaipur to the blue streets of Jodhpur, from the golden
+                        sands
+                        of Jaisalmer to the romantic lakes of Udaipur, each city tells a unique story.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        The state is renowned for its colorful festivals, folk music and dance, traditional handicrafts,
+                        and
+                        warm hospitality. Rajasthan's Rajput heritage, combined with influences from Mughal
+                        architecture,
+                        has created a cultural landscape that attracts millions of visitors. The desert state is also
+                        home
+                        to diverse wildlife sanctuaries, ancient temples, and the famous Pushkar Camel Fair.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Jaipur -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Jaipur</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                The Pink City, state capital. Home to Amber Fort, Hawa Mahal, City Palace, and UNESCO
+                                World
+                                Heritage sites.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 35+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jodhpur -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center">
+                            <i class="fas fa-flag w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Jodhpur</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                The Blue City, gateway to Thar Desert. Famous for Mehrangarh Fort, one of India's
+                                largest
+                                forts.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 14+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Udaipur -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center">
+                            <i class="fas fa-water w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Udaipur</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                City of Lakes, Venice of the East. Known for Lake Palace, City Palace, and romantic
+                                settings.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 5+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Amber Fort</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Majestic hilltop fort with stunning architecture, Sheesh Mahal (Mirror Palace).
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Jaipur</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-yellow-600">
+                        <h3 class="font-semibold text-lg mb-2">Jaisalmer Fort</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Golden Fort rising from Thar Desert, living fort with shops and hotels inside.
+                        </p>
+                        <span class="text-xs text-yellow-600 font-semibold">Jaisalmer</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Mehrangarh Fort</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            One of India's largest forts with breathtaking views of Blue City.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Jodhpur</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-cyan-600">
+                        <h3 class="font-semibold text-lg mb-2">Lake Pichola</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Artificial lake with Lake Palace and Jag Mandir, boat rides at sunset.
+                        </p>
+                        <span class="text-xs text-cyan-600 font-semibold">Udaipur</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Pushkar</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Holy city with Brahma Temple, sacred lake, and famous Camel Fair.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Ajmer District</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Ranthambore National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Tiger reserve with ancient fort ruins, wildlife safaris, leopards and sloth bears.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Sawai Madhopur</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-orange-600 to-red-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Pushkar Camel Fair, Teej Festival, Desert Festival, Gangaur, and vibrant Holi
+                                    celebrations.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Folk Arts</h3>
+                                <p class="text-sm opacity-90">
+                                    Ghoomar dance, Kalbelia (snake charmer dance), puppet shows, folk music with dholak
+                                    and
+                                    sarangi.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Traditional Dress</h3>
+                                <p class="text-sm opacity-90">
+                                    Colorful ghagra-choli for women, pagri (turban) and dhoti-kurta for men. Bandhani
+                                    and
+                                    leheriya textiles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Rajasthani Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Dal Baati Churma</span>
+                                    <p class="text-sm opacity-90">Traditional wheat balls with lentils and sweet churma
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Laal Maas</span>
+                                    <p class="text-sm opacity-90">Fiery red meat curry with Mathania chilies</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Gatte ki Sabzi</span>
+                                    <p class="text-sm opacity-90">Gram flour dumplings in spiced yogurt curry</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Ker Sangri</span>
+                                    <p class="text-sm opacity-90">Desert beans and berries, traditional Marwari dish</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Ghewar</span>
+                                    <p class="text-sm opacity-90">Honeycomb-like sweet disc soaked in sugar syrup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹14 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">7th largest economy in India</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">#1</div>
+                        <h3 class="font-semibold text-lg mb-2">Tourism Leader</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Top tourist destination in India</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">45M+</div>
+                        <h3 class="font-semibold text-lg mb-2">Annual Tourists</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Domestic and international visitors</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Tourism & Hospitality</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Textiles & Handicrafts</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Marble & Mining</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Renewable Energy (Solar & Wind)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Wheat, Bajra, Mustard, Barley</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Cotton, Guar, Pulses</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Henna, Spices, Isabgol</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Largest wool producer in India</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Maharana Pratap</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1540-1597</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Legendary Rajput warrior king of Mewar</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Mira Bai</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1498-1547</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Mystic poet and Krishna devotee</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Jawaharlal Nehru</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1889-1964</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">First Prime Minister of India</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Deepika Padukone</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1986</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Bollywood actress and global icon</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,861 @@
+<!-- Navbar -->
+<nav id="navbar"
+    class="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 shadow-md transition-all duration-300">
+    <div class="max-w-full xl:max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
+        <div class="flex items-center justify-between h-16">
+            <!-- Logo -->
+            <div class="flex items-center space-x-1 flex-shrink-0">
+                <a href="./index.html" class="flex items-center space-x-1" data-nav-link>
+                    <img src="./assets/img/logo/logo.png" alt="Bharatvarsh Logo"
+                        class="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 xl:h-9 xl:w-9" data-nav-img>
+                    <span
+                        class="font-heading text-sm sm:text-base lg:text-lg xl:text-xl font-bold text-primary dark:text-saffron">Bharatvarsh</span>
+                </a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex items-center space-x-2 xl:space-x-3 flex-1 justify-center ml-12 mr-8">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="./about.html" class="nav-link">About</a>
+
+                <!-- Discover Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>Discover</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-80 overflow-y-auto dropdown-scrollbar">
+                            <a href="./discover/inventions.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Inventions
+                                & Discoveries</a>
+                            <a href="./discover/national_symbols.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">National
+                                Symbols</a>
+                            <a href="./discover/architecture.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Architecture</a>
+                            <a href="./discover/modern_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Modern
+                                India</a>
+                            <a href="./discover/constitution.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Constitution</a>
+                            <a href="./discover/armed_forces.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Armed
+                                Forces</a>
+                            <a href="./discover/literature.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Literature</a>
+                            <a href="./discover/festivals.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Festivals</a>
+                            <a href="./discover/tourism.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Tourism</a>
+                            <a href="./discover/rivers.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Rivers</a>
+                            <a href="./discover/national_days.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">National
+                                Days</a>
+                            <a href="./discover/philosophy.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Philosophy</a>
+                            <a href="./discover/ancient_universities.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Ancient
+                                Universities</a>
+
+                            <!-- Historical Periods Section -->
+                            <div class="border-t border-gray-200 dark:border-gray-600 my-3 pt-3">
+                                <div
+                                    class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                    Historical Periods</div>
+                                <a href="./discover/ancient_period.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Ancient
+                                    Period</a>
+                                <a href="./discover/medieval_period.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Medieval
+                                    Period</a>
+                                <a href="./discover/colonial_period.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Colonial
+                                    Period</a>
+                                <a href="./discover/independence_movement.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Independence
+                                    Movement</a>
+                                <a href="./discover/post_independence.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Post
+                                    Independence</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Categories Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>Categories</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-80 overflow-y-auto dropdown-scrollbar">
+                            <a href="./categories/geography.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Geography</a>
+                            <a href="./categories/languages.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Languages</a>
+                            <a href="./categories/education.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Education</a>
+                            <a href="./categories/science_tech.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Science
+                                & Technology</a>
+                            <a href="./categories/cuisine.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Cuisine</a>
+                            <a href="./categories/arts_entertainment.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Modern
+                                Arts & Entertainment</a>
+                            <a href="./categories/sports.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Sports</a>
+
+                            <!-- Cultural Heritage Section -->
+                            <div class="border-t border-gray-200 dark:border-gray-600 my-3 pt-3">
+                                <div
+                                    class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                    Cultural Heritage</div>
+                                <a href="./categories/traditional_crafts.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Traditional
+                                    Crafts</a>
+                                <a href="./categories/folk_traditions.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Folk
+                                    Traditions</a>
+                                <a href="./categories/classical_arts.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Classical
+                                    Arts</a>
+                                <a href="./categories/cultural_practices.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Cultural
+                                    Practices</a>
+                                <a href="./categories/heritage_sites.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Heritage
+                                    Sites</a>
+                            </div>
+
+                            <!-- Economic Heritage Section -->
+                            <div class="border-t border-gray-200 dark:border-gray-600 my-3 pt-3">
+                                <div
+                                    class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                    Economic Heritage</div>
+                                <a href="./categories/trade_commerce.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Trade
+                                    & Commerce</a>
+                                <a href="./categories/agriculture_farming.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Agriculture
+                                    & Farming</a>
+                                <a href="./categories/industries_manufacturing.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Industries
+                                    & Manufacturing</a>
+                                <a href="./categories/banking_finance.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Banking
+                                    & Finance</a>
+                                <a href="./categories/economic_policies.html"
+                                    class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Economic
+                                    Policies</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Regions Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>Regions</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-80 overflow-y-auto dropdown-scrollbar">
+                            <a href="./regions/north_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">North
+                                India</a>
+                            <a href="./regions/south_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">South
+                                India</a>
+                            <a href="./regions/east_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">East
+                                India</a>
+                            <a href="./regions/west_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">West
+                                India</a>
+                            <a href="./regions/central_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Central
+                                India</a>
+                            <a href="./regions/northeast_india.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Northeast
+                                India</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- States Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>States</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-1 max-h-80 overflow-y-auto dropdown-scrollbar">
+                            <a href="./states/andhra_pradesh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Andhra
+                                Pradesh</a>
+                            <a href="./states/arunachal_pradesh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Arunachal
+                                Pradesh</a>
+                            <a href="./states/assam.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Assam</a>
+                            <a href="./states/bihar.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Bihar</a>
+                            <a href="./states/chhattisgarh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Chhattisgarh</a>
+                            <a href="./states/goa.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Goa</a>
+                            <a href="./states/gujarat.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Gujarat</a>
+                            <a href="./states/haryana.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Haryana</a>
+                            <a href="./states/himachal_pradesh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Himachal
+                                Pradesh</a>
+                            <a href="./states/jharkhand.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Jharkhand</a>
+                            <a href="./states/karnataka.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Karnataka</a>
+                            <a href="./states/kerala.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Kerala</a>
+                            <a href="./states/madhya_pradesh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Madhya
+                                Pradesh</a>
+                            <a href="./states/maharashtra.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Maharashtra</a>
+                            <a href="./states/manipur.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Manipur</a>
+                            <a href="./states/meghalaya.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Meghalaya</a>
+                            <a href="./states/mizoram.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Mizoram</a>
+                            <a href="./states/nagaland.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Nagaland</a>
+                            <a href="./states/odisha.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Odisha</a>
+                            <a href="./states/punjab.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Punjab</a>
+                            <a href="./states/rajasthan.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Rajasthan</a>
+                            <a href="./states/sikkim.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Sikkim</a>
+                            <a href="./states/tamil_nadu.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Tamil
+                                Nadu</a>
+                            <a href="./states/telangana.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Telangana</a>
+                            <a href="./states/tripura.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Tripura</a>
+                            <a href="./states/uttarakhand.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Uttarakhand</a>
+                            <a href="./states/uttar_pradesh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Uttar
+                                Pradesh</a>
+                            <a href="./states/west_bengal.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">West
+                                Bengal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UTs Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>UTs</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-80 overflow-y-auto dropdown-scrollbar">
+                            <a href="./uts/andaman_nicobar.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Andaman
+                                & Nicobar Islands</a>
+                            <a href="./uts/chandigarh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Chandigarh</a>
+                            <a href="./uts/dadra_nagar_haveli_daman_diu.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Dadra
+                                & Nagar Haveli and Daman & Diu</a>
+                            <a href="./uts/delhi.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Delhi</a>
+                            <a href="./uts/jammu_kashmir.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Jammu
+                                & Kashmir</a>
+                            <a href="./uts/ladakh.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Ladakh</a>
+                            <a href="./uts/lakshadweep.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Lakshadweep</a>
+                            <a href="./uts/puducherry.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Puducherry</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Spirituality Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>Spirituality</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-48 overflow-y-auto dropdown-scrollbar">
+                            <a href="./spirituality/hinduism.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Hinduism</a>
+                            <a href="./spirituality/buddhism.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Buddhism</a>
+                            <a href="./spirituality/jainism.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Jainism</a>
+                            <a href="./spirituality/sikhism.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Sikhism</a>
+                            <a href="./spirituality/major_religions.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Major
+                                Religions</a>
+                            <a href="./spirituality/sacred_places.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Sacred
+                                Places</a>
+                            <a href="./spirituality/spiritual_practices.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Spiritual
+                                Practices</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Natural Heritage Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>Natural</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-48 overflow-y-auto dropdown-scrollbar">
+                            <a href="./natural/national_parks.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">National
+                                Parks</a>
+                            <a href="./natural/wildlife_sanctuaries.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Wildlife
+                                Sanctuaries</a>
+                            <a href="./natural/biosphere_reserves.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Biosphere
+                                Reserves</a>
+                            <a href="./natural/mountain_ranges.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Mountain
+                                Ranges</a>
+                            <a href="./natural/coastal_areas.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Coastal
+                                Areas</a>
+                            <a href="./natural/natural_wonders.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Natural
+                                Wonders</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Icons Dropdown -->
+                <div class="relative group">
+                    <button class="nav-link flex items-center space-x-1">
+                        <span>Icons</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform group-hover:rotate-180"
+                            aria-hidden="true"></i>
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 -translate-y-2">
+                        <div class="p-4 space-y-2 max-h-48 overflow-y-auto dropdown-scrollbar">
+                            <a href="./icons/freedom_fighters.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Freedom
+                                Fighters</a>
+                            <a href="./icons/historical_rulers.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Historical
+                                Rulers</a>
+                            <a href="./icons/presidents.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Presidents</a>
+                            <a href="./icons/prime_ministers.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Prime
+                                Ministers</a>
+                            <a href="./icons/notable_indians.html"
+                                class="block px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition">Notable
+                                Indians</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="./contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Right Actions -->
+            <div class="flex items-center space-x-2 sm:space-x-4 flex-shrink-0 ml-1 lg:ml-2">
+                <!-- Search Icon -->
+                <button id="searchToggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+                    aria-label="Search">
+                    <i class="fas fa-search text-lg" aria-hidden="true"></i>
+                </button>
+
+                <!-- Theme Toggle -->
+                <button id="themeToggle"
+                    class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 text-gray-700 dark:text-gray-300"
+                    aria-label="Toggle theme">
+                    <i class="fas fa-sun text-lg hidden dark:block" aria-hidden="true"></i>
+                    <i class="fas fa-moon text-lg block dark:hidden" aria-hidden="true"></i>
+                </button>
+
+                <!-- Mobile Menu Toggle -->
+                <button id="mobileMenuToggle"
+                    class="lg:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+                    aria-label="Menu" aria-expanded="false">
+                    <i class="fas fa-bars text-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu"
+        class="lg:hidden hidden bg-white dark:bg-gray-900 border-t dark:border-gray-800 overflow-hidden max-h-0 transition-all duration-300">
+        <div class="px-4 py-3 space-y-1">
+            <a href="./index.html"
+                class="block px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Home</a>
+            <a href="./about.html"
+                class="block px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">About</a>
+
+            <!-- Mobile Discover Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>Discover</span>
+                    <i class="fas fa-chevron-down text-sm transition-transform" aria-hidden="true"></i>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-60 overflow-y-auto dropdown-scrollbar">
+                    <a href="./discover/inventions.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Inventions
+                        & Discoveries</a>
+                    <a href="./discover/national_symbols.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">National
+                        Symbols</a>
+                    <a href="./discover/architecture.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Architecture</a>
+                    <a href="./discover/modern_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Modern
+                        India</a>
+                    <a href="./discover/constitution.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Constitution</a>
+                    <a href="./discover/armed_forces.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Armed
+                        Forces</a>
+                    <a href="./discover/literature.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Literature</a>
+                    <a href="./discover/festivals.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Festivals</a>
+                    <a href="./discover/tourism.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Tourism</a>
+                    <a href="./discover/rivers.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Rivers</a>
+                    <a href="./discover/national_days.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">National
+                        Days</a>
+                    <a href="./discover/philosophy.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Philosophy</a>
+                    <a href="./discover/ancient_universities.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Ancient
+                        Universities</a>
+
+                    <!-- Historical Periods Section -->
+                    <div class="border-t border-gray-200 dark:border-gray-600 my-2 pt-2">
+                        <div
+                            class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1 px-3">
+                            Historical Periods</div>
+                        <a href="./discover/ancient_period.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Ancient
+                            Period</a>
+                        <a href="./discover/medieval_period.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Medieval
+                            Period</a>
+                        <a href="./discover/colonial_period.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Colonial
+                            Period</a>
+                        <a href="./discover/independence_movement.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Independence
+                            Movement</a>
+                        <a href="./discover/post_independence.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Post
+                            Independence</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Categories Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>Categories</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-60 overflow-y-auto dropdown-scrollbar">
+                    <a href="./categories/geography.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Geography</a>
+                    <a href="./categories/languages.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Languages</a>
+                    <a href="./categories/education.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Education</a>
+                    <a href="./categories/science_tech.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Science
+                        & Technology</a>
+                    <a href="./categories/cuisine.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Cuisine</a>
+                    <a href="./categories/arts_entertainment.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Modern
+                        Arts & Entertainment</a>
+                    <a href="./categories/sports.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Sports</a>
+
+                    <!-- Cultural Heritage Section -->
+                    <div class="border-t border-gray-200 dark:border-gray-600 my-2 pt-2">
+                        <div
+                            class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1 px-3">
+                            Cultural Heritage</div>
+                        <a href="./categories/traditional_crafts.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Traditional
+                            Crafts</a>
+                        <a href="./categories/folk_traditions.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Folk
+                            Traditions</a>
+                        <a href="./categories/classical_arts.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Classical
+                            Arts</a>
+                        <a href="./categories/cultural_practices.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Cultural
+                            Practices</a>
+                        <a href="./categories/heritage_sites.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Heritage
+                            Sites</a>
+                    </div>
+
+                    <!-- Economic Heritage Section -->
+                    <div class="border-t border-gray-200 dark:border-gray-600 my-2 pt-2">
+                        <div
+                            class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1 px-3">
+                            Economic Heritage</div>
+                        <a href="./categories/trade_commerce.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Trade
+                            & Commerce</a>
+                        <a href="./categories/agriculture_farming.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Agriculture
+                            & Farming</a>
+                        <a href="./categories/industries_manufacturing.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Industries
+                            & Manufacturing</a>
+                        <a href="./categories/banking_finance.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Banking
+                            & Finance</a>
+                        <a href="./categories/economic_policies.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Economic
+                            Policies</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Regions Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>Regions</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-60 overflow-y-auto dropdown-scrollbar">
+                    <a href="./regions/north_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">North
+                        India</a>
+                    <a href="./regions/south_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">South
+                        India</a>
+                    <a href="./regions/east_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">East
+                        India</a>
+                    <a href="./regions/west_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">West
+                        India</a>
+                    <a href="./regions/central_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Central
+                        India</a>
+                    <a href="./regions/northeast_india.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Northeast
+                        India</a>
+                </div>
+            </div>
+
+            <!-- Mobile States Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>States</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-60 overflow-y-auto dropdown-scrollbar">
+                    <a href="./states/andhra_pradesh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Andhra
+                        Pradesh</a>
+                    <a href="./states/arunachal_pradesh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Arunachal
+                        Pradesh</a>
+                    <a href="./states/assam.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Assam</a>
+                    <a href="./states/bihar.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Bihar</a>
+                    <a href="./states/chhattisgarh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Chhattisgarh</a>
+                    <a href="./states/goa.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Goa</a>
+                    <a href="./states/gujarat.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Gujarat</a>
+                    <a href="./states/haryana.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Haryana</a>
+                    <a href="./states/himachal_pradesh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Himachal
+                        Pradesh</a>
+                    <a href="./states/jharkhand.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Jharkhand</a>
+                    <a href="./states/karnataka.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Karnataka</a>
+                    <a href="./states/kerala.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Kerala</a>
+                    <a href="./states/madhya_pradesh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Madhya
+                        Pradesh</a>
+                    <a href="./states/maharashtra.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Maharashtra</a>
+                    <a href="./states/manipur.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Manipur</a>
+                    <a href="./states/meghalaya.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Meghalaya</a>
+                    <a href="./states/mizoram.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Mizoram</a>
+                    <a href="./states/nagaland.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Nagaland</a>
+                    <a href="./states/odisha.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Odisha</a>
+                    <a href="./states/punjab.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Punjab</a>
+                    <a href="./states/rajasthan.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Rajasthan</a>
+                    <a href="./states/sikkim.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Sikkim</a>
+                    <a href="./states/tamil_nadu.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Tamil
+                        Nadu</a>
+                    <a href="./states/telangana.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Telangana</a>
+                    <a href="./states/tripura.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Tripura</a>
+                    <a href="./states/uttarakhand.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Uttarakhand</a>
+                    <a href="./states/uttar_pradesh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Uttar
+                        Pradesh</a>
+                    <a href="./states/west_bengal.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">West
+                        Bengal</a>
+                </div>
+            </div>
+
+            <!-- Mobile UTs Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>UTs</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-60 overflow-y-auto dropdown-scrollbar">
+                    <a href="./uts/andaman_nicobar.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Andaman
+                        & Nicobar Islands</a>
+                    <a href="./uts/chandigarh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Chandigarh</a>
+                    <a href="./uts/dadra_nagar_haveli_daman_diu.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Dadra
+                        & Nagar Haveli and Daman & Diu</a>
+                    <a href="./uts/delhi.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Delhi</a>
+                    <a href="./uts/jammu_kashmir.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Jammu
+                        & Kashmir</a>
+                    <a href="./uts/ladakh.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Ladakh</a>
+                    <a href="./uts/lakshadweep.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Lakshadweep</a>
+                    <a href="./uts/puducherry.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Puducherry</a>
+                </div>
+            </div>
+
+            <!-- Mobile Spirituality Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>Spirituality</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-40 overflow-y-auto dropdown-scrollbar">
+                    <a href="./spirituality/hinduism.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Hinduism</a>
+                    <a href="./spirituality/buddhism.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Buddhism</a>
+                    <a href="./spirituality/jainism.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Jainism</a>
+                    <a href="./spirituality/sikhism.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Sikhism</a>
+                    <a href="./spirituality/major_religions.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Major
+                        Religions</a>
+                    <a href="./spirituality/sacred_places.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Sacred
+                        Places</a>
+                    <a href="./spirituality/spiritual_practices.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Spiritual
+                        Practices</a>
+                </div>
+            </div>
+
+            <!-- Mobile Natural Heritage Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>Natural</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-40 overflow-y-auto dropdown-scrollbar">
+                    <a href="./natural/national_parks.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">National
+                        Parks</a>
+                    <a href="./natural/wildlife_sanctuaries.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Wildlife
+                        Sanctuaries</a>
+                    <a href="./natural/biosphere_reserves.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Biosphere
+                        Reserves</a>
+                    <a href="./natural/mountain_ranges.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Mountain
+                        Ranges</a>
+                    <a href="./natural/coastal_areas.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Coastal
+                        Areas</a>
+                    <a href="./natural/natural_wonders.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Natural
+                        Wonders</a>
+                </div>
+            </div>
+
+            <!-- Mobile Icons Dropdown -->
+            <div class="mobile-dropdown">
+                <button
+                    class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+                    <span>Icons</span>
+                    <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </button>
+                <div
+                    class="mobile-dropdown-content hidden pl-6 space-y-1 mt-1 max-h-40 overflow-y-auto dropdown-scrollbar">
+                    <a href="./icons/freedom_fighters.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Freedom
+                        Fighters</a>
+                    <a href="./icons/historical_rulers.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Historical
+                        Rulers</a>
+                    <a href="./icons/presidents.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Presidents</a>
+                    <a href="./icons/prime_ministers.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Prime
+                        Ministers</a>
+                    <a href="./icons/notable_indians.html"
+                        class="block px-3 py-2 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Notable
+                        Indians</a>
+                </div>
+            </div>
+            <a href="./contact.html"
+                class="block px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Search Overlay -->
+<div id="searchOverlay"
+    class="fixed inset-0 z-[60] hidden bg-black/50 backdrop-blur-sm flex items-start justify-center px-4 pt-20 sm:pt-28">
+
+    <div class="w-full max-w-2xl rounded-xl bg-white dark:bg-gray-900 shadow-2xl">
+        <div class="p-4 sm:p-6">
+
+            <!-- Search Input -->
+            <div class="relative">
+                <!-- Search Icon -->
+                <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" aria-hidden="true"></i>
+
+                <!-- Input -->
+                <label for="searchInput" class="sr-only">Search Bharatvarsh</label>
+                <input type="text" id="searchInput" placeholder="Search Bharatvarsh..." aria-label="Search Bharatvarsh"
+                    class="w-full pl-12 pr-12 py-3 text-base sm:text-lg rounded-lg bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100 outline-none focus:ring-2 focus:ring-primary transition" />
+
+                <!-- Close Button -->
+                <button id="closeSearch"
+                    class="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                    aria-label="Close search">
+                    <i class="fas fa-times text-gray-500 dark:text-gray-300" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <!-- Results -->
+            <div id="searchResults" class="mt-4 max-h-64 sm:max-h-80 overflow-y-auto space-y-2">
+            </div>
+        </div>
+    </div>
+</div>

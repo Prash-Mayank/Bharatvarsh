@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore East India - Bengali culture, intellectual heritage, Kolkata colonial history, industrial regions, and rich literary traditions">
+    <title>East India - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <!-- Background Image -->
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/East India.JPG"
+                    alt="East India landscape with Howrah Bridge and tea gardens" class="w-full h-full object-cover"
+                    onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br  from-blue-600/70  via-indigo-600/60  to-purple-600/70  mix-blend-multiply">
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">Region</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            East India
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">পূর্ব ভারত / पूर्वी भारत</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Cultural Renaissance Hub - The intellectual and artistic center with Bengali heritage,
+                            colonial Calcutta history, rich literary traditions, and industrial development.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>4 States</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>20+ Crore People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/regions/East_India.png" alt="East India Map"
+                                class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regional Overview -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About East India
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        East India represents the intellectual and cultural renaissance hub of the nation, with Bengal
+                        leading the 19th-century social reform movement and literary awakening. This region encompasses
+                        the cultural capital Kolkata, the ancient kingdoms of Bihar and Odisha, and the mineral-rich
+                        state of Jharkhand, each contributing to India's rich heritage.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        From the literary genius of Rabindranath Tagore to the classical dance of Odissi, from the
+                        Buddhist heritage of Nalanda to the industrial legacy of the Tata Steel Plant, East India
+                        showcases a perfect blend of intellectual tradition, artistic excellence, and industrial
+                        development.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- States Grid -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    States of East India
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- West Bengal -->
+                    <a href="../states/west_bengal.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1558431382-27e303142255?w=600&h=400&fit=crop&q=80"
+                                    alt="West Bengal - Howrah Bridge and Kolkata cityscape"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-yellow-600 to-red-600 flex items-center justify-center\'><i class=\'fas fa-book text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">West Bengal</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Cultural capital - Kolkata's
+                                    colonial heritage, Tagore's literary legacy, Durga Puja celebrations, and vibrant
+                                    Bengali arts scene.</p>
+                                <span class="text-xs text-yellow-600 font-semibold">Cultural Capital</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Bihar -->
+                    <a href="../states/bihar.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1532664189809-02133fee698d?w=600&h=400&fit=crop&q=80"
+                                    alt="Bihar - Nalanda ancient Buddhist university ruins"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center\'><i class=\'fas fa-university text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Bihar</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Land of Buddha - Ancient
+                                    Magadh empire, Nalanda University, Bodh Gaya enlightenment site, and birthplace of
+                                    Buddhism and Jainism.</p>
+                                <span class="text-xs text-orange-600 font-semibold">Ancient Learning Center</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Jharkhand -->
+                    <a href="../states/jharkhand.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?w=600&h=400&fit=crop&q=80"
+                                    alt="Jharkhand - Waterfalls and tribal heritage"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-green-600 to-teal-600 flex items-center justify-center\'><i class=\'fas fa-industry text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Jharkhand</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Land of Forests - Mineral-rich
+                                    state, Tata Steel Plant, tribal culture, stunning waterfalls, and industrial
+                                    heritage.</p>
+                                <span class="text-xs text-green font-semibold">Mineral Hub</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Odisha -->
+                    <a href="../states/odisha.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop&q=80"
+                                    alt="Odisha - Konark Sun Temple and Jagannath Temple"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Odisha</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Soul of India - Jagannath
+                                    Temple Puri, Konark Sun Temple, Odissi classical dance, ancient Kalinga kingdom, and
+                                    Rath Yatra festival.</p>
+                                <span class="text-xs text-blue-600 font-semibold">Temple Architecture</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Heritage -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Cultural Heritage
+                </h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&q=80"
+                                alt="Bengali literature and manuscripts" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-yellow-100 to-red-100 dark:from-yellow-900 dark:to-red-900 flex items-center justify-center\'><i class=\'fas fa-book-open text-6xl text-yellow-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Literary Excellence</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Rabindranath Tagore's Nobel Prize, Bengali
+                            Renaissance, Bankim Chandra, modern poetry, and rich literary traditions spanning
+                            centuries.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=400&h=300&fit=crop&q=80"
+                                alt="Odissi classical dance performance" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900 dark:to-indigo-900 flex items-center justify-center\'><i class=\'fas fa-music text-6xl text-blue-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Classical Arts</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Odissi dance tradition, Bengali folk music,
+                            Chhau dance, Pattachitra paintings, and temple-based artistic heritage.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1532664189809-02133fee698d?w=400&h=300&fit=crop&q=80"
+                                alt="Buddhist heritage and monasteries" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-orange-100 to-amber-100 dark:from-orange-900 dark:to-amber-900 flex items-center justify-center\'><i class=\'fas fa-om text-6xl text-orange-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Buddhist Heritage</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Nalanda ancient university, Bodh Gaya
+                            enlightenment site, Mahabodhi Temple, Buddhist pilgrimage circuit, and spiritual
+                            legacy.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=400&h=300&fit=crop&q=80"
+                                alt="Victoria Memorial colonial architecture" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-green-100 to-teal-100 dark:from-green-900 dark:to-teal-900 flex items-center justify-center\'><i class=\'fas fa-landmark text-6xl text-green-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Colonial Legacy</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Calcutta as British capital, Victoria
+                            Memorial, colonial architecture, Indo-Saracenic buildings, and administrative heritage.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?w=400&h=300&fit=crop&q=80"
+                                alt="Tribal art and handicrafts" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-palette text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Tribal Traditions</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Indigenous art forms, Santhal culture, folk
+                            dances, traditional crafts, and forest-based community lifestyles.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1610375461246-83df859d849d?w=400&h=300&fit=crop&q=80"
+                                alt="Bengali handloom and textiles" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-teal-900 dark:to-cyan-900 flex items-center justify-center\'><i class=\'fas fa-scroll text-6xl text-teal-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Handicrafts</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Dhokra metal craft, Baluchari sarees,
+                            terracotta art, silver filigree work, and traditional handloom textiles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourism Highlights -->
+        <section class="py-16 bg-gradient-to-br from-emerald-600 to-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12">
+                    Tourism Highlights
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&h=400&fit=crop&q=80"
+                                alt="Victoria Memorial Kolkata"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-monument text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Victoria Memorial</h3>
+                            <p class="text-sm opacity-90 mb-2">Iconic marble monument, museum showcasing colonial era
+                                and Bengal history</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Kolkata, West Bengal</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=600&h=400&fit=crop&q=80"
+                                alt="Jagannath Temple Puri"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Jagannath Temple</h3>
+                            <p class="text-sm opacity-90 mb-2">Sacred Hindu pilgrimage site, famous Rath Yatra chariot
+                                festival</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Puri, Odisha</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1532664189809-02133fee698d?w=600&h=400&fit=crop&q=80"
+                                alt="Nalanda University ruins"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-university text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Nalanda University</h3>
+                            <p class="text-sm opacity-90 mb-2">Ancient Buddhist learning center, UNESCO World Heritage
+                                Site</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Bihar</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&h=400&fit=crop&q=80"
+                                alt="Sundarbans mangrove forest"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-tree text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Sundarbans</h3>
+                            <p class="text-sm opacity-90 mb-2">Largest mangrove forest, Royal Bengal tiger habitat,
+                                UNESCO site</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">West Bengal</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop&q=80"
+                                alt="Konark Sun Temple"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-sun text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Konark Sun Temple</h3>
+                            <p class="text-sm opacity-90 mb-2">13th-century stone chariot temple, UNESCO World Heritage
+                                marvel</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Odisha</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1558431382-27e303142255?w=600&h=400&fit=crop&q=80"
+                                alt="Howrah Bridge Kolkata"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-bridge text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Howrah Bridge</h3>
+                            <p class="text-sm opacity-90 mb-2">Engineering marvel spanning Hooghly River, iconic Kolkata
+                                landmark</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Kolkata, West Bengal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cuisine & Culture -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6 text-primary dark:text-saffron">East Indian
+                            Cuisine</h2>
+                        <div class="mb-6 rounded-xl overflow-hidden h-48">
+                            <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?w=600&h=400&fit=crop&q=80"
+                                alt="Bengali fish curry and rice thali" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-yellow-100 to-red-100 dark:from-yellow-900 dark:to-red-900 flex items-center justify-center\'><i class=\'fas fa-utensils text-6xl text-yellow-600 opacity-30\'></i></div>'">
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-red-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Rice & Fish Culture</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Bengali staple - steamed rice
+                                        with hilsa fish, prawn malai curry, fish fry, and diverse freshwater fish
+                                        preparations</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Famous Sweets</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Rasgulla, sandesh, mishti doi,
+                                        cham cham - Bengal's legendary milk-based sweet traditions perfected over
+                                        centuries</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Tribal Ingredients</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Indigenous cuisine with bamboo
+                                        shoots, forest mushrooms, red ant chutney, and traditional cooking methods</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Tea Heritage</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Darjeeling tea estates,
+                                        aromatic blends, tea garden tourism, and centuries-old tea cultivation
+                                        traditions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Festivals -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6 text-primary dark:text-saffron">Festivals &
+                            Celebrations</h2>
+                        <div class="mb-6 rounded-xl overflow-hidden h-48">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600&h=400&fit=crop&q=80"
+                                alt="Durga Puja celebrations with illuminated pandal" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-star text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Durga Puja</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Bengal's grandest festival -
+                                        artistic pandals, dhak drumming, cultural performances, celebrating Goddess
+                                        Durga's victory</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-pink-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Jagannath Rath Yatra</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Puri's massive chariot festival
+                                        drawing millions, pulling Lord Jagannath's towering chariots through streets</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-teal-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Poila Boishakh</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Bengali New Year - new clothes,
+                                        cultural programs, traditional foods, processions, and family gatherings</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-indigo-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Chhath Puja</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Bihar's most important festival
+                                        - worshipping Sun God, ritual fasting, offerings at riverbanks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy & Industries -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economy & Industries
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹25 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">Regional GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Industrial and agricultural powerhouse</p>
+                    </div>
+
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-green mb-2">40%+</div>
+                        <h3 class="font-semibold text-lg mb-2">Coal Reserves</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Of India's total coal production</p>
+                    </div>
+
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-saffron mb-2">#1</div>
+                        <h3 class="font-semibold text-lg mb-2">Steel Production</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Major steel manufacturing hub</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                        <h3 class="font-semibold text-lg mb-4 flex items-center">
+                            <i class="fas fa-industry mr-2 text-blue-600"></i>
+                            Key Industries
+                        </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Steel & Heavy Industries - Tata Steel, SAIL plants</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Coal Mining & Power Generation - major energy sector</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Jute & Textiles - traditional manufacturing</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Information Technology - growing IT hubs in Kolkata</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Ports & Maritime - major shipping infrastructure</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                        <h3 class="font-semibold text-lg mb-4 flex items-center">
+                            <i class="fas fa-seedling mr-2 text-green"></i>
+                            Agricultural Products
+                        </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Rice, Jute, Tea - major crop production</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Wheat, Maize, Pulses - diverse grain cultivation</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Sugarcane, Potato, Vegetables - commercial farming</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Fish & Aquaculture - river and pond fisheries</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Silk Production - traditional sericulture</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-4 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+                <p class="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                    East India has given birth to literary giants, freedom fighters, scientists, and artists who have
+                    enriched India's cultural and intellectual heritage.
+                </p>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Rabindranath Tagore -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-yellow-600 to-orange-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Rabindranath_Tagore_in_1909.jpg"
+                                alt="Rabindranath Tagore"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Rabindranath Tagore</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">West Bengal</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1861-1941</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Nobel laureate poet, composer of national anthems, and polymath. Founded Visva-Bharati
+                                University. His works reshaped Bengali literature and music.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Netaji Subhas Chandra Bose -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-blue-600 to-indigo-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Subhas_Chandra_Bose_1942.jpg"
+                                alt="Netaji Subhas Chandra Bose"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Netaji Subhas Bose</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">West Bengal</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1897-1945</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Revolutionary freedom fighter who formed the Indian National Army. His slogan "Give me
+                                blood, I will give you freedom" inspired millions.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Satyajit Ray -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-purple-600 to-pink-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Satyajit_Ray_in_New_York_%28cropped%29.jpg"
+                                alt="Satyajit Ray"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Satyajit Ray</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">West Bengal</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1921-1992</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Legendary filmmaker who brought Indian cinema to world stage. Winner of Honorary Oscar
+                                and Bharat Ratna. Created the iconic Apu Trilogy.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Mother Teresa -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-blue-700 to-cyan-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Mother_Teresa_1.jpg"
+                                alt="Mother Teresa"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Mother Teresa</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">West Bengal (Kolkata)</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1910-1997</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Nobel Peace Prize laureate who dedicated her life to serving the poorest. Founded
+                                Missionaries of Charity in Kolkata. Bharat Ratna recipient.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Biju Patnaik -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-green to-teal-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Biju_Patnaik.jpg"
+                                alt="Biju Patnaik"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Biju Patnaik</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Odisha</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1916-1997</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Legendary aviator, freedom fighter, and Chief Minister of Odisha. Known for daring
+                                rescue missions and transformative leadership in the state.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Birsa Munda -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-emerald-600 to-green-700 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Birsa_Munda.jpg"
+                                alt="Birsa Munda"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Birsa Munda</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Jharkhand</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1875-1900</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Tribal freedom fighter who led the Munda rebellion against British colonial rule.
+                                "Dharti Aba" (Father of Earth) revered across tribal communities.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Jayaprakash Narayan -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-saffron to-orange-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Jayaprakash_Narayan.jpg"
+                                alt="Jayaprakash Narayan"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Jayaprakash Narayan</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Bihar</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1902-1979</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Socialist leader and freedom fighter known as "Loknayak." Led the Total Revolution
+                                movement against corruption. Bharat Ratna recipient.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- M.S. Swaminathan -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-lime-600 to-green-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/M_S_Swaminathan_-_Kolkata_2013-01-07_2528.JPG"
+                                alt="M.S. Swaminathan"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">M.S. Swaminathan</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">West Bengal (worked in East)</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1925-2023</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                "Father of Green Revolution in India." Agricultural scientist whose work saved millions
+                                from famine. Padma Vibhushan and numerous international awards.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

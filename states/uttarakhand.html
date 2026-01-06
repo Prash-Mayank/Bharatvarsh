@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Uttarakhand - Devbhoomi, Char Dham pilgrimage, Ganga source, and Himalayan adventure">
+    <title>Uttarakhand - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            color: #374151;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #FF8C00;
+        }
+
+        .dark .nav-link {
+            color: #D1D5DB;
+        }
+
+        .dark .nav-link:hover {
+            color: #FF8C00;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Uttarakhand mountains and temples"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-cyan-600/70 via-blue-600/60 to-indigo-700/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Uttarakhand
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">उत्तराखण्ड</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Devbhoomi - Land of Gods, sacred Char Dham pilgrimage, source of Ganga and Yamuna, and
+                            adventure sports paradise. Where spirituality meets the mighty Himalayas.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Dehradun</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>1.1 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Uttarakhand Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">9 Nov 2000</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">53,483</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">13</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Uttarakhand
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Uttarakhand, known as "Devbhoomi" (Land of Gods), is one of India's most sacred states, home to
+                        the revered Char Dham pilgrimage sites - Badrinath, Kedarnath, Gangotri, and Yamunotri. The
+                        state is the source of India's two most sacred rivers, the Ganga and Yamuna, making it a
+                        spiritual heartland for millions of Hindus worldwide. Carved out of Uttar Pradesh in 2000,
+                        Uttarakhand combines profound spirituality with breathtaking natural beauty.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        Beyond its spiritual significance, Uttarakhand is an adventure enthusiast's paradise, offering
+                        trekking, river rafting, skiing, and mountaineering opportunities. The state is home to several
+                        national parks including Jim Corbett (India's first national park), Valley of Flowers, and Nanda
+                        Devi Biosphere Reserve. From the colonial hill stations of Mussoorie and Nainital to the yoga
+                        capital Rishikesh, Uttarakhand seamlessly blends ancient wisdom with modern adventure tourism.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Dehradun -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-cyan-600 to-blue-600 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Dehradun</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                State capital, educational hub, Doon School, and gateway to hill stations.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 7+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Haridwar -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center">
+                            <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Haridwar</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Gateway to Gods, Ganga Aarti, Kumbh Mela, and sacred pilgrimage center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 2+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rishikesh -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                            <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Rishikesh</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Yoga capital of the world, adventure sports, ashrams, and spiritual retreat center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 1+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-orange-600">
+                        <h3 class="font-semibold text-lg mb-2">Char Dham</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Sacred pilgrimage circuit: Badrinath, Kedarnath, Gangotri, and Yamunotri temples.
+                        </p>
+                        <span class="text-xs text-orange-600 font-semibold">Various Districts</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Valley of Flowers</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            UNESCO World Heritage Site, alpine flowers, trekking destination, and biodiversity hotspot.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Chamoli</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Jim Corbett National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            India's first national park, tiger reserve, wildlife safari, and nature conservation.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Nainital</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Nainital</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Lake city, hill station, boating, colonial architecture, and scenic beauty.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Nainital</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Mussoorie</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Queen of Hills, hill station, Gun Hill, Kempty Falls, and colonial charm.
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Dehradun</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Auli</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Skiing destination, cable car, snow sports, and panoramic Himalayan views.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Chamoli</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-cyan-600 to-blue-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Kumbh Mela, Nanda Devi Raj Jat, Ganga Aarti, Makar Sankranti, and Phool Dei.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Folk Culture</h3>
+                                <p class="text-sm opacity-90">
+                                    Garhwali and Kumaoni folk dances, traditional music, handicrafts, and woolen
+                                    textiles.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Spirituality</h3>
+                                <p class="text-sm opacity-90">
+                                    Yoga and meditation centers, ashrams, ancient temples, and pilgrimage traditions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Garhwali-Kumaoni Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Kafuli</span>
+                                    <p class="text-sm opacity-90">Green leafy vegetable curry with spinach and fenugreek
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Phaanu</span>
+                                    <p class="text-sm opacity-90">Mixed lentil curry, traditional Garhwali dish</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Bal Mithai</span>
+                                    <p class="text-sm opacity-90">Brown chocolate-like sweet with white sugar balls</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Aloo ke Gutke</span>
+                                    <p class="text-sm opacity-90">Spiced potatoes with local herbs and spices</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Singodi</span>
+                                    <p class="text-sm opacity-90">Sweet made with khoya wrapped in maalu leaves</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹2.5 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Tourism and hydropower driven</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">79%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Good education infrastructure</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">71%</div>
+                        <h3 class="font-semibold text-lg mb-2">Forest Cover</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">High forest coverage</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Tourism & Pilgrimage</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Hydroelectric Power</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Pharmaceuticals</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Handicrafts & Textiles</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Natural Resources</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Hydroelectric potential</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Basmati rice, wheat, sugarcane</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Medicinal plants & herbs</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Forest products & timber</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Jim Corbett</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1875-1955</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Hunter, conservationist, author</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Ruskin Bond</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1934</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Renowned author, Padma Shri</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Sunderlal Bahuguna</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1927-2021</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Chipko movement leader, environmentalist</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Harish Rawat</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1948</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Chief Minister, politician</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

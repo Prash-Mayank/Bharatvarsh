@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Himachal Pradesh - Dev Bhoomi, hill stations, adventure tourism, and Himalayan beauty">
+    <title>Himachal Pradesh - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            color: #374151;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #FF8C00;
+        }
+
+        .dark .nav-link {
+            color: #D1D5DB;
+        }
+
+        .dark .nav-link:hover {
+            color: #FF8C00;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Himachal Pradesh mountains and landscapes"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-blue-600/70 via-indigo-600/60 to-purple-600/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Himachal Pradesh
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">हिमाचल प्रदेश</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Dev Bhoomi - Land of Gods, pristine hill stations, adventure tourism paradise, and gateway
+                            to the Himalayas. Where snow-capped peaks meet spiritual serenity.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Shimla</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>73 Lakh People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Himachal Pradesh Map"
+                                class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">25 Jan 1971</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Statehood Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">55,673</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">12</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Himachal Pradesh
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Himachal Pradesh, known as "Dev Bhoomi" (Land of Gods), is a mountainous state nestled in the
+                        Western Himalayas. Famous for its pristine hill stations like Shimla, Manali, and Dharamshala,
+                        the state is a paradise for nature lovers and adventure enthusiasts. From the colonial charm of
+                        Shimla to the spiritual aura of Dharamshala (home to the Dalai Lama), Himachal offers diverse
+                        experiences.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        The state is renowned for its apple orchards, which produce some of India's finest apples, and
+                        its hydroelectric power generation that contributes significantly to North India's energy needs.
+                        With ancient temples, Buddhist monasteries, adventure sports, and breathtaking landscapes,
+                        Himachal Pradesh perfectly blends spirituality, adventure, and natural beauty, making it one of
+                        India's most popular tourist destinations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Shimla -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center">
+                            <i class="fas fa-building text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Shimla</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Queen of Hills, state capital, colonial architecture, and former British summer capital.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 2+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Manali -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                            <i class="fas fa-cloud text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Manali</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Adventure capital, honeymoon destination, gateway to Ladakh, and snow sports hub.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 8,000+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dharamshala -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
+                            <i class="fas fa-graduation-cap text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Dharamshala</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Little Lhasa, Dalai Lama's residence, McLeod Ganj, and Tibetan culture center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 30,000+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Rohtang Pass</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            High mountain pass, snow activities, gateway to Lahaul-Spiti, and adventure sports.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Manali</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Spiti Valley</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Cold desert, Buddhist monasteries, ancient culture, and breathtaking landscapes.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Lahaul-Spiti</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Kullu Valley</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Valley of Gods, Dussehra festival, river rafting, and apple orchards.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Kullu</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Khajjiar</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Mini Switzerland of India, meadows, lake, adventure activities, and scenic beauty.
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Chamba</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Kinnaur</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Tribal district, apple orchards, Kailash range views, and ancient temples.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Kinnaur</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Dalhousie</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Hill station, colonial charm, pine forests, and peaceful retreat destination.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Chamba</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Kullu Dussehra, Shimla Summer Festival, Losar (Tibetan New Year), and Minjar Fair.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Folk Culture</h3>
+                                <p class="text-sm opacity-90">
+                                    Nati dance, folk songs, traditional music, handicrafts, and woolen textiles.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Architecture</h3>
+                                <p class="text-sm opacity-90">
+                                    Colonial buildings, traditional wooden houses, Buddhist monasteries, and ancient
+                                    temples.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Himachali Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Dham</span>
+                                    <p class="text-sm opacity-90">Traditional feast with rice, dal, rajma, and curd</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Chana Madra</span>
+                                    <p class="text-sm opacity-90">Chickpeas cooked in yogurt and spices</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Siddu</span>
+                                    <p class="text-sm opacity-90">Steamed bread stuffed with poppy seeds or walnuts</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Babru</span>
+                                    <p class="text-sm opacity-90">Black gram kachori with tamarind chutney</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Mittha</span>
+                                    <p class="text-sm opacity-90">Sweet rice dish with dry fruits and saffron</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹1.8 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Tourism-driven economy</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">83%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">High education standards</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">25%</div>
+                        <h3 class="font-semibold text-lg mb-2">Hydropower Share</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Major power producer</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Tourism & Hospitality</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Hydroelectric Power</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Handicrafts & Textiles</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Pharmaceuticals</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Apples (major producer)</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Wheat, Maize, Barley</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Peas, Potatoes, Ginger</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Medicinal plants & herbs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Virbhadra Singh</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1934-2021</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Chief Minister, King of Bushahr</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Anand Sharma</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1953</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Union Minister, politician</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Preity Zinta</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1975</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Bollywood actress and entrepreneur</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Yashpal Sharma</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1956-2021</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Cricket player, 1983 World Cup winner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

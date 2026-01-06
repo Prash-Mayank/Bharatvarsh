@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "title": "Inventions & Discoveries",
+    "description": "From zero to chess, explore India's contributions to world knowledge",
+    "icon": "lightbulb",
+    "image": "./assets/img/discover/inventions.svg",
+    "url": "discover/inventions.html",
+    "color": "saffron"
+  },
+  {
+    "id": 2,
+    "title": "National Symbols",
+    "description": "Discover the emblems that represent India's unity and diversity",
+    "icon": "flag",
+    "image": "./assets/img/discover/national-symbols.svg",
+    "url": "discover/national_symbols.html",
+    "color": "green"
+  },
+  {
+    "id": 3,
+    "title": "Architecture",
+    "description": "Journey through India's magnificent architectural heritage",
+    "icon": "building",
+    "image": "./assets/img/discover/architecture.svg",
+    "url": "discover/architecture.html",
+    "color": "blue"
+  },
+  {
+    "id": 4,
+    "title": "Constitution",
+    "description": "Understand the world's longest written constitution",
+    "icon": "book",
+    "url": "discover/constitution.html",
+    "color": "primary"
+  },
+  {
+    "id": 5,
+    "title": "Indian Festivals",
+    "description": "Celebrate the colors and joy of India's diverse festivals",
+    "icon": "star",
+    "url": "discover/festivals.html",
+    "color": "saffron"
+  },
+  {
+    "id": 6,
+    "title": "Armed Forces",
+    "description": "Learn about India's brave defenders and military history",
+    "icon": "shield",
+    "url": "discover/armed_forces.html",
+    "color": "green"
+  },
+  {
+    "id": 7,
+    "title": "Literature",
+    "description": "Explore India's rich literary traditions from ancient to modern",
+    "icon": "book-open",
+    "url": "discover/literature.html",
+    "color": "primary"
+  },
+  {
+    "id": 8,
+    "title": "Rivers of India",
+    "description": "Discover the sacred and life-giving rivers of Bharatvarsh",
+    "icon": "waves",
+    "url": "discover/rivers.html",
+    "color": "blue"
+  },
+  {
+    "id": 9,
+    "title": "Philosophy",
+    "description": "Dive into ancient wisdom and philosophical traditions",
+    "icon": "brain",
+    "url": "discover/philosophy.html",
+    "color": "primary"
+  },
+  {
+    "id": 10,
+    "title": "Ancient Universities",
+    "description": "Visit the world's oldest centers of learning",
+    "icon": "graduation",
+    "url": "discover/ancient_universities.html",
+    "color": "saffron"
+  },
+  {
+    "id": 11,
+    "title": "Modern India",
+    "description": "Witness India's journey as a global technology and innovation hub",
+    "icon": "rocket",
+    "image": "./assets/img/discover/modern-india.svg",
+    "url": "discover/modern_india.html",
+    "color": "blue"
+  },
+  {
+    "id": 12,
+    "title": "Tourism Wonders",
+    "description": "Plan your journey through India's breathtaking destinations",
+    "icon": "map",
+    "url": "discover/tourism.html",
+    "color": "green"
+  },
+  {
+    "id": 13,
+    "title": "Ancient Period",
+    "description": "Explore India's ancient civilizations from Indus Valley to Mauryan Empire",
+    "icon": "clock",
+    "url": "discover/ancient_period.html",
+    "color": "primary"
+  },
+  {
+    "id": 14,
+    "title": "Medieval Period",
+    "description": "Journey through the era of Delhi Sultanate and Mughal Empire",
+    "icon": "building",
+    "url": "discover/medieval_period.html",
+    "color": "saffron"
+  },
+  {
+    "id": 15,
+    "title": "Colonial Period",
+    "description": "Understand the British Raj and its impact on Indian society",
+    "icon": "book",
+    "url": "discover/colonial_period.html",
+    "color": "blue"
+  },
+  {
+    "id": 16,
+    "title": "Post Independence",
+    "description": "Witness India's transformation after gaining independence",
+    "icon": "flag",
+    "url": "discover/post_independence.html",
+    "color": "green"
+  },
+  {
+    "id": 17,
+    "title": "Independence Movement",
+    "description": "Learn about India's struggle for freedom and its heroes",
+    "icon": "shield",
+    "url": "discover/independence_movement.html",
+    "color": "saffron"
+  },
+  {
+    "id": 18,
+    "title": "National Days",
+    "description": "Celebrate India's important national observances and commemorations",
+    "icon": "star",
+    "url": "discover/national_days.html",
+    "color": "primary"
+  }
+]

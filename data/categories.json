@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "title": "Geography & People",
+    "description": "Explore India's diverse landscapes, climate zones, and demographics",
+    "icon": "globe",
+    "image": "./assets/img/categories/geography.svg",
+    "url": "categories/geography.html",
+    "color": "green",
+    "count": "28 States, 8 UTs"
+  },
+  {
+    "id": 2,
+    "title": "Ancient History",
+    "description": "Journey through millennia of civilizations, empires, and ancient heritage",
+    "icon": "clock",
+    "image": "./assets/img/categories/history.svg",
+    "url": "discover/ancient_period.html",
+    "color": "primary",
+    "count": "5000+ Years"
+  },
+  {
+    "id": 3,
+    "title": "Economic Heritage",
+    "description": "Understand India's economic evolution and policy development",
+    "icon": "chart",
+    "image": "./assets/img/categories/economy.svg",
+    "url": "categories/economic_policies.html",
+    "color": "blue",
+    "count": "Vision 2047"
+  },
+  {
+    "id": 12,
+    "title": "Agriculture & Farming",
+    "description": "Explore India's agricultural heritage from ancient farming to modern agriculture",
+    "icon": "seedling",
+    "url": "categories/agriculture_farming.html",
+    "color": "green",
+    "count": "195M Hectares"
+  },
+  {
+    "id": 13,
+    "title": "Trade & Commerce",
+    "description": "Discover India's rich trade heritage and modern business landscape",
+    "icon": "handshake",
+    "url": "categories/trade_commerce.html",
+    "color": "blue",
+    "count": "Ancient Routes"
+  },
+  {
+    "id": 14,
+    "title": "Industries & Manufacturing",
+    "description": "Learn about India's industrial evolution and manufacturing prowess",
+    "icon": "cog",
+    "url": "categories/industries_manufacturing.html",
+    "color": "primary",
+    "count": "Make in India"
+  },
+  {
+    "id": 15,
+    "title": "Banking & Finance",
+    "description": "From ancient banking systems to digital revolution in finance",
+    "icon": "bank",
+    "url": "categories/banking_finance.html",
+    "color": "emerald",
+    "count": "UPI Leader"
+  },
+  {
+    "id": 16,
+    "title": "Economic Policies",
+    "description": "India's policy heritage from Arthashastra to modern development",
+    "icon": "document-text",
+    "url": "categories/economic_policies.html",
+    "color": "violet",
+    "count": "Vision 2047"
+  },
+  {
+    "id": 4,
+    "title": "Culture & Religion",
+    "description": "Discover the spiritual heart and cultural diversity of India",
+    "icon": "temple",
+    "image": "./assets/img/categories/culture.svg",
+    "url": "spirituality/major_religions.html",
+    "color": "saffron",
+    "count": "Multiple Faiths"
+  },
+  {
+    "id": 5,
+    "title": "Languages",
+    "description": "Explore India's linguistic diversity and ancient scripts",
+    "icon": "language",
+    "url": "categories/languages.html",
+    "color": "primary",
+    "count": "22 Official Languages"
+  },
+  {
+    "id": 6,
+    "title": "Education",
+    "description": "Learn about India's education system and knowledge tradition",
+    "icon": "school",
+    "url": "categories/education.html",
+    "color": "blue",
+    "count": "World's Largest"
+  },
+  {
+    "id": 7,
+    "title": "Science & Technology",
+    "description": "Witness India's achievements in space, IT, and innovation",
+    "icon": "atom",
+    "image": "./assets/img/categories/science-tech.svg",
+    "url": "categories/science_tech.html",
+    "color": "green",
+    "count": "Mars Mission Success"
+  },
+  {
+    "id": 8,
+    "title": "Natural Heritage",
+    "description": "Understand India's biodiversity and conservation efforts",
+    "icon": "leaf",
+    "url": "natural/national_parks.html",
+    "color": "green",
+    "count": "105 National Parks"
+  },
+  {
+    "id": 9,
+    "title": "Cuisine",
+    "description": "Savor the flavors of India's regional and diverse culinary heritage",
+    "icon": "food",
+    "url": "categories/cuisine.html",
+    "color": "saffron",
+    "count": "Regional Delicacies"
+  },
+  {
+    "id": 10,
+    "title": "Arts & Entertainment",
+    "description": "Experience India's vibrant arts, cinema, music, and dance forms",
+    "icon": "music",
+    "image": "./assets/img/categories/arts.svg",
+    "url": "categories/arts_entertainment.html",
+    "color": "primary",
+    "count": "8 Classical Dances"
+  },
+  {
+    "id": 11,
+    "title": "Sports",
+    "description": "Celebrate India's sporting achievements and traditional games",
+    "icon": "trophy",
+    "url": "categories/sports.html",
+    "color": "blue",
+    "count": "Cricket to Kabaddi"
+  },
+  {
+    "id": 17,
+    "title": "Folk Traditions",
+    "description": "Explore India's rich folk heritage and regional customs",
+    "icon": "music",
+    "url": "categories/folk_traditions.html",
+    "color": "saffron",
+    "count": "Regional Diversity"
+  },
+  {
+    "id": 18,
+    "title": "Traditional Crafts",
+    "description": "Discover India's artisanal heritage and handicraft traditions",
+    "icon": "cog",
+    "url": "categories/traditional_crafts.html",
+    "color": "primary",
+    "count": "Ancient Skills"
+  },
+  {
+    "id": 19,
+    "title": "Cultural Practices",
+    "description": "Learn about India's diverse traditions and ceremonial customs",
+    "icon": "star",
+    "url": "categories/cultural_practices.html",
+    "color": "green",
+    "count": "Living Heritage"
+  },
+  {
+    "id": 20,
+    "title": "Classical Arts",
+    "description": "Experience India's classical dance, music, and performing arts",
+    "icon": "music",
+    "url": "categories/classical_arts.html",
+    "color": "saffron",
+    "count": "8 Classical Dances"
+  }
+]

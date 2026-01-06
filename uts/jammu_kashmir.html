@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Jammu & Kashmir - Paradise on Earth, Kashmir valley, Jammu region, cultural diversity, and strategic significance">
+    <title>Jammu & Kashmir - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Jammu & Kashmir mountains and valleys"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-blue-700/70 via-indigo-700/60 to-purple-700/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">Union
+                                Territory</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Jammu & Kashmir
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">جموں و کشمیر / जम्मू और कश्मीर</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Paradise on Earth - A land of breathtaking valleys, snow-capped mountains, and rich cultural
+                            heritage. From the spiritual Jammu to the scenic Kashmir valley.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Srinagar (Summer), Jammu (Winter)</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>1.25 Crore People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Jammu & Kashmir Map"
+                                class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">31 Oct 2019</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">UT Formation</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">55,673</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">20</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Urdu</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Jammu & Kashmir
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Jammu & Kashmir, often called "Paradise on Earth," became a Union Territory on October 31, 2019.
+                        This region encompasses the breathtaking Kashmir valley with its pristine lakes and snow-capped
+                        mountains, and the spiritual land of Jammu with its ancient temples and diverse topography.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        The territory is renowned for its natural beauty, from the houseboats of Dal Lake to the
+                        pilgrimage sites of Vaishno Devi. With a rich cultural tapestry woven from Hindu, Muslim, and
+                        Buddhist traditions, J&K represents India's incredible diversity while holding strategic
+                        importance in the northern frontier.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Regions -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Regions
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center">
+                            <i class="fas fa-globe w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Kashmir Valley</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Summer capital Srinagar, Dal Lake, houseboats, Mughal gardens, and scenic hill stations
+                                like Gulmarg and Pahalgam.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Area: ~15,000 km² | Population: 70 Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center">
+                            <i class="fas fa-university w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Jammu Region</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Winter capital Jammu, Vaishno Devi shrine, ancient temples, and diverse topography from
+                                plains to mountains.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Area: ~26,000 km² | Population: 55 Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Dal Lake</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Iconic houseboats, shikaras, floating gardens, and Mughal gardens on the shores.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Srinagar</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Vaishno Devi</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Sacred Hindu pilgrimage site, one of India's most visited temples, cave shrine.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Katra, Jammu</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Gulmarg</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Meadow of flowers, skiing destination, gondola rides, and snow activities.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Kashmir Valley</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Pahalgam</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Valley of shepherds, Amarnath Yatra base camp, trekking, and river rafting.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Kashmir Valley</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-yellow-600">
+                        <h3 class="font-semibold text-lg mb-2">Sonamarg</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Meadow of gold, gateway to Ladakh, glaciers, and high-altitude trekking.
+                        </p>
+                        <span class="text-xs text-yellow-600 font-semibold">Kashmir Valley</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Amarnath Cave</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Sacred ice lingam, annual pilgrimage, high-altitude shrine dedicated to Lord Shiva.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Kashmir Valley</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Heritage -->
+        <section class="py-16 bg-gradient-to-br from-indigo-700 to-purple-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Cultural Heritage</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Religious Diversity</h3>
+                                <p class="text-sm opacity-90">
+                                    Hindu temples in Jammu, Islamic heritage in Kashmir, Buddhist monasteries, and Sufi
+                                    traditions.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Handicrafts</h3>
+                                <p class="text-sm opacity-90">
+                                    Pashmina shawls, Kashmiri carpets, papier-mâché, walnut wood carving, and saffron
+                                    cultivation.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Navratri, Eid, Baisakhi, Shivratri, and traditional Kashmiri festivals like Kheer
+                                    Bhawani.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Kashmiri Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Wazwan</span>
+                                    <p class="text-sm opacity-90">Traditional multi-course meal with rogan josh,
+                                        gushtaba, and tabak maaz</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Kahwa</span>
+                                    <p class="text-sm opacity-90">Traditional green tea with saffron, almonds, and
+                                        cardamom</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Rajma Chawal</span>
+                                    <p class="text-sm opacity-90">Jammu's famous kidney beans with rice, comfort food
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Kashmiri Pulao</span>
+                                    <p class="text-sm opacity-90">Fragrant rice with dry fruits, saffron, and aromatic
+                                        spices</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Modur Pulav</span>
+                                    <p class="text-sm opacity-90">Sweet rice preparation with milk, sugar, and dry
+                                        fruits</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-green-600 to-blue-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Kashmiri Heritage</h3>
+                                <p class="text-sm opacity-90">
+                                    Rich Kashmiri culture with traditional handicrafts, music, and valley lifestyle.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Dogra Traditions</h3>
+                                <p class="text-sm opacity-90">
+                                    Jammu's Dogra culture with Hindu traditions, temples, and royal heritage.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Sufi Influence</h3>
+                                <p class="text-sm opacity-90">
+                                    Sufi traditions, shrines, and spiritual heritage blending with local customs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">J&K Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Kashmiri Wazwan</span>
+                                    <p class="text-sm opacity-90">Rogan josh, gushtaba, yakhni, and traditional
+                                        multi-course feast</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Dogra Delicacies</span>
+                                    <p class="text-sm opacity-90">Rajma, kheer, kaladi cheese, and Jammu regional
+                                        specialties</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Rice & Bread</span>
+                                    <p class="text-sm opacity-90">Kashmiri rice, naan, kulcha, and traditional bread
+                                        varieties</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Sweets & Desserts</span>
+                                    <p class="text-sm opacity-90">Phirni, shufta, modur pulav, and traditional Kashmiri
+                                        sweets</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Beverages</span>
+                                    <p class="text-sm opacity-90">Kahwa (saffron tea), noon chai, and traditional herbal
+                                        teas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹2 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">UT GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Growing economy post-reorganization</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">68%+</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Improving education infrastructure</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">#1</div>
+                        <h3 class="font-semibold text-lg mb-2">Tourism Potential</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Paradise on Earth</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Tourism & Hospitality</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Handicrafts & Handloom</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Agriculture & Horticulture</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Hydroelectric Power</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Saffron, Apples, Walnuts</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Rice, Wheat, Maize</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Cherries, Apricots, Almonds</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Medicinal plants and herbs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Lal Ded</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">14th Century</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Kashmiri mystic poet and saint</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Sheikh Abdullah</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1905-1982</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Political leader, Lion of Kashmir</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Pandit Bhajan Sopori</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1948-2022</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Santoor maestro, Padma Shri recipient</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Zubin Mehta</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1936</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">World-renowned conductor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Telangana - Cyberabad, IT hub Hyderabad, Nizami culture, and modern technological advancement">
+    <title>Telangana - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            color: #374151;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #FF8C00;
+        }
+
+        .dark .nav-link {
+            color: #D1D5DB;
+        }
+
+        .dark .nav-link:hover {
+            color: #FF8C00;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/South_India.webp" alt="Telangana landscapes and Hyderabad"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-blue-600/70 via-purple-600/60 to-indigo-700/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Telangana
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">తెలంగాణ</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            India's youngest state and IT powerhouse, home to Cyberabad, rich Nizami heritage, and
+                            modern technological innovation. Where tradition meets cutting-edge technology.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Hyderabad</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>3.8 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Telangana Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">2 Jun 2014</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">1,12,077</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">33</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Telugu</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Telangana
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Telangana, India's youngest state formed in 2014, has rapidly emerged as a global IT and
+                        biotechnology hub. With Hyderabad as its capital, known as "Cyberabad," the state hosts major
+                        technology companies including Microsoft, Google, Amazon, and Facebook. The city's HITEC City is
+                        one of the largest IT clusters in the world, making Telangana a significant contributor to
+                        India's software exports.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        Beyond its technological prowess, Telangana boasts a rich cultural heritage from the Nizami era,
+                        evident in its architecture, cuisine, and traditions. The state is home to the famous Charminar,
+                        Golconda Fort, and the world's largest monolithic statue of Buddha at Hussain Sagar Lake. With
+                        its unique blend of historical grandeur and modern innovation, Telangana represents the new face
+                        of progressive India.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Hyderabad -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Hyderabad</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Cyberabad, IT capital, Charminar, Nizami heritage, and global technology hub.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 1+ Crore
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Warangal -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                            <i class="fas fa-university w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Warangal</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Historic Kakatiya capital, ancient temples, fort ruins, and cultural heritage center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 8+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nizamabad -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                            <i class="fas fa-seedling w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Nizamabad</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Agricultural hub, turmeric market, educational center, and commercial city.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 3+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Charminar</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Iconic 16th-century monument, symbol of Hyderabad, Indo-Islamic architecture masterpiece.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Hyderabad</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Golconda Fort</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Medieval fort complex, acoustic marvels, diamond trade center, and architectural wonder.
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Hyderabad</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Hussain Sagar Lake</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Heart-shaped lake, Buddha statue, boating, and connecting twin cities of
+                            Hyderabad-Secunderabad.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Hyderabad</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Thousand Pillar Temple</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            12th-century Kakatiya architecture, intricate stone carvings, and historical significance.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Warangal</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Ramoji Film City</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            World's largest film studio complex, Guinness World Record, entertainment destination.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Hyderabad</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Salar Jung Museum</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            One of India's largest museums, rare artifacts, art collections, and cultural treasures.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Hyderabad</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Bonalu (goddess festival), Bathukamma (floral festival), Eid celebrations, and
+                                    Dussehra.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Arts & Crafts</h3>
+                                <p class="text-sm opacity-90">
+                                    Bidriware metalwork, Pochampally ikat, Nirmal paintings, and traditional jewelry
+                                    making.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Languages</h3>
+                                <p class="text-sm opacity-90">
+                                    Telugu (official), Urdu, Hindi, and English widely spoken in urban areas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Hyderabadi Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Hyderabadi Biryani</span>
+                                    <p class="text-sm opacity-90">World-famous aromatic rice dish with meat and spices
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Haleem</span>
+                                    <p class="text-sm opacity-90">Slow-cooked lentil and meat stew, Ramadan special</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Qubani ka Meetha</span>
+                                    <p class="text-sm opacity-90">Apricot dessert with cream and nuts</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Irani Chai</span>
+                                    <p class="text-sm opacity-90">Traditional tea with Osmania biscuits</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Double ka Meetha</span>
+                                    <p class="text-sm opacity-90">Bread pudding with milk, nuts, and saffron</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹12 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Fastest growing state economy</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">66%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Rapidly improving education</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">35%</div>
+                        <h3 class="font-semibold text-lg mb-2">India's IT Exports</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Major IT contribution</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Information Technology</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Biotechnology & Pharmaceuticals</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Aerospace & Defense</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Textiles & Handlooms</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Rice, Cotton, Sugarcane</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Turmeric (largest producer)</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Maize, Jowar, Bajra</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Mango, Citrus fruits</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">K. Chandrashekar Rao</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1954</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">First Chief Minister of Telangana</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Satya Nadella</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1967</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">CEO of Microsoft Corporation</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">P.V. Narasimha Rao</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1921-2004</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Former Prime Minister of India</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Sania Mirza</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1986</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Tennis champion, former world No. 1</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

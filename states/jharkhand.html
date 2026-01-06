@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Jharkhand - Land of Forests, tribal heritage, mineral wealth, and industrial development">
+    <title>Jharkhand - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            color: #374151;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #FF8C00;
+        }
+
+        .dark .nav-link {
+            color: #D1D5DB;
+        }
+
+        .dark .nav-link:hover {
+            color: #FF8C00;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Jharkhand forests and landscapes"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-emerald-600/70 via-green-600/60 to-teal-700/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Jharkhand
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">झारखण्ड</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Land of Forests and tribal heritage, mineral treasure house, industrial powerhouse, and home
+                            to diverse indigenous communities. Where nature's bounty meets industrial progress.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Ranchi</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>3.7 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Jharkhand Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">15 Nov 2000</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">79,716</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">24</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Jharkhand
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Jharkhand, meaning "Land of Forests," was carved out of Bihar in 2000 to become India's 28th
+                        state. Known as the mineral capital of India, it holds about 40% of the country's mineral
+                        wealth, including coal, iron ore, copper, mica, and uranium. The state is home to major
+                        industrial cities like Jamshedpur, often called the "Steel City of India," and Bokaro, known for
+                        its steel plants.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        Rich in tribal heritage, Jharkhand is home to 32 tribal communities, including Santhal, Munda,
+                        Ho, and Oraon, who have preserved their unique cultures, languages, and traditions for
+                        centuries. The state's dense forests, waterfalls, and hills make it a biodiversity hotspot,
+                        while its mineral wealth has made it an industrial powerhouse. From the birthplace of legendary
+                        tribal leader Birsa Munda to modern industrial achievements, Jharkhand represents the perfect
+                        blend of indigenous heritage and industrial progress.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Ranchi -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Ranchi</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                State capital, hill station, administrative center, and home to MS Dhoni.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 12+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jamshedpur -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                            <i class="fas fa-industry w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Jamshedpur</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Steel City of India, TATA Steel headquarters, industrial hub, and planned city.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 13+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dhanbad -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
+                            <i class="fas fa-gem w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Dhanbad</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Coal capital of India, mining hub, ISM Dhanbad, and energy center.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 12+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Hundru Falls</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            320-foot waterfall, scenic beauty, trekking destination, and natural wonder near Ranchi.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Ranchi</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Betla National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Tiger reserve, wildlife sanctuary, elephant safari, and biodiversity conservation center.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Latehar</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Jagannath Temple Ranchi</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Replica of Puri temple, annual Rath Yatra, spiritual center, and architectural beauty.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Ranchi</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Dassam Falls</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            144-foot waterfall, picnic spot, natural pool, and scenic landscape attraction.
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Ranchi</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                        <h3 class="font-semibold text-lg mb-2">Netarhat</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Queen of Chhota Nagpur, hill station, sunrise point, and cool climate retreat.
+                        </p>
+                        <span class="text-xs text-red-600 font-semibold">Latehar</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                        <h3 class="font-semibold text-lg mb-2">Deoghar</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Baidyanath Jyotirlinga, sacred pilgrimage site, Shravan month festivities, and spiritual
+                            center.
+                        </p>
+                        <span class="text-xs text-teal-600 font-semibold">Deoghar</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-emerald-600 to-green-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Tribal Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Sarhul (spring festival), Karma Puja, Sohrai (harvest festival), and Tusu Parab
+                                    celebrations.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Folk Arts</h3>
+                                <p class="text-sm opacity-90">
+                                    Chhau dance, Santali music, tribal paintings, traditional crafts, and oral
+                                    literature.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Heritage</h3>
+                                <p class="text-sm opacity-90">
+                                    Birsa Munda legacy, tribal freedom struggle, indigenous knowledge systems, and
+                                    cultural diversity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Jharkhandi Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Litti Chokha</span>
+                                    <p class="text-sm opacity-90">Roasted wheat balls with mashed vegetables</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Dhuska</span>
+                                    <p class="text-sm opacity-90">Deep-fried rice and lentil pancakes</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Pitha</span>
+                                    <p class="text-sm opacity-90">Traditional rice cakes with jaggery</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Handia</span>
+                                    <p class="text-sm opacity-90">Traditional rice beer, tribal beverage</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Rugra</span>
+                                    <p class="text-sm opacity-90">Wild mushroom curry, tribal delicacy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹4 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Mineral-based economy</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">67%</div>
+                        <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Improving education infrastructure</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">40%</div>
+                        <h3 class="font-semibold text-lg mb-2">India's Minerals</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Mineral capital of India</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Steel & Iron Production</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Coal Mining</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Heavy Engineering</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Power Generation</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Natural Resources</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Coal, Iron Ore, Copper</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Mica, Uranium, Bauxite</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Forest Products (29% cover)</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Rice, Maize, Pulses</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">MS Dhoni</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1981</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Cricket legend, former Indian captain</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Birsa Munda</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1875-1900</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Tribal freedom fighter and folk hero</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Hemant Soren</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1975</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Chief Minister of Jharkhand</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Deepika Kumari</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1994</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">World champion archer, Olympian</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

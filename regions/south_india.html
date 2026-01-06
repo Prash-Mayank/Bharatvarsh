@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore South India - Dravidian culture, ancient temples, IT hub, classical arts, and rich heritage of Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, and Telangana">
+    <title>South India - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/South_India.webp"
+                    alt="South India landscape with temples and backwaters" class="w-full h-full object-cover"
+                    onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br  from-blue-600/70  via-indigo-600/60  to-purple-600/70  mix-blend-multiply">
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">Region</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            South India
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">दक्षिण भारत / தென் இந்தியா</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Land of Dravidian Heritage - Ancient temples, classical arts, technological innovation, and
+                            rich cultural traditions spanning millennia. The cradle of South Indian civilization.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>5 States + 2 UTs</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>25+ Crore People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/regions/South_India.png" alt="South India Map"
+                                class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regional Overview -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About South India
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        South India represents the heartland of Dravidian civilization, encompassing five states and two
+                        Union Territories that showcase India's ancient heritage alongside modern technological prowess.
+                        This region is renowned for its magnificent temple architecture, classical performing arts,
+                        diverse languages, and as the global hub of India's IT revolution.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        From the backwaters of Kerala to the tech corridors of Bangalore, from the ancient temples of
+                        Tamil Nadu to the film industry of Hyderabad, South India presents a fascinating blend of
+                        tradition and modernity. The region's contributions to literature, science, philosophy, and arts
+                        have shaped Indian culture for over two millennia.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- States Grid -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    States & Union Territories
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Tamil Nadu -->
+                    <a href="../states/tamil_nadu.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop&q=80"
+                                    alt="Tamil Nadu - Meenakshi Temple with colorful gopurams"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-red-600 to-orange-600 flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Tamil Nadu</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Land of Temples - Magnificent
+                                    Dravidian architecture, Chennai IT hub, ancient Sangam literature, and vibrant Tamil
+                                    culture spanning 2000+ years.</p>
+                                <span class="text-xs text-red-600 font-semibold">Cultural Capital</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Karnataka -->
+                    <a href="../states/karnataka.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1588417271804-7d4b9ab89bb6?w=600&h=400&fit=crop&q=80"
+                                    alt="Karnataka - Mysore Palace and tech city Bangalore"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-yellow-600 to-red-600 flex items-center justify-center\'><i class=\'fas fa-laptop-code text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Karnataka</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Silicon Valley of India -
+                                    Bangalore tech capital, Mysore Palace, Hampi ruins, coffee plantations, and
+                                    innovative startup ecosystem.</p>
+                                <span class="text-xs text-yellow-600 font-semibold">IT Hub</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Kerala -->
+                    <a href="../states/kerala.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1602216056997-94e261c920cc?w=600&h=400&fit=crop&q=80"
+                                    alt="Kerala - Backwaters with houseboats and coconut palms"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-green-600 to-teal-600 flex items-center justify-center\'><i class=\'fas fa-water text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Kerala</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">God's Own Country - Serene
+                                    backwaters, spice gardens, Ayurveda heritage, highest literacy rate, and lush
+                                    tropical landscapes.</p>
+                                <span class="text-xs text-green font-semibold">100% Literacy</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Andhra Pradesh -->
+                    <a href="../states/andhra_pradesh.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=600&h=400&fit=crop&q=80"
+                                    alt="Andhra Pradesh - Tirupati Temple and coastal beauty"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center\'><i class=\'fas fa-om text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Andhra Pradesh</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Kohinoor of India - Tirupati
+                                    temple (world's most visited), coastal beauty, spicy cuisine, Buddhist heritage, and
+                                    rich Kuchipudi dance tradition.</p>
+                                <span class="text-xs text-blue-600 font-semibold">Spice Coast</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Telangana -->
+                    <a href="../states/telangana.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1598367572165-a90db5746caf?w=600&h=400&fit=crop&q=80"
+                                    alt="Telangana - Charminar and Hyderabad cityscape"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center\'><i class=\'fas fa-building text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Telangana</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Cyberabad - Hyderabad IT hub,
+                                    Nizami heritage, Charminar, biryani capital, pharmaceutical industry, and Tollywood
+                                    film industry.</p>
+                                <span class="text-xs text-purple-600 font-semibold">Pharma Hub</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Puducherry -->
+                    <a href="../uts/puducherry.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1605649488340-d528e647354c?w=600&h=400&fit=crop&q=80"
+                                    alt="Puducherry - French colonial architecture"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center\'><i class=\'fas fa-landmark text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Puducherry</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">French Riviera of East -
+                                    Colonial architecture, Auroville spiritual community, pristine beaches, and unique
+                                    Indo-French cultural blend.</p>
+                                <span class="text-xs text-indigo-600 font-semibold">French Heritage</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Lakshadweep -->
+                    <a href="../uts/lakshadweep.html" class="group">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=400&fit=crop&q=80"
+                                    alt="Lakshadweep - Coral islands and turquoise waters"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-cyan-600 to-blue-600 flex items-center justify-center\'><i class=\'fas fa-umbrella-beach text-6xl text-white opacity-30\'></i></div>'">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-heading text-lg font-bold mb-2">Lakshadweep</h3>
+                                <p class="text-gray-600 dark:text-gray-400 text-sm mb-3">Coral Paradise - 36 pristine
+                                    islands, crystal-clear lagoons, rich marine biodiversity, water sports, and
+                                    untouched tropical beauty.</p>
+                                <span class="text-xs text-cyan-600 font-semibold">Marine Paradise</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Heritage -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Cultural Heritage
+                </h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1574873215145-e5d49c9e68d4?w=400&h=300&fit=crop&q=80"
+                                alt="Ancient Tamil script and literature" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-red-100 to-pink-100 dark:from-red-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-language text-6xl text-red-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Dravidian Languages</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Tamil, Telugu, Kannada, Malayalam - ancient
+                            literary traditions spanning over 2000 years with UNESCO-recognized classical status.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400&h=300&fit=crop&q=80"
+                                alt="Dravidian temple architecture with gopuram" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-orange-100 to-yellow-100 dark:from-orange-900 dark:to-yellow-900 flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-orange-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Temple Architecture</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Magnificent Dravidian temples with towering
+                            gopurams, intricate sculptures, thousand-pillar halls, and unparalleled spiritual
+                            significance.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=400&h=300&fit=crop&q=80"
+                                alt="Bharatanatyam classical dance performance" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-green-100 to-teal-100 dark:from-green-900 dark:to-teal-900 flex items-center justify-center\'><i class=\'fas fa-music text-6xl text-green-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Classical Arts</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Bharatanatyam, Kuchipudi, Kathakali,
+                            Carnatic music - UNESCO recognized performing arts with ancient temple origins and spiritual
+                            depth.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&q=80"
+                                alt="Ancient palm leaf manuscripts" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900 dark:to-indigo-900 flex items-center justify-center\'><i class=\'fas fa-book-open text-6xl text-blue-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Literature & Philosophy</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Sangam literature, Advaita Vedanta
+                            philosophy, modern literary movements, and contributions to world philosophy and
+                            spirituality.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1610375461246-83df859d849d?w=400&h=300&fit=crop&q=80"
+                                alt="Kanchipuram silk sarees" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-palette text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Handicrafts & Textiles</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Kanchipuram silk, Mysore silk, Tanjore
+                            paintings, bronze sculptures, wood carvings, and traditional craft traditions passed through
+                            generations.</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="h-40 mb-4 rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=400&h=300&fit=crop&q=80"
+                                alt="South Indian film industry" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-40 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-teal-900 dark:to-cyan-900 flex items-center justify-center\'><i class=\'fas fa-film text-6xl text-teal-600 opacity-30\'></i></div>'">
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Cinema & Entertainment</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Tollywood, Kollywood, Mollywood, Sandalwood
+                            - vibrant film industries with global recognition and massive cultural influence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourism Highlights -->
+        <section class="py-16 bg-gradient-to-br from-orange-600 to-red-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12">
+                    Tourism Highlights
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop&q=80"
+                                alt="Meenakshi Temple Madurai"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-gopuram text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Meenakshi Temple</h3>
+                            <p class="text-sm opacity-90 mb-2">Madurai's architectural marvel with towering gopurams and
+                                intricate sculptures</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Tamil Nadu</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1602216056997-94e261c920cc?w=600&h=400&fit=crop&q=80"
+                                alt="Kerala backwaters with houseboat"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-water text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Kerala Backwaters</h3>
+                            <p class="text-sm opacity-90 mb-2">Serene network of lagoons, lakes, and canals with
+                                houseboat experiences</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Kerala</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1588417271804-7d4b9ab89bb6?w=600&h=400&fit=crop&q=80"
+                                alt="Mysore Palace illuminated"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-crown text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Mysore Palace</h3>
+                            <p class="text-sm opacity-90 mb-2">Opulent royal residence showcasing Indo-Saracenic
+                                architecture</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Karnataka</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=600&h=400&fit=crop&q=80"
+                                alt="Tirupati Temple sacred hill"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-om text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Tirupati Temple</h3>
+                            <p class="text-sm opacity-90 mb-2">World's most visited religious site dedicated to Lord
+                                Venkateswara</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Andhra Pradesh</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1598367572165-a90db5746caf?w=600&h=400&fit=crop&q=80"
+                                alt="Charminar Hyderabad at night"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-mosque text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Charminar</h3>
+                            <p class="text-sm opacity-90 mb-2">Iconic monument and symbol of Hyderabad's Nizami heritage
+                            </p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Telangana</span>
+                        </div>
+                    </div>
+
+                    <div class="group relative overflow-hidden rounded-xl">
+                        <div class="h-48">
+                            <img src="https://images.unsplash.com/photo-1609920658906-8223bd289001?w=600&h=400&fit=crop&q=80"
+                                alt="Hampi ancient ruins"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-white/10 backdrop-blur flex items-center justify-center\'><i class=\'fas fa-landmark text-6xl text-white opacity-30\'></i></div>'">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="font-semibold text-lg mb-2">Hampi Ruins</h3>
+                            <p class="text-sm opacity-90 mb-2">UNESCO World Heritage Site of the Vijayanagara Empire</p>
+                            <span class="text-xs bg-white/20 px-2 py-1 rounded">Karnataka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cuisine & Culture -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6 text-primary dark:text-saffron">South Indian
+                            Cuisine</h2>
+                        <div class="mb-6 rounded-xl overflow-hidden h-48">
+                            <img src="https://images.unsplash.com/photo-1630383249896-424e482df921?w=600&h=400&fit=crop&q=80"
+                                alt="South Indian thali with dosa, idli, sambar" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-orange-100 to-red-100 dark:from-orange-900 dark:to-red-900 flex items-center justify-center\'><i class=\'fas fa-utensils text-6xl text-orange-600 opacity-30\'></i></div>'">
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-red-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Rice-Based Staples</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Idli, dosa, uttapam, appam -
+                                        fermented rice preparations served with aromatic coconut chutney and tangy
+                                        sambar</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Spice Traditions</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Fiery Chettinad cuisine, Andhra
+                                        spices, Kerala pepper and cardamom - complex aromatic spice blends passed
+                                        through generations</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Coconut Culture</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Coconut oil for cooking, fresh
+                                        coconut milk in curries, grated coconut integral to daily cuisine and religious
+                                        rituals</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Filter Coffee</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Traditional South Indian coffee
+                                        culture - chicory blend served in steel tumblers, an integral part of daily life
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Festivals -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6 text-primary dark:text-saffron">Festivals &
+                            Celebrations</h2>
+                        <div class="mb-6 rounded-xl overflow-hidden h-48">
+                            <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&q=80"
+                                alt="Onam festival celebrations with pookalam" class="w-full h-full object-cover"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'h-48 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 flex items-center justify-center\'><i class=\'fas fa-star text-6xl text-purple-600 opacity-30\'></i></div>'">
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Pongal & Onam</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Grand harvest festivals
+                                        celebrating agricultural prosperity, nature's bounty, family unity, and cultural
+                                        traditions with elaborate rituals</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-pink-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Dussehra Celebrations</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Magnificent Mysore Dasara
+                                        processions, Navratri festivities with classical music and dance, celebrating
+                                        victory of good over evil</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-teal-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Temple Festivals</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">Elaborate Brahmotsavam
+                                        celebrations, Chithirai festival, chariot processions, and month-long temple
+                                        festivities drawing millions</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-indigo-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h3 class="font-semibold">Classical Arts Festivals</h3>
+                                    <p class="text-gray-600 dark:text-gray-400 text-sm">December music season in
+                                        Chennai, prestigious dance festivals, and cultural programs showcasing classical
+                                        performing arts heritage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy & Industries -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economy & Industries
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹75 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">Regional GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Major contributor to India's economy</p>
+                    </div>
+
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-green mb-2">60%+</div>
+                        <h3 class="font-semibold text-lg mb-2">IT Exports</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Of India's software exports</p>
+                    </div>
+
+                    <div
+                        class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-saffron mb-2">#1</div>
+                        <h3 class="font-semibold text-lg mb-2">Tech Hub</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Global IT destination</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                        <h3 class="font-semibold text-lg mb-4 flex items-center">
+                            <i class="fas fa-industry mr-2 text-blue-600"></i>
+                            Key Industries
+                        </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Information Technology & Software Services - Bangalore, Hyderabad, Chennai
+                                    hubs</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Biotechnology & Pharmaceuticals - major drug manufacturing center</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Automobile Manufacturing - Chennai as Detroit of India</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Textiles & Garments - cotton, silk production centers</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Film Production - Tollywood, Kollywood, Mollywood industries</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+                        <h3 class="font-semibold text-lg mb-4 flex items-center">
+                            <i class="fas fa-seedling mr-2 text-green"></i>
+                            Agricultural Products
+                        </h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Rice, Coconut, Spices - major producers for domestic and export</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Coffee, Tea, Rubber - plantation crops in hills and estates</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Cotton, Sugarcane - important cash crops</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Cashew, Cardamom, Pepper - spice exports worldwide</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Turmeric, Chili, Tamarind - essential spice production</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-4 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+                <p class="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                    South India has produced exceptional scientists, musicians, mathematicians, and leaders who have
+                    left an
+                    indelible mark on India and the world.
+                </p>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- C.V. Raman -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-blue-600 to-indigo-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Sir_CV_Raman.jpg"
+                                alt="C.V. Raman"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">C.V. Raman</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Tamil Nadu</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1888-1970</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                First Asian Nobel laureate in Physics. Discovered the Raman Effect, revolutionizing
+                                understanding of light scattering. Bharat Ratna recipient.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- A.R. Rahman -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-purple-600 to-pink-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/A._R._Rahman_in_2023.jpg"
+                                alt="A.R. Rahman"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">A.R. Rahman</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Tamil Nadu</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1967</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Oscar-winning composer known as "Mozart of Madras." His music blends Indian classical
+                                with
+                                world genres. Won two Academy Awards for Slumdog Millionaire.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Srinivasa Ramanujan -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-green to-teal-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Srinivasa_Ramanujan_-_OPC_-_1.jpg"
+                                alt="Srinivasa Ramanujan"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Srinivasa Ramanujan</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Tamil Nadu</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1887-1920</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Self-taught mathematical genius who made extraordinary contributions to number theory.
+                                His
+                                work continues to influence mathematics today.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- N.R. Narayana Murthy -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-saffron to-orange-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Narayana_Murthy_-_World_Economic_Forum_Annual_Meeting_2011.jpg"
+                                alt="N.R. Narayana Murthy"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">N.R. Narayana Murthy</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Karnataka</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1946</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Co-founder of Infosys, pioneer of India's IT revolution. Transformed Bangalore into a
+                                global
+                                tech hub. Padma Vibhushan and Padma Shri awardee.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- M.S. Subbulakshmi -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-rose-600 to-red-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/M._S._Subbulakshmi.jpg"
+                                alt="M.S. Subbulakshmi"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">M.S. Subbulakshmi</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Tamil Nadu</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1916-2004</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Legendary Carnatic vocalist, first musician awarded Bharat Ratna. Her rendition of
+                                devotional songs transcended boundaries and touched millions.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- APJ Abdul Kalam -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-cyan-600 to-blue-700 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/A._P._J._Abdul_Kalam.jpg"
+                                alt="APJ Abdul Kalam"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">APJ Abdul Kalam</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Tamil Nadu</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1931-2015</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                "Missile Man of India" and 11th President. Aerospace scientist who inspired youth
+                                nationwide. Bharat Ratna recipient and beloved people's president.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Krishnadevaraya -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-amber-600 to-yellow-600 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Krishnadevaraya_painting.jpg"
+                                alt="Krishnadevaraya"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Krishnadevaraya</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Karnataka</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1471-1529</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Greatest ruler of Vijayanagara Empire. Patron of arts and literature, his reign is
+                                considered the golden age of South Indian history.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Rukmini Devi Arundale -->
+                    <a href="../icons/notable_indians.html"
+                        class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                        <div class="h-48 bg-gradient-to-br from-fuchsia-600 to-purple-700 relative overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Rukmini_Devi.jpg"
+                                alt="Rukmini Devi Arundale"
+                                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 text-gray-800 dark:text-white">Rukmini Devi Arundale</h3>
+                            <p class="text-xs text-saffron mb-1 font-semibold">Tamil Nadu</p>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1904-1986</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
+                                Revived Bharatanatyam classical dance and founded Kalakshetra. Her work elevated dance
+                                from
+                                entertainment to respected art form. Padma Bhushan awardee.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

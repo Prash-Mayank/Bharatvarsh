@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Madhya Pradesh - Heart of India, land of ancient temples, tiger reserves, tribal culture, and rich heritage">
+    <title>Madhya Pradesh - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/North India.jpg" alt="Madhya Pradesh temples and landscapes"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-green-700/70 via-emerald-600/60 to-teal-600/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Madhya Pradesh
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">मध्य प्रदेश</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Heart of India - where ancient temples tell timeless tales, royal tigers roam dense forests,
+                            and
+                            tribal traditions thrive. The land of Khajuraho's architectural marvels, spiritual
+                            sanctuaries,
+                            and untouched natural beauty.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Bhopal</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>8.5 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Madhya Pradesh Map" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Cards -->
+        <section class="py-12 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-saffron mb-2">1 Nov 1956</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green mb-2">3.08 Lakh</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">55</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">Hindi</div>
+                        <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                    About Madhya Pradesh
+                </h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                        Madhya Pradesh, literally meaning "Central Province," truly lies at the heart of India both
+                        geographically and culturally. The second-largest state by area, it's a land where history
+                        echoes
+                        through ancient temples, Buddhist stupas, and medieval forts. From the UNESCO World Heritage
+                        sites
+                        of Khajuraho and Sanchi to the marble rocks of Bhedaghat, MP is a treasure trove of
+                        architectural
+                        and natural wonders.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                        Known as the "Tiger State of India," Madhya Pradesh boasts the highest number of tiger reserves
+                        in
+                        the country, including Kanha, Bandhavgarh, and Pench. The state's rich tribal heritage, with
+                        over
+                        20% tribal population, adds vibrant colors to its cultural tapestry. MP's folk arts, classical
+                        music
+                        traditions, and handloom crafts reflect centuries of cultural evolution, making it a fascinating
+                        blend of nature, spirituality, and tradition.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Cities -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Major Cities
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Bhopal -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
+                            <i class="fas fa-building w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Bhopal</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                City of Lakes, state capital. Known for Upper and Lower Lakes, mosques, and rich Nawabi
+                                heritage.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 23+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Indore -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center">
+                            <i class="fas fa-coins w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Indore</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Commercial capital, cleanest city of India. Educational hub with IIT and IIM, famous for
+                                street food.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 35+ Lakh
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gwalior -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                        <div
+                            class="h-48 bg-gradient-to-br from-amber-600 to-orange-700 flex items-center justify-center">
+                            <i class="fas fa-music w-24 h-24 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-heading text-2xl font-bold mb-2">Gwalior</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">
+                                Historic city with magnificent fort. Cultural hub known for Tansen's music legacy and
+                                monuments.
+                            </p>
+                            <div class="text-sm text-gray-500">
+                                Population: 12+ Lakh
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tourist Attractions -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Tourist Attractions
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-orange-600">
+                        <h3 class="font-semibold text-lg mb-2">Khajuraho Temples</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            UNESCO World Heritage site with intricate sculptures. Masterpiece of Chandela dynasty
+                            architecture.
+                        </p>
+                        <span class="text-xs text-orange-600 font-semibold">Chhatarpur</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                        <h3 class="font-semibold text-lg mb-2">Kanha National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Tiger reserve that inspired Jungle Book. Diverse wildlife in sal and bamboo forests.
+                        </p>
+                        <span class="text-xs text-green font-semibold">Mandla & Balaghat</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                        <h3 class="font-semibold text-lg mb-2">Sanchi Stupa</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            UNESCO site, Buddhist monument from 3rd century BCE. Built by Emperor Ashoka.
+                        </p>
+                        <span class="text-xs text-blue-600 font-semibold">Raisen</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                        <h3 class="font-semibold text-lg mb-2">Bandhavgarh National Park</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Highest density of Bengal tigers. Ancient fort and diverse wildlife habitat.
+                        </p>
+                        <span class="text-xs text-purple-600 font-semibold">Umaria</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-cyan-600">
+                        <h3 class="font-semibold text-lg mb-2">Marble Rocks, Bhedaghat</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Stunning white marble cliffs along Narmada River. Dhuandhar Falls nearby.
+                        </p>
+                        <span class="text-xs text-cyan-600 font-semibold">Jabalpur</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-amber-600">
+                        <h3 class="font-semibold text-lg mb-2">Gwalior Fort</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                            Hilltop fortress called "Pearl of Fortresses." Man Singh Palace and temples within.
+                        </p>
+                        <span class="text-xs text-amber-600 font-semibold">Gwalior</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Cuisine -->
+        <section class="py-16 bg-gradient-to-br from-emerald-600 to-teal-700 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Culture -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                        <div class="space-y-4">
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                                <p class="text-sm opacity-90">
+                                    Khajuraho Dance Festival, Tansen Music Festival, Lok Rang (tribal festival), Diwali,
+                                    Holi with great enthusiasm.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Folk Arts</h3>
+                                <p class="text-sm opacity-90">
+                                    Gond and Bhil tribal art, Chanderi and Maheshwari handloom, folk dances like Karma
+                                    and
+                                    Bhagoria.
+                                </p>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                                <h3 class="font-semibold text-lg mb-2">Classical Heritage</h3>
+                                <p class="text-sm opacity-90">
+                                    Birthplace of legendary musician Tansen. Rich tradition of Hindustani classical
+                                    music.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuisine -->
+                    <div>
+                        <h2 class="font-heading text-3xl font-bold mb-6">MP Cuisine</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Poha-Jalebi</span>
+                                    <p class="text-sm opacity-90">Indore's iconic breakfast combination</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Bhutte ka Kees</span>
+                                    <p class="text-sm opacity-90">Grated corn delicacy with spices</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Dal Bafla</span>
+                                    <p class="text-sm opacity-90">Wheat balls with lentils, like Rajasthani baati</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Mawa-Bati</span>
+                                    <p class="text-sm opacity-90">Sweet delicacy from Bhopal</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                                <div>
+                                    <span class="font-semibold">Sabudana Khichdi</span>
+                                    <p class="text-sm opacity-90">Tapioca pearls with peanuts and potatoes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy -->
+        <section class="py-16 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Economic Profile
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">₹11 Lakh Cr</div>
+                        <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Emerging economy with agriculture</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-green mb-2">30%</div>
+                        <h3 class="font-semibold text-lg mb-2">Forest Cover</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Rich biodiversity and wildlife</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                        <div class="text-4xl font-bold text-saffron mb-2">#1</div>
+                        <h3 class="font-semibold text-lg mb-2">Tiger State</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Most tiger reserves in India</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Mining (Diamonds, Coal, Copper)</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Textiles (Chanderi, Maheshwari)</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Cement & Steel Industries</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                                <span>Tourism & Hospitality</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                        <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Wheat, Soybean, Pulses</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Gram, Lentils, Corn</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Cotton, Sugarcane</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <span class="w-2 h-2 bg-green rounded-full"></span>
+                                <span>Major soybean producer</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Personalities -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2
+                    class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                    Notable Personalities
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Rani Lakshmibai</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1828-1858</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Warrior Queen of Jhansi, freedom fighter</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Tansen</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1500-1586</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Legendary musician, one of Akbar's Navratnas
+                        </p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Lata Mangeshkar</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1929-2022</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Nightingale of India, born in Indore</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                        <h3 class="font-semibold text-lg mb-1">Kumar Gandharva</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1924-1992</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Classical vocalist, Hindustani music legend
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.classList.toggle('dark', currentTheme === 'dark');
+
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            const theme = html.classList.contains('dark') ? 'dark' : 'light';
+            localStorage.setItem('theme', theme);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        let lastScroll = 0;
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll <= 0) {
+                navbar.classList.remove('scroll-up');
+                return;
+            }
+
+            if (currentScroll > lastScroll && !navbar.classList.contains('scroll-down')) {
+                navbar.classList.remove('scroll-up');
+                navbar.classList.add('scroll-down');
+            } else if (currentScroll < lastScroll && navbar.classList.contains('scroll-down')) {
+                navbar.classList.remove('scroll-down');
+                navbar.classList.add('scroll-up');
+            }
+            lastScroll = currentScroll;
+        });
+    </script>
+</body>
+
+</html>

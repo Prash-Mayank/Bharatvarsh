@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Tamil Nadu - Land of Temples, Dravidian culture, classical arts, and ancient Tamil heritage">
+    <title>Tamil Nadu - Bharatvarsh</title>
+
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A1930',
+                        saffron: '#FF8C00',
+                        green: '#138808',
+                        offwhite: '#F5F2EA',
+                        charcoal: '#0F0F0F',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link {
+            @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
+        }
+    </style>
+</head>
+
+<body class="font-body bg-offwhite dark:bg-charcoal text-gray-900 dark:text-gray-100">
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="relative pt-32 pb-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../assets/img/banners/South_India.webp" alt="Tamil Nadu temples and heritage"
+                    class="w-full h-full object-cover" onerror="this.style.display='none'">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-red-600/70 via-orange-600/60 to-yellow-500/70 mix-blend-multiply">
+                </div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span
+                                class="px-4 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm font-semibold">State</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+                            Tamil Nadu
+                        </h1>
+                        <p class="text-xl mb-4 font-semibold">தமிழ்நாடு</p>
+                        <p class="text-lg sm:text-xl text-gray-100 mb-8">
+                            Land of Temples and classical heritage. Home to ancient Dravidian culture, magnificent temple
+                            architecture, and the timeless Tamil language with over 2000 years of literary tradition.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Capital: Chennai</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
+                                <i class="fas fa-users"></i>
+                                <span>7.7 Cr People</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                            <img src="../assets/img/maps/india-map1.png" alt="Tamil Nadu Map"
+                                class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Quick Info Cards -->
+    <section class="py-12 bg-white dark:bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-saffron mb-2">26 Jan 1950</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Formation Day</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green mb-2">1.30 Lakh</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Area (km²)</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">38</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Districts</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600 mb-2">Tamil</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Official Language</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6 text-primary dark:text-saffron">
+                About Tamil Nadu
+            </h2>
+            <div class="prose dark:prose-invert max-w-none">
+                <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                    Tamil Nadu, the southernmost state of India, is a treasure trove of art, culture, and heritage.
+                    Known as the "Land of Temples," it houses some of India's most magnificent Dravidian architecture,
+                    including the UNESCO World Heritage sites of Mahabalipuram and the Great Living Chola Temples.
+                    The state's name literally means "Tamil Country," reflecting the deep connection between the land and its ancient language.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                    The state is home to the Tamil language, one of the oldest living languages in the world with a
+                    literary tradition spanning over 2,000 years. From the ancient Sangam literature to modern Tamil cinema,
+                    the state has been a beacon of cultural excellence. Tamil Nadu leads India in manufacturing, automobile
+                    production, and textile exports while preserving its rich cultural traditions through classical
+                    dance, music, and ancient temple rituals.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                    With a coastline stretching over 1,000 kilometers along the Bay of Bengal and the Indian Ocean, Tamil Nadu
+                    has been a maritime trading hub since ancient times. The state's strategic location made it a center for
+                    trade with Southeast Asia, contributing to its rich cultural diversity and economic prosperity.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                    From the bustling metropolis of Chennai to the temple town of Madurai, from the hill stations of the Nilgiris
+                    to the beaches of Kanyakumari, Tamil Nadu offers an incredible diversity of experiences. The state seamlessly
+                    blends ancient traditions with modern innovation, making it one of India's most progressive and culturally
+                    rich states.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historical Journey -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Historical Journey
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-saffron">Ancient Tamil Civilization</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Tamil Nadu's history spans over 3,000 years, beginning with the ancient Sangam period (300 BCE - 300 CE) 
+                        when Tamil literature flourished. The three great kingdoms - Cheras, Cholas, and Pandyas - established 
+                        Tamil Nadu as a major maritime power with extensive trade networks reaching Southeast Asia.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        The Sangam literature, comprising over 2,000 poems, provides invaluable insights into ancient Tamil 
+                        society, culture, and governance. This period saw the development of Tamil grammar, poetry, and 
+                        philosophical thought that continues to influence Tamil culture today.
+                    </p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-xl font-bold mb-4 text-primary dark:text-saffron">Ancient Kingdoms Timeline</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3">
+                            <span class="text-saffron font-bold">300 BCE:</span>
+                            <span>Sangam period begins, Tamil literature flourishes</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-saffron font-bold">100 CE:</span>
+                            <span>Chola, Chera, Pandya kingdoms established</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-saffron font-bold">300 CE:</span>
+                            <span>Kalabhra interregnum period</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-saffron font-bold">600 CE:</span>
+                            <span>Pallava dynasty rises, Mahabalipuram built</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="bg-gradient-to-br from-red-600 to-orange-600 text-white p-8 rounded-xl">
+                    <h4 class="font-heading text-2xl font-bold mb-4">Chola Empire (850-1279 CE)</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <h5 class="font-semibold mb-2">Raja Raja Chola I (985-1014 CE)</h5>
+                            <p class="text-sm opacity-90">Built Brihadeeswara Temple, expanded empire to Sri Lanka, 
+                            established powerful navy and efficient administration.</p>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold mb-2">Rajendra Chola I (1014-1044 CE)</h5>
+                            <p class="text-sm opacity-90">Extended empire to Southeast Asia, conquered parts of 
+                            Indonesia and Malaysia, established Gangaikonda Cholapuram.</p>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold mb-2">Maritime Empire</h5>
+                            <p class="text-sm opacity-90">Controlled Indian Ocean trade routes, influenced Southeast 
+                            Asian culture, spread Tamil language and Hindu-Buddhist traditions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-green">Colonial Period & Independence</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Tamil Nadu played a crucial role in India's independence movement. Leaders like V.O. Chidambaram 
+                        Pillai, Subramania Bharati, and C. Rajagopalachari emerged from Tamil soil. The state witnessed 
+                        significant resistance movements and social reform initiatives.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        The Dravidian movement, led by Periyar E.V. Ramasamy, fought for social justice and Tamil identity. 
+                        Post-independence, Tamil Nadu became a leader in social welfare policies, education, and industrial 
+                        development while preserving its distinct cultural identity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dravidian Heritage & Architecture -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Dravidian Heritage & Temple Architecture
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-blue-600">Architectural Marvels</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Tamil Nadu is home to the finest examples of Dravidian architecture, characterized by towering 
+                        gopurams (temple towers), intricate sculptures, and massive temple complexes. The evolution from 
+                        Pallava rock-cut temples to Chola masterpieces represents 1,500 years of architectural excellence.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        The UNESCO World Heritage sites - Mahabalipuram monuments and Great Living Chola Temples - showcase 
+                        the pinnacle of South Indian temple architecture, influencing temple design across Southeast Asia.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-purple-600 to-pink-600 text-white p-8 rounded-xl">
+                    <h4 class="font-heading text-xl font-bold mb-4">Architectural Periods</h4>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">7th-9th C</div>
+                            <div class="text-sm">Pallava Period</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">9th-13th C</div>
+                            <div class="text-sm">Chola Period</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">13th-16th C</div>
+                            <div class="text-sm">Pandya Period</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">16th-18th C</div>
+                            <div class="text-sm">Nayaka Period</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-saffron">Pallava Contributions</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Shore Temple at Mahabalipuram</li>
+                        <li>• Pancha Rathas (Five Chariots)</li>
+                        <li>• Arjuna's Penance relief sculpture</li>
+                        <li>• Rock-cut cave temples</li>
+                        <li>• Development of Grantha script</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-green">Chola Masterpieces</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Brihadeeswara Temple, Thanjavur</li>
+                        <li>• Airavatesvara Temple, Darasuram</li>
+                        <li>• Gangaikonda Cholapuram Temple</li>
+                        <li>• Bronze sculpture perfection</li>
+                        <li>• Vimana architectural innovation</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-blue-600">Nayaka Grandeur</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Meenakshi Temple, Madurai</li>
+                        <li>• Thousand Pillar Hall</li>
+                        <li>• Towering gopurams (up to 170 ft)</li>
+                        <li>• Intricate mandapa designs</li>
+                        <li>• Festival architecture integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Major Cities -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Major Cities
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Chennai -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center">
+                        <i class="fas fa-building w-24 h-24 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-bold mb-2">Chennai</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Capital city, Gateway to South India, major automobile hub, and cultural center of Tamil
+                            Nadu.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            Population: 1.1 Cr (Metropolitan)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coimbatore -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-green to-teal-600 flex items-center justify-center">
+                        <i class="fas fa-industry w-24 h-24 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-bold mb-2">Coimbatore</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Manchester of South India, textile capital, engineering and manufacturing powerhouse.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            Population: 35+ Lakh
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Madurai -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-amber-600 to-orange-600 flex items-center justify-center">
+                        <i class="fas fa-place-of-worship w-24 h-24 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-bold mb-2">Madurai</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Athens of the East, home to Meenakshi Temple, ancient temple city with 2500 years of
+                            history.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            Population: 27+ Lakh
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tourist Attractions -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Tourist Attractions
+            </h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-red-600">
+                    <h3 class="font-semibold text-lg mb-2">Meenakshi Temple</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Magnificent temple complex with towering gopurams, dedicated to Goddess Meenakshi and Lord Sundareswarar.
+                    </p>
+                    <span class="text-xs text-red-600 font-semibold">Madurai</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-blue-600">
+                    <h3 class="font-semibold text-lg mb-2">Mahabalipuram Monuments</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        UNESCO World Heritage site with rock-cut temples, Shore Temple, and Arjuna's Penance relief sculpture.
+                    </p>
+                    <span class="text-xs text-blue-600 font-semibold">Mahabalipuram</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-green">
+                    <h3 class="font-semibold text-lg mb-2">Ooty Hill Station</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Queen of Hill Stations with tea gardens, botanical gardens, and the famous Nilgiri Mountain Railway.
+                    </p>
+                    <span class="text-xs text-green font-semibold">Nilgiris</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-purple-600">
+                    <h3 class="font-semibold text-lg mb-2">Brihadeeswara Temple</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        UNESCO World Heritage Chola temple, masterpiece of Dravidian architecture with 216-foot vimana.
+                    </p>
+                    <span class="text-xs text-purple-600 font-semibold">Thanjavur</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-yellow-600">
+                    <h3 class="font-semibold text-lg mb-2">Rameshwaram Temple</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Sacred pilgrimage site, one of the 12 Jyotirlinga temples with the longest temple corridor in the world.
+                    </p>
+                    <span class="text-xs text-yellow-600 font-semibold">Rameshwaram</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-teal-600">
+                    <h3 class="font-semibold text-lg mb-2">Kanyakumari</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Southernmost tip of India where three seas meet, Vivekananda Rock Memorial and stunning sunrises.
+                    </p>
+                    <span class="text-xs text-teal-600 font-semibold">Kanyakumari</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-indigo-600">
+                    <h3 class="font-semibold text-lg mb-2">Chidambaram Temple</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Ancient temple dedicated to Lord Nataraja, the cosmic dancer, center of Tamil Shaivism.
+                    </p>
+                    <span class="text-xs text-indigo-600 font-semibold">Chidambaram</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-pink-600">
+                    <h3 class="font-semibold text-lg mb-2">Kodaikanal</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Princess of Hill Stations with pristine lakes, valleys, and the famous Kodai Lake.
+                    </p>
+                    <span class="text-xs text-pink-600 font-semibold">Dindigul</span>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md border-l-4 border-orange-600">
+                    <h3 class="font-semibold text-lg mb-2">Tiruchirappalli Rock Fort</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                        Ancient rock fortress with temples carved into the rock, offering panoramic city views.
+                    </p>
+                    <span class="text-xs text-orange-600 font-semibold">Tiruchirappalli</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture & Cuisine -->
+    <section class="py-16 bg-gradient-to-br from-orange-600 to-red-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Culture -->
+                <div>
+                    <h2 class="font-heading text-3xl font-bold mb-6">Culture & Traditions</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Festivals</h3>
+                            <p class="text-sm opacity-90">
+                                Pongal (harvest festival), Chithirai festival in Madurai, Deepavali, Tamil New Year (Puthandu),
+                                and Navaratri celebrations with traditional Golu displays.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Classical Arts</h3>
+                            <p class="text-sm opacity-90">
+                                Bharatanatyam classical dance, Carnatic music traditions, Tanjore paintings, traditional Kolam
+                                art, and ancient temple sculpture and bronze casting.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Traditional Dress</h3>
+                            <p class="text-sm opacity-90">
+                                Kanchipuram silk sarees, Veshti (dhoti) for men, traditional temple jewelry, and
+                                distinctive Madisaar saree worn by married women.
+                            </p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                            <h3 class="font-semibold text-lg mb-2">Language & Literature</h3>
+                            <p class="text-sm opacity-90">
+                                Tamil language with 2000+ years of literature, Sangam poetry, Thirukkural ethics,
+                                and modern Tamil cinema contributing to cultural identity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuisine -->
+                <div>
+                    <h2 class="font-heading text-3xl font-bold mb-6">Tamil Cuisine</h2>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                            <div>
+                                <span class="font-semibold">Idli & Dosa</span>
+                                <p class="text-sm opacity-90">Fermented rice cakes and crispy crepes with sambar and
+                                    coconut chutney</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                            <div>
+                                <span class="font-semibold">Chettinad Cuisine</span>
+                                <p class="text-sm opacity-90">Spicy chicken, mutton preparations with aromatic spices
+                                    and traditional recipes</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                            <div>
+                                <span class="font-semibold">Pongal</span>
+                                <p class="text-sm opacity-90">Savory rice dish cooked with lentils, pepper, cumin, and ghee</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                            <div>
+                                <span class="font-semibold">Filter Coffee</span>
+                                <p class="text-sm opacity-90">Traditional South Indian coffee brewed with chicory in metal filter</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                            <div>
+                                <span class="font-semibold">Payasam</span>
+                                <p class="text-sm opacity-90">Sweet dessert made with milk, rice, vermicelli, and jaggery</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                            <div>
+                                <span class="font-semibold">Rasam</span>
+                                <p class="text-sm opacity-90">Tangy soup with tamarind, tomatoes, and traditional spice blend</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Economy -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Economic Profile
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">₹23.65 Lakh Cr</div>
+                    <h3 class="font-semibold text-lg mb-2">State GDP</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">2nd largest economy in India, 9.7% of national GDP</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                    <div class="text-4xl font-bold text-green mb-2">80.1%</div>
+                    <h3 class="font-semibold text-lg mb-2">Literacy Rate</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Above national average, strong educational foundation</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-xl p-8 text-center shadow-lg">
+                    <div class="text-4xl font-bold text-saffron mb-2">#1</div>
+                    <h3 class="font-semibold text-lg mb-2">Auto Manufacturing</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Detroit of India, 35% of auto components</p>
+                </div>
+            </div>
+
+            <div class="mt-12 grid md:grid-cols-2 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                    <h3 class="font-semibold text-lg mb-4">Key Industries</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            <span>Automobile & Auto Components (35% of India's production)</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            <span>Textiles & Garments (Leading cotton and silk producer)</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            <span>Information Technology & Software Services</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            <span>Leather & Footwear (60% of India's leather exports)</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            <span>Pharmaceuticals & Chemicals</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6">
+                    <h3 class="font-semibold text-lg mb-4">Agricultural Products</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-green rounded-full"></span>
+                            <span>Rice (Leading producer), Sugarcane, Cotton</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-green rounded-full"></span>
+                            <span>Tea (Nilgiri tea), Coffee, Spices (Cardamom, Pepper)</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-green rounded-full"></span>
+                            <span>Bananas, Turmeric (80% of India's production), Groundnut</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-green rounded-full"></span>
+                            <span>Coconut, Cashew nuts, Mango</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-green rounded-full"></span>
+                            <span>Millets, Pulses, Tapioca</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notable Personalities -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Notable Personalities
+            </h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">C.V. Raman</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1888-1970</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Nobel Prize winning physicist, Raman Effect discoverer</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Srinivasa Ramanujan</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1887-1920</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Mathematical genius, self-taught mathematician from Erode</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">M.S. Subbulakshmi</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1916-2004</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Carnatic music legend, Bharat Ratna recipient</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">A.R. Rahman</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1967</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Oscar-winning music composer, Mozart of Madras</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Thiruvalluvar</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Ancient Period</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Author of Thirukkural, Tamil poet and philosopher</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Kamal Haasan</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1954</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Legendary actor, filmmaker, Padma Bhushan recipient</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Rajinikanth</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Born 1950</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Superstar of Indian cinema, cultural icon</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Dr. A.P.J. Abdul Kalam</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1931-2015</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Missile Man, 11th President of India, People's President</p>
+                </div>
+            </div>
+
+            <!-- Additional Notable Personalities -->
+            <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Subramania Bharati</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1882-1921</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">National poet, freedom fighter, social reformer</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Periyar E.V. Ramasamy</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1879-1973</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Social reformer, rationalist, Dravidian movement leader</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">Rukmani Devi Arundale</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1904-1986</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Bharatanatyam revivalist, Kalakshetra founder</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow-md">
+                    <h3 class="font-semibold text-lg mb-1">C. Rajagopalachari</h3>
+                    <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">1878-1972</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Last Governor-General of India, freedom fighter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tamil Cinema & Entertainment -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Tamil Cinema & Entertainment Industry
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-red-600">Kollywood - Tamil Film Industry</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Tamil cinema, known as Kollywood, is one of India's oldest and most influential film industries. 
+                        Starting with "Keechaka Vadham" (1918), Tamil cinema has evolved into a global phenomenon, known 
+                        for its technical excellence, social themes, and cultural authenticity.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Tamil films have gained international recognition at prestigious film festivals, with directors 
+                        like Mani Ratnam, Shankar, and Vetrimaaran creating cinema that resonates globally while staying 
+                        rooted in Tamil culture and values.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-red-600 to-pink-600 text-white p-8 rounded-xl">
+                    <h4 class="font-heading text-xl font-bold mb-4">Industry Statistics</h4>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">200+</div>
+                            <div class="text-sm">Films Annually</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">₹2,000 Cr</div>
+                            <div class="text-sm">Industry Revenue</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">Global</div>
+                            <div class="text-sm">Tamil Diaspora Reach</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">100+</div>
+                            <div class="text-sm">Years of Cinema</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-saffron">Golden Era (1950s-70s)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Sivaji Ganesan - Legendary actor</li>
+                        <li>• M.G. Ramachandran (MGR) - Actor-politician</li>
+                        <li>• K. Balachander - Master filmmaker</li>
+                        <li>• Social reform themes</li>
+                        <li>• Literary adaptations</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-green">Modern Era (1990s-Present)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Mani Ratnam - International recognition</li>
+                        <li>• Shankar - Technical innovation</li>
+                        <li>• A.R. Rahman - Musical revolution</li>
+                        <li>• Digital filmmaking advancement</li>
+                        <li>• Pan-Indian appeal</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-blue-600">Contemporary Cinema</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Content-driven narratives</li>
+                        <li>• International co-productions</li>
+                        <li>• OTT platform expansion</li>
+                        <li>• Technical excellence</li>
+                        <li>• Global festival recognition</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tamil Language & Literature -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Tamil Language & Literary Heritage
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-primary dark:text-saffron">World's Oldest Living Language</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Tamil is one of the world's oldest continuously spoken languages, with literary works dating back 
+                        to 300 BCE. The language has evolved through various periods - Sangam, Medieval, and Modern - while 
+                        maintaining its classical structure and rich vocabulary.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Recognized as a classical language by the Government of India, Tamil has official status in Tamil Nadu, 
+                        Sri Lanka, and Singapore. The language's influence extends across Southeast Asia, with Tamil communities 
+                        preserving their linguistic heritage globally.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-orange-600 to-red-600 text-white p-8 rounded-xl">
+                    <h4 class="font-heading text-xl font-bold mb-4">Language Statistics</h4>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span>Native Speakers</span>
+                            <span class="text-2xl font-bold">75+ Million</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Total Speakers</span>
+                            <span class="text-2xl font-bold">80+ Million</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Countries (Official)</span>
+                            <span class="text-2xl font-bold">3</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Literary Tradition</span>
+                            <span class="text-2xl font-bold">2300+ Years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-saffron">Sangam Literature</h4>
+                    <p class="text-sm mb-3">Ancient Tamil poetry (300 BCE - 300 CE) comprising 2,381 poems by 473 poets.</p>
+                    <ul class="space-y-1 text-xs">
+                        <li>• Ettuthokai (Eight Anthologies)</li>
+                        <li>• Pattupattu (Ten Idylls)</li>
+                        <li>• Tolkappiyam (Grammar treatise)</li>
+                        <li>• Themes: Love, war, nature, ethics</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-green">Medieval Literature</h4>
+                    <p class="text-sm mb-3">Devotional and philosophical works (300-1500 CE) including Bhakti literature.</p>
+                    <ul class="space-y-1 text-xs">
+                        <li>• Thirukkural by Thiruvalluvar</li>
+                        <li>• Silappatikaram epic</li>
+                        <li>• Nayanars and Alvars poetry</li>
+                        <li>• Kamban's Ramayanam</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-blue-600">Modern Literature</h4>
+                    <p class="text-sm mb-3">Contemporary Tamil literature (1800-present) including novels, poetry, and drama.</p>
+                    <ul class="space-y-1 text-xs">
+                        <li>• Subramania Bharati's poetry</li>
+                        <li>• Kalki Krishnamurthy's novels</li>
+                        <li>• Jeyakanthan's social realism</li>
+                        <li>• Contemporary writers and poets</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Achievements & Innovation -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold text-center mb-12 text-primary dark:text-saffron">
+                Modern Achievements & Innovation Hub
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold mb-4 text-blue-600">Industrial Powerhouse</h3>
+                    <p class="text-lg mb-4 leading-relaxed">
+                        Tamil Nadu has emerged as India's manufacturing hub, contributing 9.7% to the national GDP. 
+                        The state leads in automobile manufacturing, textiles, leather exports, and information technology, 
+                        earning recognition as the "Detroit of India" and "Textile Capital of India."
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        With world-class infrastructure, skilled workforce, and progressive policies, Tamil Nadu attracts 
+                        significant foreign investment and hosts major multinational corporations, making it a preferred 
+                        destination for industrial development in South Asia.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-600 to-purple-600 text-white p-8 rounded-xl">
+                    <h4 class="font-heading text-xl font-bold mb-4">Economic Achievements</h4>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">35%</div>
+                            <div class="text-sm">Auto Components</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">60%</div>
+                            <div class="text-sm">Leather Exports</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">40%</div>
+                            <div class="text-sm">Textile Production</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold mb-1">₹50K Cr</div>
+                            <div class="text-sm">IT Exports</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-green">Educational Excellence</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• IIT Madras - Premier engineering institute</li>
+                        <li>• Anna University - Technical education</li>
+                        <li>• IIM Tiruchirappalli - Management studies</li>
+                        <li>• 80.1% literacy rate</li>
+                        <li>• 500+ engineering colleges</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-saffron">Infrastructure Development</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Chennai Metro expansion</li>
+                        <li>• Major ports: Chennai, Ennore</li>
+                        <li>• Industrial corridors</li>
+                        <li>• IT parks and SEZs</li>
+                        <li>• Renewable energy projects</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h4 class="font-heading text-lg font-bold mb-3 text-purple-600">Future Vision</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• $1 trillion economy target</li>
+                        <li>• Electric vehicle manufacturing</li>
+                        <li>• Aerospace and defense</li>
+                        <li>• Biotechnology and pharma</li>
+                        <li>• Sustainable development goals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-red-600 to-orange-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-heading text-3xl lg:text-4xl font-bold mb-6">
+                Discover Tamil Nadu's Timeless Heritage
+            </h2>
+            <p class="text-lg mb-8 opacity-90">
+                From ancient Sangam poetry to modern cinema, from Dravidian temples to IT corridors, 
+                explore the state that beautifully bridges India's glorious past with its promising future.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="../discover/tourism.html"
+                    class="inline-block bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                    Plan Your Journey
+                </a>
+                <a href="../categories/classical_arts.html"
+                    class="inline-block bg-transparent border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-600 transition">
+                    Explore Arts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
+
