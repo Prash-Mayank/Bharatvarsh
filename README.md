@@ -212,4 +212,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">Built with love for India's rich heritage and digital future</p>
-<p align="center">© 2025 Bharatvarsh. All rights reserved.</p>
+<p align="center">© 2024 Bharatvarsh. All rights reserved.</p>
