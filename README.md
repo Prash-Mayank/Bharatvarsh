@@ -1,4 +1,4 @@
-# Bharatvarsh — Journey Through India's Past, Present & Future
+# Bharatvarsh : Journey Through India's Past, Present & Future
 
 > *"Celebrating the timeless spirit of India"* — A comprehensive digital encyclopedia of India's 5000+ year civilization, heritage, culture, and identity.
 
