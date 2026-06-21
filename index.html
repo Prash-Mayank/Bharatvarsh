@@ -101,7 +101,7 @@
 
     <!-- Main Content -->
     <main id="main-content" class="pt-1">
-        <!-- Hero Section with Background Image -->
+
         <section class="relative pt-32 pb-16 overflow-hidden">
             <!-- Background Image -->
             <div class="absolute inset-0">
@@ -115,7 +115,8 @@
             <!-- Content -->
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div class="text-white">
+                    <!-- Left Side Content - Center aligned -->
+                    <div class="text-white text-center">
                         <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
                             Journey Through India's
                             <span class="text-saffron">Past, Present & Future</span>
@@ -125,31 +126,37 @@
                             Explore the rich tapestry of Bharatvarsh - from ancient civilizations to modern
                             achievements, discover the essence of India's diverse culture, heritage, and innovation.
                         </p>
-                        <div class="flex flex-wrap gap-4 mb-8">
+
+                        <!-- Stats - Responsive grid -->
+                        <div class="flex flex-wrap justify-center gap-4 mb-8">
                             <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <span>28 States + 8 UTs</span>
+                                <span class="text-sm sm:text-base">28 States + 8 UTs</span>
                             </div>
                             <div class="flex items-center space-x-2 bg-white/10 backdrop-blur px-4 py-2 rounded-lg">
                                 <i class="fas fa-users"></i>
-                                <span>146+ Crore People</span>
+                                <span class="text-sm sm:text-base">146+ Crore People</span>
                             </div>
                         </div>
-                        <div class="flex flex-col sm:flex-row flex-wrap gap-4">
+
+                        <!-- CTA Buttons - Smaller on mobile, both in one line -->
+                        <div class="flex flex-row flex-wrap gap-3 justify-center">
                             <a href="#discover"
-                                class="bg-saffron hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 inline-flex items-center shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                                class="bg-saffron hover:bg-orange-600 text-white px-4 sm:px-8 py-2.5 sm:py-4 rounded-lg text-sm sm:text-base font-semibold transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                                 Start Exploring
                                 <i class="fas fa-arrow-right ml-2"></i>
                             </a>
                             <a href="about.html"
-                                class="bg-white/10 hover:bg-white/20 backdrop-blur text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 inline-flex items-center shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                                class="bg-white/10 hover:bg-white/20 backdrop-blur text-white px-4 sm:px-8 py-2.5 sm:py-4 rounded-lg text-sm sm:text-base font-semibold transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                                 Learn More
                                 <i class="fas fa-info-circle ml-2"></i>
                             </a>
                         </div>
                     </div>
+
+                    <!-- Right Side - India Map -->
                     <div class="flex justify-center">
-                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-8 shadow-2xl">
+                        <div class="w-full max-w-md bg-white/20 backdrop-blur-[2px] rounded-2xl p-4 shadow-2xl">
                             <img src="./assets/img/maps/india/india-map1.png"
                                 alt="Interactive map of India showing all states and union territories"
                                 class="w-full h-auto">
@@ -160,7 +167,7 @@
         </section>
 
         <!-- Discover Section -->
-        <section id="discover" class="py-12 sm:py-16 lg:py-24">
+        <section id="discover" class="py-12 sm:py-16 lg:py-24 bg-gray-50 dark:bg-gray-900">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-8 sm:mb-12">
                     <h2
@@ -179,7 +186,7 @@
                             <img src="./assets/img/core/home/invention.webp" alt="Inventions & Discoveries"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Inventions & Discoveries</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">From zero to chess,
                                 explore India's contributions to world knowledge</p>
@@ -195,7 +202,7 @@
                             <img src="./assets/img/core/home/symbol.png" alt="National Symbols"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">National Symbols</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Discover the emblems
                                 that represent India's unity and diversity</p>
@@ -211,7 +218,7 @@
                             <img src="./assets/img/core/home/architecture.jpg" alt="Architecture"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Architecture</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Journey through
                                 India's magnificent architectural heritage</p>
@@ -227,7 +234,7 @@
                             <img src="./assets/img/core/home/modern-india.jpg" alt="Modern India"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Modern India</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Witness India's
                                 journey as a global technology and innovation hub</p>
@@ -242,7 +249,7 @@
                             <img src="./assets/img/core/home/festival.jpg" alt="Indian Festivals"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Indian Festivals</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Celebrate the colors
                                 and joy of India's diverse festivals</p>
@@ -257,7 +264,7 @@
                             <img src="./assets/img/core/home/armed-forces.webp" alt="Armed Forces"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Armed Forces</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Learn about India's
                                 brave defenders and military history</p>
@@ -272,7 +279,7 @@
                             <img src="./assets/img/core/home/Literature.jpg" alt="Literature"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Literature</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Explore India's rich
                                 literary traditions from ancient to modern</p>
@@ -287,7 +294,7 @@
                             <img src="./assets/img/core/home/river.jpg" alt="Rivers of India"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Rivers of India</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Discover the sacred
                                 and life-giving rivers of Bharatvarsh</p>
@@ -302,7 +309,7 @@
                             <img src="./assets/img/core/home/philosophy.jpg" alt="Philosophy"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Philosophy</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Dive into ancient
                                 wisdom and philosophical traditions</p>
@@ -318,7 +325,7 @@
                                 class="w-full h-48 object-cover" loading="lazy"
                                 onerror="this.src='./assets/img/maps/india/india.webp'">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Ancient Universities</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Visit the world's
                                 oldest centers of learning</p>
@@ -333,7 +340,7 @@
                             <img src="./assets/img/core/home/ancient-period.jpg" alt="Ancient Period"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Ancient Period</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Explore India's
                                 ancient civilizations from Indus Valley to Mauryan Empire</p>
@@ -348,7 +355,7 @@
                             <img src="./assets/img/core/home/Medieval-Period.jpg" alt="Medieval Period"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Medieval Period</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Journey through the
                                 era of Delhi Sultanate and Mughal Empire</p>
@@ -363,7 +370,7 @@
                             <img src="./assets/img/core/home/Colonial-Period.jpg" alt="Colonial Period"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Colonial Period</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Understand the British
                                 Raj and its impact on Indian society</p>
@@ -378,7 +385,7 @@
                             <img src="./assets/img/core/home/Post-Independence.jpg" alt="Post Independence"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Post Independence</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Witness India's
                                 transformation after gaining independence</p>
@@ -393,7 +400,7 @@
                             <img src="./assets/img/core/home/Independence-Movement.webp" alt="Independence Movement"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Independence Movement</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Learn about India's
                                 struggle for freedom and its heroes</p>
@@ -408,7 +415,7 @@
                             <img src="./assets/img/core/home/National-Days.jpg" alt="National Days"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">National Days</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Celebrate India's
                                 important national observances and commemorations</p>
@@ -422,7 +429,7 @@
         </section>
 
         <!-- Categories Section -->
-        <section id="categories" class="py-12 sm:py-16 lg:py-24 bg-gray-50 dark:bg-gray-900">
+        <section id="categories" class="py-12 sm:py-16 lg:py-24 bg-offwhite dark:bg-charcoal">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-8 sm:mb-12">
                     <h2
@@ -441,7 +448,7 @@
                             <img src="./assets/img/core/home/Geography & People.webp" alt="Geography & People"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Geography & People</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Explore India's
                                 diverse landscapes, climate zones, and demographics</p>
@@ -457,7 +464,7 @@
                             <img src="./assets/img/core/home/Economic Heritage.jpg" alt="Economic Heritage"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Economic Heritage</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Understand India's
                                 economic evolution and policy development</p>
@@ -473,7 +480,7 @@
                             <img src="./assets/img/core/home/Culture & Religion.jpg" alt="Culture & Religion"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Culture & Religion</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Discover the spiritual
                                 heart and cultural diversity of India</p>
@@ -489,7 +496,7 @@
                             <img src="./assets/img/core/home/Science & Technology.jpg" alt="Science & Technology"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Science & Technology</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Witness India's
                                 achievements in space, IT, and innovation</p>
@@ -505,7 +512,7 @@
                             <img src="./assets/img/core/home/Arts & Entertainment.jpg" alt="Arts & Entertainment"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Arts & Entertainment</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Experience India's
                                 vibrant arts, cinema, music, and dance forms</p>
@@ -521,7 +528,7 @@
                             <img src="./assets/img/core/home/Languages.jpg" alt="Languages"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Languages</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Explore India's
                                 linguistic diversity and ancient scripts</p>
@@ -537,7 +544,7 @@
                             <img src="./assets/img/core/home/Education.jpg" alt="Education"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Education</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Learn about India's
                                 education system and knowledge tradition</p>
@@ -553,7 +560,7 @@
                             <img src="./assets/img/core/home/Natural Heritage.webp" alt="Natural Heritage"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Natural Heritage</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Understand India's
                                 biodiversity and conservation efforts</p>
@@ -568,7 +575,7 @@
                             <img src="./assets/img/core/home/Heritage Sites.jpg" alt="Heritage Sites"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Heritage Sites</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Explore India's UNESCO
                                 and national heritage sites</p>
@@ -584,7 +591,7 @@
                             <img src="./assets/img/core/home/Traditional Crafts.webp" alt="Traditional Crafts"
                                 class="w-full h-48 object-cover" loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Traditional Crafts</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Discover India's
                                 time-honored artisanal traditions</p>
@@ -600,7 +607,7 @@
                             <img src="./assets/img/core/home/Cuisine.jpg" alt="Cuisine" class="w-full h-48 object-cover"
                                 loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Cuisine</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Taste the regional
                                 flavors and culinary heritage</p>
@@ -616,7 +623,7 @@
                             <img src="./assets/img/core/home/Sports.jpg" alt="Sports" class="w-full h-48 object-cover"
                                 loading="lazy">
                         </div>
-                        <div class="p-6">
+                        <div class="p-6 text-center">
                             <h3 class="font-heading text-lg sm:text-xl font-semibold mb-2">Sports</h3>
                             <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">Learn about India's
                                 sporting traditions and champions</p>
@@ -630,7 +637,7 @@
         </section>
 
         <!-- Regions Section -->
-        <section id="regions" class="py-12 sm:py-16 lg:py-24">
+        <section id="regions" class="py-12 sm:py-16 lg:py-24 bg-gray-50 dark:bg-gray-900">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-8 sm:mb-12">
                     <h2
@@ -653,12 +660,12 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 transition-colors">
                             </div>
-                            <div class="relative p-6 flex flex-col justify-end text-white">
+                            <div class="relative p-6 flex flex-col justify-end text-white text-center">
                                 <h3 class="font-heading text-xl sm:text-2xl font-bold mb-2">North India</h3>
                                 <p class="text-sm sm:text-base mb-4 opacity-90">Himalayan peaks, Mughal heritage,
                                     vibrant Punjab culture, and spiritual Varanasi</p>
                                 <a href="regions/north_india.html"
-                                    class="inline-flex items-center text-sm font-medium text-white hover:text-saffron transition">
+                                    class="inline-flex items-center justify-center text-sm font-medium text-white hover:text-saffron transition mx-auto">
                                     Explore Region
                                     <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
                                 </a>
@@ -676,12 +683,12 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 transition-colors">
                             </div>
-                            <div class="relative p-6 flex flex-col justify-end text-white">
+                            <div class="relative p-6 flex flex-col justify-end text-white text-center">
                                 <h3 class="font-heading text-xl sm:text-2xl font-bold mb-2">South India</h3>
                                 <p class="text-sm sm:text-base mb-4 opacity-90">Ancient temples, backwater serenity,
                                     classical dance, and Dravidian culture</p>
                                 <a href="regions/south_india.html"
-                                    class="inline-flex items-center text-sm font-medium text-white hover:text-saffron transition">
+                                    class="inline-flex items-center justify-center text-sm font-medium text-white hover:text-saffron transition mx-auto">
                                     Explore Region
                                     <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
                                 </a>
@@ -699,12 +706,12 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 transition-colors">
                             </div>
-                            <div class="relative p-6 flex flex-col justify-end text-white">
+                            <div class="relative p-6 flex flex-col justify-end text-white text-center">
                                 <h3 class="font-heading text-xl sm:text-2xl font-bold mb-2">East India</h3>
                                 <p class="text-sm sm:text-base mb-4 opacity-90">Literary heritage, Durga Puja
                                     celebrations, tea gardens, and Ganges delta</p>
                                 <a href="regions/east_india.html"
-                                    class="inline-flex items-center text-sm font-medium text-white hover:text-saffron transition">
+                                    class="inline-flex items-center justify-center text-sm font-medium text-white hover:text-saffron transition mx-auto">
                                     Explore Region
                                     <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
                                 </a>
@@ -722,12 +729,12 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 transition-colors">
                             </div>
-                            <div class="relative p-6 flex flex-col justify-end text-white">
+                            <div class="relative p-6 flex flex-col justify-end text-white text-center">
                                 <h3 class="font-heading text-xl sm:text-2xl font-bold mb-2">West India</h3>
                                 <p class="text-sm sm:text-base mb-4 opacity-90">Business metropolis Mumbai, golden Thar
                                     desert, Goan beaches, and entrepreneurial spirit</p>
                                 <a href="regions/west_india.html"
-                                    class="inline-flex items-center text-sm font-medium text-white hover:text-saffron transition">
+                                    class="inline-flex items-center justify-center text-sm font-medium text-white hover:text-saffron transition mx-auto">
                                     Explore Region
                                     <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
                                 </a>
@@ -745,12 +752,12 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 transition-colors">
                             </div>
-                            <div class="relative p-6 flex flex-col justify-end text-white">
+                            <div class="relative p-6 flex flex-col justify-end text-white text-center">
                                 <h3 class="font-heading text-xl sm:text-2xl font-bold mb-2">Central India</h3>
                                 <p class="text-sm sm:text-base mb-4 opacity-90">Ancient forests, rich wildlife
                                     sanctuaries, tribal culture, and mineral wealth</p>
                                 <a href="regions/central_india.html"
-                                    class="inline-flex items-center text-sm font-medium text-white hover:text-saffron transition">
+                                    class="inline-flex items-center justify-center text-sm font-medium text-white hover:text-saffron transition mx-auto">
                                     Explore Region
                                     <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
                                 </a>
@@ -768,12 +775,12 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 transition-colors">
                             </div>
-                            <div class="relative p-6 flex flex-col justify-end text-white">
+                            <div class="relative p-6 flex flex-col justify-end text-white text-center">
                                 <h3 class="font-heading text-xl sm:text-2xl font-bold mb-2">Northeast India</h3>
                                 <p class="text-sm sm:text-base mb-4 opacity-90">Seven sister states, biodiversity
                                     hotspot, unique traditions, and scenic valleys</p>
                                 <a href="regions/northeast_india.html"
-                                    class="inline-flex items-center text-sm font-medium text-white hover:text-saffron transition">
+                                    class="inline-flex items-center justify-center text-sm font-medium text-white hover:text-saffron transition mx-auto">
                                     Explore Region
                                     <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
                                 </a>
@@ -793,7 +800,7 @@
                 <!-- Section Header -->
                 <div class="text-center mb-12 lg:mb-16">
                     <h2
-                        class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-primary dark:text-saffron mb-4">
+                        class="font-heading text-2xl sm:text-3xl lg:text-5xl font-bold text-primary dark:text-saffron mb-4">
                         What Makes India Unique?
                     </h2>
                     <p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
@@ -918,21 +925,29 @@
 
 
         <!-- Call to Action Section -->
-        <section class="py-12 sm:py-16 lg:py-24 bg-gray-100 dark:bg-gray-800">
+        <section class="py-8 sm:py-12 lg:py-16 bg-gray-50 dark:bg-gray-900">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mt-0 sm:mt-4">
-                    <div
-                        class="bg-gradient-to-r from-primary to-blue-600 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-8 sm:p-12">
-                        <h3 class="font-heading text-2xl sm:text-3xl font-bold text-white mb-4">
+                <div class="text-center">
+                    <div class="rounded-2xl p-8 sm:p-12">
+                        <h3
+                            class="font-heading text-2xl sm:text-3xl lg:text-4xl font-bold text-primary dark:text-saffron mb-4">
                             Ready to Explore Bharatvarsh?
                         </h3>
-                        <p class="text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
+                        <p class="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
                             Embark on a comprehensive journey through India's rich heritage, diverse culture, and modern
                             achievements.
                         </p>
-                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a href="#discover" class="btn-primary">Start Your Journey</a>
-                            <a href="about.html" class="btn-secondary">Learn About Us</a>
+                        <div class="flex flex-row gap-3 justify-center">
+                            <a href="#discover"
+                                class="bg-saffron hover:bg-orange-600 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1 whitespace-nowrap">
+                                Start Journey
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                            <a href="about.html"
+                                class="bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-primary dark:text-white border-2 border-primary dark:border-saffron px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1 whitespace-nowrap">
+                                Learn More
+                                <i class="fas fa-info-circle ml-2"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

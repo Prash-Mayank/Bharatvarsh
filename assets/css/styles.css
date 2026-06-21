@@ -71,23 +71,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Skip to main content link */
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 6px;
-  background: var(--saffron);
-  color: white;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 4px;
-  z-index: 1000;
-}
-
-.skip-link:focus {
-  top: 6px;
-}
-
 /* Navigation Links */
 .nav-link {
   position: relative;
@@ -113,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--saffron);
 }
 
+
 .nav-link::after {
   content: '';
   position: absolute;
@@ -128,26 +112,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-/* ===================================
-   FIXED: Remove saffron border from icon buttons
-   =================================== */
-#searchToggle:focus,
-#themeToggle:focus,
-#mobileMenuToggle:focus {
-  outline: 2px solid var(--saffron);
-  outline-offset: 2px;
-}
-
-/* Remove any border that might appear on hover/focus for these buttons */
 #searchToggle,
-#themeToggle,
 #mobileMenuToggle {
   border: none;
   background: transparent;
 }
 
 #searchToggle:focus-visible,
-#themeToggle:focus-visible,
 #mobileMenuToggle:focus-visible {
   outline: 2px solid var(--saffron);
   outline-offset: 2px;
@@ -246,7 +217,7 @@ button {
   top: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(to bottom, var(--saffron), var(--green));
+  background: var(--saffron);
 }
 
 .timeline-item::after {
@@ -378,7 +349,7 @@ button {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, var(--saffron), var(--green));
+  background: linear-gradient(135deg, var(--saffron), #e65c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -408,7 +379,11 @@ input:focus {
   outline: 2px solid var(--saffron);
   outline-offset: 2px;
 }
-
+.theme-toggle {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
 /* Print Styles */
 @media print {
   nav, footer, .no-print {
@@ -584,3 +559,18 @@ input:focus {
   background-color: var(--saffron);
   color: white;
 }
+ @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .animate-fadeIn {
+                animation: fadeIn 0.3s ease-out;
+            }

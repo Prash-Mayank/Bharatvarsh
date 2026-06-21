@@ -13,6 +13,13 @@ const navStyles = `
 .nav-link {
     @apply text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors font-medium;
 }
+.theme-toggle {
+    @apply cursor-pointer text-gray-700 dark:text-gray-300 hover:text-saffron dark:hover:text-saffron transition-colors;}
+    border-color:none;
+}
+.theme-toggle:hover {
+    @apply text-saffron dark:none;
+}
 </style>
 `;
 
